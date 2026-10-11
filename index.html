@@ -1,0 +1,2890 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Blox Fruits Stock Analyzer v9</title>
+<style>
+  :root {
+    --bg: #f6f8fa;
+    --bg-panel: #ffffff;
+    --bg-elevated: #f0f2f5;
+    --bg-hover: #eaeef2;
+    --border: #d0d7de;
+    --border-light: #e1e4e8;
+    --text: #1f2328;
+    --text-dim: #656d76;
+    --text-muted: #8c959f;
+    --accent: #0969da;
+    --accent-glow: #0550ae;
+    --green: #1a7f37;
+    --green-dim: #dafbe1;
+    --red: #cf222e;
+    --red-dim: #ffebe9;
+    --yellow: #9a6700;
+    --yellow-dim: #fff8c5;
+    --purple: #8250df;
+    --purple-dim: #fbefff;
+    --orange: #bc4c00;
+    --orange-dim: #fff1e5;
+    --pink: #bf3989;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 24px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-bottom: 24px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  h1 { font-size: 26px; font-weight: 700; margin-bottom: 4px; }
+  .subtitle { color: var(--text-dim); font-size: 13px; }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .card {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .card .label {
+    color: var(--text-muted);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+  .card .value {
+    color: var(--accent);
+    font-size: 26px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .card.green .value { color: var(--green); }
+  .card.red .value { color: var(--red); }
+  .card.purple .value { color: var(--purple); }
+  .card.orange .value { color: var(--orange); }
+
+  .dropzone {
+    border: 2px dashed var(--border);
+    border-radius: 12px;
+    padding: 48px 24px;
+    text-align: center;
+    background: var(--bg-panel);
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-bottom: 16px;
+  }
+  .dropzone:hover, .dropzone.dragover {
+    border-color: var(--accent);
+    background: #f0f6ff;
+  }
+  .dropzone .icon { font-size: 42px; margin-bottom: 12px; }
+  .dropzone .title { font-weight: 600; font-size: 15px; margin-bottom: 6px; }
+  .dropzone .hint { color: var(--text-dim); font-size: 12px; }
+
+  button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 9px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.15s;
+    font-family: inherit;
+  }
+  button:hover { background: var(--accent-glow); }
+  button.secondary {
+    background: var(--bg-elevated);
+    color: var(--text);
+    border: 1px solid var(--border);
+  }
+  button.secondary:hover { background: var(--border-light); }
+  button.danger {
+    background: transparent;
+    color: var(--red);
+    border: 1px solid var(--red);
+  }
+  button.danger:hover { background: var(--red-dim); }
+
+  .toolbar { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+
+  .status {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 16px;
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .status.ok { border-color: var(--green); color: var(--green); }
+  .status.error { border-color: var(--red); color: var(--red); }
+  .status .dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+
+  .files-list {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    max-height: 180px;
+    overflow-y: auto;
+  }
+  .file-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--border-light);
+  }
+  .file-row:last-child { border-bottom: none; }
+  .file-row .name { font-weight: 500; }
+  .file-row .meta { color: var(--text-dim); font-size: 11px; }
+
+  .tabs {
+    display: flex;
+    gap: 2px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 20px;
+    overflow-x: auto;
+  }
+  .tab {
+    padding: 12px 18px;
+    background: transparent;
+    color: var(--text-dim);
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 0;
+    white-space: nowrap;
+  }
+  .tab:hover { color: var(--text); background: var(--bg-elevated); }
+  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab .badge {
+    display: inline-block;
+    margin-left: 6px;
+    padding: 1px 7px;
+    border-radius: 10px;
+    background: var(--bg-elevated);
+    font-size: 10px;
+    color: var(--text-dim);
+    font-weight: 600;
+  }
+  .tab.active .badge { background: var(--accent); color: white; }
+
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  .controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    padding: 12px 16px;
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+  }
+  .controls label {
+    font-size: 12px;
+    color: var(--text-dim);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .controls select, .controls input[type="text"] {
+    background: var(--bg);
+    color: var(--text);
+    border: 1px solid var(--border);
+    padding: 7px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    outline: none;
+  }
+  .controls select:focus, .controls input:focus { border-color: var(--accent); }
+
+  .view-toggle {
+    display: inline-flex;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 2px;
+    gap: 2px;
+  }
+  .view-toggle button {
+    background: transparent;
+    color: var(--text-dim);
+    padding: 6px 14px;
+    font-size: 12px;
+    border-radius: 6px;
+  }
+  .view-toggle button.active { background: var(--accent); color: white; }
+
+  /* Fruit Grid (universal) */
+  .fruit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .fruit-grid.compact {
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  }
+  .fruit-grid.wide {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+  .fruit-card {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  .fruit-card:hover {
+    border-color: var(--accent);
+    box-shadow: 0 4px 12px rgba(9, 105, 218, 0.15);
+    transform: translateY(-2px);
+  }
+  .fruit-card.retired { opacity: 0.7; background: var(--bg-elevated); }
+  .fruit-card.retired:hover { opacity: 1; border-color: var(--red); }
+
+  .fc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    gap: 8px;
+  }
+  .fc-name {
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    line-height: 1.2;
+    flex-wrap: wrap;
+    word-break: break-word;
+  }
+  .fruit-card.retired .fc-name { text-decoration: line-through; color: var(--text-muted); }
+  .fc-rank {
+    background: var(--bg-elevated);
+    color: var(--text-muted);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 6px;
+    flex-shrink: 0;
+  }
+  .fc-count {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .fruit-card.retired .fc-count { color: var(--text-muted); }
+  .fc-count-label {
+    font-size: 10px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .fc-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-bottom: 10px;
+    padding: 8px 0;
+    border-top: 1px solid var(--border-light);
+    border-bottom: 1px solid var(--border-light);
+  }
+  .fc-stat-label {
+    font-size: 9px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .fc-stat-value {
+    font-size: 13px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+  .fc-mini-chart {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 32px;
+    margin-bottom: 10px;
+    padding: 4px 0;
+    background: var(--bg);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .fc-mini-bar {
+    flex: 1;
+    min-width: 2px;
+    background: var(--accent);
+    border-radius: 2px 2px 0 0;
+    min-height: 2px;
+  }
+  .fc-mini-bar.empty { background: var(--border-light); min-height: 2px; }
+  .fruit-card.retired .fc-mini-bar { background: var(--text-muted); }
+  .fc-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .fc-timeline-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+  }
+  .fc-timeline-label {
+    color: var(--text-muted);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 9px;
+  }
+  .fc-timeline-date {
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+  .fc-timeline-date.first { color: var(--green); }
+  .fc-timeline-date.last { color: var(--orange); }
+
+  /* --- v9: Badges, Statistik, Diagramme --- */
+  .badge-new {
+    display: inline-block; padding: 2px 8px; border-radius: 4px;
+    font-size: 10px; font-weight: 700; text-transform: uppercase;
+    background: var(--purple-dim); color: var(--purple); letter-spacing: 0.5px;
+  }
+  .trend-badge { display: inline-block; font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .trend-badge.up { color: var(--green); }
+  .trend-badge.down { color: var(--red); }
+  .trend-badge.muted { color: var(--text-muted); font-weight: 500; }
+  .fc-stat-sub { font-size: 9px; color: var(--text-muted); margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .fc-stats + .fc-stats { border-top: none; margin-top: -8px; padding-top: 0; }
+  .fc-bar-track { height: 10px; background: var(--bg); border-radius: 6px; overflow: hidden; margin-bottom: 10px; }
+  .fc-bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--purple)); border-radius: 6px; transition: width 0.3s; }
+  .chart-bars { background-image: repeating-linear-gradient(to top, var(--border-light) 0 1px, transparent 1px 20%); }
+  .svg-wrap { background: var(--bg); border: 1px solid var(--border); border-radius: 10px; padding: 8px; margin-bottom: 10px; overflow-x: auto; }
+  .svg-chart { width: 100%; height: auto; display: block; min-width: 760px; }
+  .chart-legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12px; color: var(--text-dim); margin-bottom: 18px; }
+  .chart-legend .lg-item { display: flex; align-items: center; gap: 6px; }
+  .chart-legend .lg-color { width: 14px; height: 4px; border-radius: 2px; display: inline-block; }
+  .heat-table { border-collapse: separate; border-spacing: 3px; width: 100%; margin-bottom: 12px; border: none; background: transparent; }
+  .heat-table th { background: transparent; color: var(--text-dim); font-size: 10px; text-transform: uppercase; letter-spacing: 0.5px; padding: 6px 4px; cursor: default; border: none; }
+  .heat-table td.heat-cell { text-align: center; padding: 10px 6px; border-radius: 6px; font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--text); border: none; }
+  .heat-table td.heat-rowlabel { text-align: left; font-weight: 600; color: var(--text-dim); font-size: 12px; background: transparent; border: none; white-space: nowrap; padding: 10px 10px 10px 0; }
+  .heat-legend { display: flex; align-items: center; gap: 10px; font-size: 11px; color: var(--text-dim); margin-bottom: 14px; }
+  .heat-scale { width: 170px; height: 10px; border-radius: 5px; background: linear-gradient(90deg, rgba(207,34,46,0.85), rgba(207,34,46,0.07), rgba(26,127,55,0.07), rgba(26,127,55,0.85)); }
+  .stat-inline { font-size: 11px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+
+  /* Frucht-Icons (GitHub) */
+  a { color: var(--accent); }
+  .fruit-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 7px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border-light);
+    padding: 2px;
+    flex-shrink: 0;
+    vertical-align: middle;
+  }
+  .fruit-icon.sm { width: 20px; height: 20px; border-radius: 5px; padding: 1px; }
+  .fruit-icon.md { width: 26px; height: 26px; }
+  .fruit-icon.lg { width: 44px; height: 44px; border-radius: 9px; padding: 3px; }
+  .fruit-icon.xl { width: 64px; height: 64px; border-radius: 12px; padding: 4px; background: var(--bg); }
+  .fruit-card.retired .fruit-icon { filter: grayscale(0.85); opacity: 0.75; }
+  td .fruit-icon { margin-right: 6px; }
+  .occurrence-fruits .fruit-icon, .occurrence-fruits .other .fruit-icon { margin-right: 4px; }
+  .modal-title .fruit-icon { margin-right: 2px; }
+  .icon-legend {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 14px;
+    padding: 10px 14px;
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+
+  .badge-retired {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: var(--red-dim);
+    color: var(--red);
+    letter-spacing: 0.5px;
+  }
+  .badge-current {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: var(--green-dim);
+    color: var(--green);
+    letter-spacing: 0.5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--bg-panel);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 13px;
+    margin-bottom: 20px;
+    border: 1px solid var(--border);
+  }
+  th, td {
+    padding: 11px 14px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-light);
+  }
+  th {
+    background: var(--bg-elevated);
+    color: var(--text-dim);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    user-select: none;
+  }
+  th:hover { background: var(--border-light); }
+  tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: var(--bg-hover); }
+  td.num {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+    font-family: "SF Mono", Consolas, monospace;
+    font-size: 12px;
+  }
+  td.rank { color: var(--text-muted); font-size: 11px; font-weight: 600; }
+  td.fruit-name { font-weight: 600; }
+  td.fruit-name.retired { text-decoration: line-through; color: var(--text-muted); }
+
+  .pct-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+  .pct-badge.green { background: var(--green-dim); color: var(--green); }
+  .pct-badge.yellow { background: var(--yellow-dim); color: var(--yellow); }
+  .pct-badge.red { background: var(--red-dim); color: var(--red); }
+
+  .date-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .date-badge.first { background: var(--green-dim); color: var(--green); }
+  .date-badge.last { background: var(--orange-dim); color: var(--orange); }
+
+  .legend {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    background: var(--bg-panel);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+  }
+  .legend strong { color: var(--text); }
+
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+  }
+  .empty .icon { font-size: 48px; opacity: 0.3; margin-bottom: 12px; }
+
+  /* Month header */
+  .month-header {
+    color: var(--accent);
+    font-size: 14px;
+    margin: 20px 0 10px 0;
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+  }
+  .month-header .month-slot-count {
+    color: var(--text-muted);
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    padding: 28px;
+    position: relative;
+  }
+  .modal-close {
+    position: absolute;
+    top: 16px; right: 16px;
+    background: var(--bg-elevated);
+    color: var(--text-dim);
+    border: 1px solid var(--border);
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .modal-close:hover { background: var(--red-dim); color: var(--red); }
+
+  .modal-header {
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .modal-title {
+    font-size: 26px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 6px;
+    flex-wrap: wrap;
+  }
+  .modal-subtitle { color: var(--text-dim); font-size: 13px; }
+
+  .modal-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  .modal-stat {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+  }
+  .modal-stat-label {
+    font-size: 10px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .modal-stat-value {
+    font-size: 20px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .modal-section { margin-bottom: 24px; }
+  .modal-section-title {
+    font-size: 12px;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .chart-container {
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 20px 12px 60px;
+    position: relative;
+    margin-bottom: 12px;
+  }
+  .chart-y-axis {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    height: 180px;
+    width: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 8px;
+    font-size: 10px;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+  .chart-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+    height: 180px;
+    border-bottom: 1px solid var(--border);
+    border-left: 1px solid var(--border);
+    padding-left: 1px;
+    position: relative;
+  }
+  .chart-bar {
+    flex: 1;
+    min-width: 3px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+  }
+  .chart-bar-fill {
+    width: 100%;
+    background: linear-gradient(180deg, var(--accent), var(--accent-glow));
+    border-radius: 3px 3px 0 0;
+    min-height: 2px;
+    transition: all 0.2s;
+  }
+  .chart-bar.empty .chart-bar-fill { background: var(--border-light); min-height: 2px; }
+  .chart-bar:hover .chart-bar-fill { background: linear-gradient(180deg, var(--purple), var(--pink)); }
+  .chart-bar.retired .chart-bar-fill { background: linear-gradient(180deg, var(--text-muted), var(--text-dim)); }
+  .chart-bar::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--text);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    z-index: 100;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  .chart-bar:hover::after { opacity: 1; }
+
+  .chart-x-axis {
+    display: flex;
+    gap: 2px;
+    padding-left: 1px;
+    margin-top: 6px;
+    height: 20px;
+    position: relative;
+  }
+  .chart-x-label {
+    flex: 1;
+    min-width: 3px;
+    font-size: 8px;
+    color: var(--text-muted);
+    text-align: center;
+    font-variant-numeric: tabular-nums;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    overflow: visible;
+    white-space: nowrap;
+    height: 20px;
+  }
+  .chart-x-label.year-start {
+    color: var(--text);
+    font-weight: 700;
+    font-size: 9px;
+  }
+
+  .chart-stats {
+    display: flex;
+    gap: 16px;
+    font-size: 11px;
+    color: var(--text-dim);
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid var(--border-light);
+    flex-wrap: wrap;
+  }
+  .chart-stats .stat-item { display: flex; align-items: center; gap: 6px; }
+  .chart-stats .stat-color { width: 12px; height: 12px; border-radius: 3px; }
+  .chart-stats .stat-color.active { background: var(--accent); }
+  .chart-stats .stat-color.empty { background: var(--border-light); }
+
+  .occurrence-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+  .occurrence-row {
+    display: grid;
+    grid-template-columns: 140px 100px 1fr;
+    gap: 12px;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border-light);
+    font-size: 12px;
+    align-items: center;
+  }
+  .occurrence-row:last-child { border-bottom: none; }
+  .occurrence-row:hover { background: var(--bg-hover); }
+  .occurrence-date { color: var(--accent); font-weight: 600; white-space: nowrap; }
+  .occurrence-time { color: var(--text-dim); font-variant-numeric: tabular-nums; }
+  .occurrence-fruits .this { color: var(--purple); font-weight: 700; }
+  .occurrence-fruits .other { color: var(--text-dim); }
+
+  /* Result block (für Monat/Jahr-Karten) */
+  .result-block {
+    margin-bottom: 24px;
+  }
+  .result-block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📊 Blox Fruits Stock Analyzer v9</h1>
+  <p class="subtitle">Daten &amp; Icons live aus <a href="https://github.com/lzwdev/BloxFruitsStock" target="_blank" rel="noopener">github.com/lzwdev/BloxFruitsStock</a> · HistoryOfStock live · Konfidenzintervalle, 90-Tage-Trend, Heatmap &amp; Liniendiagramme</p>
+</header>
+
+<div class="dropzone" id="dropzone">
+  <div class="icon">📁</div>
+  <div class="title">Dateien hier ablegen oder klicken</div>
+  <div class="hint">Optional: Original-Wiki-Dateien (Tabber &amp; Einzel-Tabellen) · die GitHub-Daten werden automatisch geladen</div>
+  <input type="file" id="fileInput" multiple accept=".txt,.wiki,.mediawiki" style="display:none">
+</div>
+
+<div class="toolbar">
+  <button onclick="loadFromGitHub()">🌐 Von GitHub laden</button>
+  <button class="secondary" onclick="document.getElementById('fileInput').click()">📂 Dateien auswählen</button>
+  <button class="secondary" onclick="loadDemo()">🎮 Demo-Daten</button>
+  <button class="danger" onclick="clearAll()">✕ Alles löschen</button>
+</div>
+
+<div id="filesList" class="files-list" style="display:none"></div>
+<div id="status" class="status"><span class="dot"></span>Lade HistoryOfStock von GitHub ...</div>
+
+<div id="results" style="display:none">
+
+  <div class="cards" id="cards"></div>
+
+  <div class="tabs">
+    <button class="tab active" data-tab="overall">🌍 Gesamt <span class="badge" id="badgeOverall">0</span></button>
+    <button class="tab" data-tab="charts">📈 Diagramme</button>
+    <button class="tab" data-tab="peryear">📅 Pro Jahr</button>
+    <button class="tab" data-tab="permonth">🗓️ Pro Monat</button>
+    <button class="tab" data-tab="perslot">⏰ Pro Zeit</button>
+    <button class="tab" data-tab="heatmap">🔥 Heatmap</button>
+    <button class="tab" data-tab="filter">🔍 Filter</button>
+    <button class="tab" data-tab="errors">⚠ Errors <span class="badge" id="badgeErrors">0</span></button>
+  </div>
+
+  <!-- GESAMT -->
+  <div class="tab-content active" id="tab-overall">
+    <div class="legend">
+      <strong>P / Slot</strong> = Vorkommen ÷ Slots mit Daten, in Klammern das 95-%-Konfidenzintervall (Wilson).<br>
+      <strong>Ø / Tag</strong> = P / Slot × 6 Slots · <strong>Ø alle</strong> = durchschnittlicher Abstand zwischen zwei Vorkommen.<br>
+      <strong>Trend</strong> = Wahrscheinlichkeit der letzten 90 Tage gegen den Gesamtzeitraum. <span style="color:var(--green);">▲</span>/<span style="color:var(--red);">▼</span> nur bei statistisch gesichertem Unterschied (95 %), sonst <strong>≈</strong>.
+    </div>
+    <div class="controls">
+      <label>Sortieren: <select id="sortOverall">
+        <option value="count">Häufigkeit</option>
+        <option value="prob">Wahrscheinlichkeit</option>
+        <option value="first">Erstmals</option>
+        <option value="last">Zuletzt</option>
+        <option value="name">Name (A-Z)</option>
+        <option value="trend">Trend (letzte 90 Tage)</option>
+        <option value="recent">Häufigkeit letzte 90 Tage</option>
+        <option value="gap">Seltenheit (Ø Abstand)</option>
+      </select></label>
+      <label>Suche: <input type="text" id="searchOverall" placeholder="Frucht..."></label>
+      <label>Kategorie: <select id="catOverall">
+        <option value="all">Alle</option>
+        <option value="current">✅ Current</option>
+        <option value="retired">❌ Retired</option>
+        <option value="new">🆕 Neu (letzte 12 Monate)</option>
+        <option value="gap">⏳ ≥ 1 Monat nicht im Stock</option>
+        <option value="rising">📈 Trend steigend</option>
+        <option value="falling">📉 Trend fallend</option>
+      </select></label>
+      <div class="view-toggle" id="viewToggleOverall">
+        <button class="active" data-view="cards">▦ Karten</button>
+        <button data-view="list">☰ Liste</button>
+      </div>
+    </div>
+    <div id="viewOverall"></div>
+  </div>
+
+  <!-- DIAGRAMME -->
+  <div class="tab-content" id="tab-charts">
+    <div class="legend">📊 Monatsverlauf einer Frucht – als Balken oder Linie mit gleitendem Durchschnitt, absolut oder als Wahrscheinlichkeit pro Slot.</div>
+    <div class="controls">
+      <label>Frucht: <select id="chartFruitSelect"></select></label>
+      <label>Metrik: <select id="chartMetric">
+        <option value="count">Anzahl pro Monat</option>
+        <option value="prob">Wahrscheinlichkeit (% / Slot)</option>
+      </select></label>
+      <label>Darstellung: <select id="chartType">
+        <option value="bars">Balken</option>
+        <option value="line">Linie</option>
+      </select></label>
+      <label>Trendlinie: <select id="chartRolling">
+        <option value="0">aus</option>
+        <option value="3">3-Monats-Schnitt</option>
+        <option value="6">6-Monats-Schnitt</option>
+        <option value="12">12-Monats-Schnitt</option>
+      </select></label>
+      <label><input type="checkbox" id="chartShowEmpty" checked> Leere Monate anzeigen</label>
+    </div>
+    <div id="chartDetail"></div>
+
+    <div class="result-block" style="margin-top:32px;">
+      <div class="result-block-header"><h3 class="month-header">📉 Früchte vergleichen</h3></div>
+      <div class="controls">
+        <label style="flex-direction:column;align-items:flex-start;gap:6px;">Bis zu 6 Früchte (Mehrfachauswahl mit Cmd/Strg):
+          <select id="compareFruits" multiple size="8" style="min-width:240px;"></select>
+        </label>
+        <button class="secondary" onclick="renderCompareChart()">🔄 Vergleich zeichnen</button>
+      </div>
+      <div id="compareChart"></div>
+    </div>
+  </div>
+
+  <!-- PRO JAHR -->
+  <div class="tab-content" id="tab-peryear">
+    <div class="legend">Wähle eine Frucht, um die Jahres-Verteilung zu sehen.</div>
+    <div class="controls">
+      <label>Frucht: <input type="text" id="searchYear" placeholder="z.B. Buddha"></label>
+      <label>Sortieren: <select id="sortYear">
+        <option value="count">Gesamt</option>
+        <option value="name">Name</option>
+      </select></label>
+      <div class="view-toggle" id="viewToggleYear">
+        <button class="active" data-view="cards">▦ Karten</button>
+        <button data-view="list">☰ Liste</button>
+      </div>
+    </div>
+    <div id="viewYear"></div>
+  </div>
+
+  <!-- PRO MONAT -->
+  <div class="tab-content" id="tab-permonth">
+    <div class="legend">Zeigt Top-Früchte pro Monat. Wechsle zwischen Karten und Liste.</div>
+    <div class="controls">
+      <label>Frucht: <input type="text" id="searchMonth" placeholder="z.B. Quake"></label>
+      <label>Jahr: <select id="yearMonth"><option value="all">Alle</option></select></label>
+      <div class="view-toggle" id="viewToggleMonth">
+        <button class="active" data-view="cards">▦ Karten</button>
+        <button data-view="list">☰ Liste</button>
+      </div>
+    </div>
+    <div id="viewMonth"></div>
+  </div>
+
+  <!-- PRO ZEIT -->
+  <div class="tab-content" id="tab-perslot">
+    <div class="legend">Zeigt, ob Früchte zu bestimmten Uhrzeiten häufiger erscheinen.</div>
+    <div class="controls">
+      <label>Frucht: <input type="text" id="searchSlot" placeholder="z.B. Blade"></label>
+      <div class="view-toggle" id="viewToggleSlot">
+        <button class="active" data-view="cards">▦ Karten</button>
+        <button data-view="list">☰ Liste</button>
+      </div>
+    </div>
+    <div id="viewSlot"></div>
+  </div>
+
+  <!-- HEATMAP -->
+  <div class="tab-content" id="tab-heatmap">
+    <div class="legend">Wann erscheint eine Frucht überdurchschnittlich oft? Die Farbintensität zeigt die Abweichung vom Durchschnitt aller Slots.</div>
+    <div class="controls">
+      <label>Frucht: <select id="heatFruit"><option value="">— Alle Früchte —</option></select></label>
+      <label>Ansicht: <select id="heatMode">
+        <option value="weekday">Wochentag × Uhrzeit</option>
+        <option value="month">Monat × Uhrzeit</option>
+      </select></label>
+      <label>Metrik: <select id="heatMetric">
+        <option value="prob">Wahrscheinlichkeit</option>
+        <option value="lift">Faktor zum Ø</option>
+        <option value="count">Treffer</option>
+      </select></label>
+      <div class="view-toggle" id="viewToggleHeat">
+        <button class="active" data-view="all">Alle Slots</button>
+        <button data-view="recent">Nur letzte 12 Monate</button>
+      </div>
+    </div>
+    <div id="viewHeatmap"></div>
+  </div>
+
+  <!-- FILTER -->
+  <div class="tab-content" id="tab-filter">
+    <div class="controls">
+      <label>Frucht: <input type="text" id="filterFruit" placeholder="z.B. Buddha"></label>
+      <label>Jahr: <select id="filterYear"><option value="all">Alle</option></select></label>
+      <label>Monat: <select id="filterMonth">
+        <option value="all">Alle</option>
+        <option value="1">Januar</option>
+        <option value="2">Februar</option>
+        <option value="3">März</option>
+        <option value="4">April</option>
+        <option value="5">Mai</option>
+        <option value="6">Juni</option>
+        <option value="7">Juli</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">Oktober</option>
+        <option value="11">November</option>
+        <option value="12">Dezember</option>
+      </select></label>
+      <button onclick="runFilter()">🔍 Filtern</button>
+      <div class="view-toggle" id="viewToggleFilter">
+        <button class="active" data-view="cards">▦ Karten</button>
+        <button data-view="list">☰ Liste</button>
+      </div>
+    </div>
+    <div id="viewFilter"></div>
+  </div>
+
+  <!-- ERRORS -->
+  <div class="tab-content" id="tab-errors">
+    <div id="tableErrors"></div>
+  </div>
+
+</div>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modalContent">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// KONFIGURATION
+// ============================================================
+const RETIRED_FRUITS = new Set([
+  'Kilo', 'Chop', 'Falcon', 'Revive', 'Barrier', 'Door',
+  'String', 'Rumble', 'Paw', 'Soul', 'Leopard', 'Rocket'
+]);
+
+const CANONICAL = {
+  'blade': 'Blade', 'flame': 'Flame', 'smoke': 'Smoke', 'spring': 'Spring',
+  'bomb': 'Bomb', 'spike': 'Spike', 'sand': 'Sand', 'ice': 'Ice',
+  'dark': 'Dark', 'light': 'Light', 'eagle': 'Eagle', 'diamond': 'Diamond',
+  'rubber': 'Rubber', 'ghost': 'Ghost', 'magma': 'Magma', 'falcon': 'Falcon',
+  'chop': 'Chop', 'spin': 'Spin', 'kilo': 'Kilo', 'door': 'Door',
+  'revive': 'Revive', 'barrier': 'Barrier', 'quake': 'Quake', 'buddha': 'Buddha',
+  'love': 'Love', 'spider': 'Spider', 'phoenix': 'Phoenix', 'portal': 'Portal',
+  'sound': 'Sound', 'creation': 'Creation', 'rumble': 'Rumble', 'pain': 'Pain',
+  'dough': 'Dough', 'venom': 'Venom', 'shadow': 'Shadow', 'gravity': 'Gravity',
+  'blizzard': 'Blizzard', 't-rex': 'T-Rex', 'trex': 'T-Rex', 'mammoth': 'Mammoth',
+  'spirit': 'Spirit', 'yeti': 'Yeti', 'gas': 'Gas', 'kitsune': 'Kitsune',
+  'tiger': 'Tiger', 'lightning': 'Lightning', 'control': 'Control',
+  'leopard': 'Leopard', 'dragon': 'Dragon', 'string': 'String',
+  'paw': 'Paw', 'soul': 'Soul',
+  // im Repo vorhandene weitere Früchte
+  'rocket': 'Rocket', 'magnet': 'Magnet', 'empyrean': 'Empyrean',
+  'fiend': 'Fiend', 'werewolf': 'Werewolf', 'meme': 'Meme',
+};
+
+const ALIASES = {
+  'shop': 'Chop', 'spiring': 'Spring', 'sping': 'Spring',
+  'liight': 'Light', 'dimond': 'Diamond', 'diamnd': 'Diamond',
+  'trex]]': 'T-Rex', 'trex': 'T-Rex',
+  // alte/alternative Namen aus den Wiki-Tabellen
+  'gum': 'Rubber', 'flacon': 'Falcon',
+};
+
+// ============================================================
+// ICONS + DATENQUELLE (github.com/lzwdev/BloxFruitsStock)
+// ============================================================
+const ICON_BASE = 'https://raw.githubusercontent.com/lzwdev/BloxFruitsStock/main/Blox%20Fruits%20Icons/';
+const ICON_FILES = {
+  'Barrier': 'Barrier_Fruit.webp',
+  'Blade': 'Blade_Fruit.webp',
+  'Blizzard': 'Blizzard_Fruit.webp',
+  'Bomb': 'Bomb_Fruit.webp',
+  'Buddha': 'Buddha_Fruit.webp',
+  'Chop': 'Chop_Fruit.webp',
+  'Control': 'Control_Fruit.webp',
+  'Creation': 'Creation_Fruit.webp',
+  'Dark': 'Dark_Fruit.webp',
+  'Diamond': 'Diamond_Fruit.webp',
+  'Door': 'Door_Fruit.webp',
+  'Dough': 'Dough_Fruit.webp',
+  'Dragon': 'Dragon_Fruit.webp',
+  'Eagle': 'Eagle_Fruit.webp',
+  'Empyrean': 'Empyrean_Fruit.webp',
+  'Falcon': 'Falcon_Fruit.webp',
+  'Fiend': 'Fiend_Fruit.webp',
+  'Flame': 'Flame_Fruit.webp',
+  'Gas': 'Gas_Fruit.webp',
+  'Ghost': 'Ghost_Fruit.webp',
+  'Gravity': 'Gravity_Fruit.webp',
+  'Ice': 'Ice_Fruit.webp',
+  'Kilo': 'Kilo_Fruit.webp',
+  'Kitsune': 'Kitsune_Fruit.webp',
+  'Leopard': 'Leopard_Fruit.webp',
+  'Light': 'Light_Fruit.webp',
+  'Lightning': 'Lightning_Fruit.webp',
+  'Love': 'Love_Fruit.webp',
+  'Magma': 'Magma_Fruit.webp',
+  'Magnet': 'Magnet_Fruit.webp',
+  'Mammoth': 'Mammoth_Fruit.webp',
+  'Meme': 'Meme_Fruit.webp',
+  'Meme (Admin)': 'Meme_%2528Admin%2529_Fruit.webp',
+  'Pain': 'Pain_Fruit.webp',
+  'Paw': 'Paw_Fruit.webp',
+  'Phoenix': 'Phoenix_Fruit.webp',
+  'Portal': 'Portal_Fruit.webp',
+  'Quake': 'Quake_Fruit.webp',
+  'Revive': 'Revive_Fruit.webp',
+  'Rocket': 'Rocket_Fruit.webp',
+  'Rubber': 'Rubber_Fruit.webp',
+  // Rumble wurde 2026 in "Lightning" umbenannt -> gleiches Icon
+  'Rumble': 'Lightning_Fruit.webp',
+  'Sand': 'Sand_Fruit.webp',
+  'Shadow': 'Shadow_Fruit.webp',
+  'Smoke': 'Smoke_Fruit.webp',
+  'Soul': 'Soul_Fruit.webp',
+  'Sound': 'Sound_Fruit.webp',
+  'Spider': 'Spider_Fruit.webp',
+  'Spike': 'Spike_Fruit.webp',
+  'Spin': 'Spin_Fruit.webp',
+  'Spirit': 'Spirit_Fruit.webp',
+  'Spring': 'Spring_Fruit.webp',
+  'String': 'String_Fruit.webp',
+  'T-Rex': 'T-Rex_Fruit.webp',
+  'Tiger': 'Tiger_Fruit.webp',
+  'Venom': 'Venom_Fruit.webp',
+  'Werewolf': 'Werewolf_Fruit.webp',
+  'Yeti': 'Yeti_Fruit.webp',
+};
+const ICON_DRAGON_CLASSIC = 'Dragon_%2528Classic%2529_Fruit.webp';
+
+/**
+ * Liefert die Icon-URL einer Frucht (oder null, wenn kein Icon existiert).
+ */
+function iconUrl(name, classic) {
+  if (name === 'Dragon' && classic) return ICON_BASE + ICON_DRAGON_CLASSIC;
+  const file = ICON_FILES[name];
+  return file ? ICON_BASE + file : null;
+}
+
+/**
+ * <img>-Tag für eine Frucht. Fällt bei Ladefehler still weg.
+ */
+function fruitIcon(name, cls, classic) {
+  const url = iconUrl(name, classic);
+  if (!url) return '';
+  const c = 'fruit-icon' + (cls ? ' ' + cls : '');
+  return `<img class="${c}" src="${url}" alt="" title="${name}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.style.display='none'">`;
+}
+
+// HistoryOfStock: 2021 ... aktuelles Jahr
+const HISTORY_BASE = 'https://raw.githubusercontent.com/lzwdev/BloxFruitsStock/main/HistoryOfStock/';
+function historyYears() {
+  const end = Math.max(new Date().getFullYear(), 2021);
+  const years = [];
+  for (let y = 2021; y <= end; y++) years.push(y);
+  return years;
+}
+
+const INVALID_PATTERNS = [
+  /^n\/d$/i, /^unknown/i, /^rowspan/i, /roblox server outage/i,
+  /^\d+$/, /^[a-z]+="\d+"$/, /^$/,
+];
+
+const MONTH_ORDER = {
+  'January': 1, 'February': 2, 'March': 3, 'April': 4, 'May': 5, 'June': 6,
+  'July': 7, 'August': 8, 'September': 9, 'October': 10, 'November': 11, 'December': 12
+};
+const MONTH_NAMES_DE = ['', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+  'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+const MONTH_NAMES_SHORT = ['', 'Jan', 'Feb', 'Mär', 'Apr', 'Mai', 'Jun',
+  'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dez'];
+const MONTH_NAMES_INITIAL = ['', 'J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D'];
+
+// ============================================================
+// STATE
+// ============================================================
+const state = {
+  slots: [], errors: [], fixes: [], files: [],
+  totalSlots: 0, totalFruits: 0,
+  years: new Set(), months: new Set(), times: new Set(),
+  fruitStats: null,
+  allYearMonths: [],
+  views: { overall: 'cards', year: 'cards', month: 'cards', slot: 'cards', filter: 'cards', heat: 'all' },
+  filterMatches: [],
+};
+
+// ============================================================
+// NORMALISIERUNG
+// ============================================================
+function normalizeFruit(raw) {
+  if (!raw) return { name: null, error: null };
+  let name = raw.trim();
+  if (!name) return { name: null, error: null };
+  for (const p of INVALID_PATTERNS) {
+    if (p.test(name)) return { name: null, error: `Ungültig: "${name}"` };
+  }
+  const original = name;
+  name = name.replace(/<[^>]+>/g, '').replace(/\[\[|\]\]/g, '').trim();
+  if (!name) return { name: null, error: `Leer: "${original}"` };
+  // Wiki-Schreibweisen wie "Bird: Falcon" oder "Human: Buddha"
+  name = name.replace(/^(bird|human|beast|fish|insect)\s*:\s*/i, '').trim();
+  if (name.includes('|')) name = name.split('|').pop().trim();
+  const lower = name.toLowerCase().replace(/\s+/g, ' ');
+  if (ALIASES[lower]) return { name: ALIASES[lower], fixed: original !== ALIASES[lower] ? { from: original, to: ALIASES[lower] } : null };
+  if (CANONICAL[lower]) {
+    const c = CANONICAL[lower];
+    return { name: c, fixed: name !== c ? { from: name, to: c } : null };
+  }
+  return { name: null, error: `Unbekannt: "${name}"` };
+}
+
+// ============================================================
+// DATUMS-PARSER (MM/DD/YY)
+// ============================================================
+function parseStockDate(dateStr, fallbackYear) {
+  if (!dateStr || dateStr === 'unknown') {
+    return { month: 1, day: 1, year: parseInt(fallbackYear) || 0 };
+  }
+  const parts = dateStr.split('/');
+  if (parts.length < 2) {
+    return { month: 1, day: 1, year: parseInt(fallbackYear) || 0 };
+  }
+  const month = parseInt(parts[0]) || 1;
+  const day = parseInt(parts[1]) || 1;
+  let year;
+  if (parts.length >= 3) {
+    year = parseInt(parts[2]);
+    if (year < 100) year += 2000;
+  } else {
+    year = parseInt(fallbackYear) || 0;
+  }
+  return { month, day, year };
+}
+
+// ============================================================
+// PARSER
+// ============================================================
+function parseStockHistory(text) {
+  text = text.replace(/\r\n/g, '\n');
+  text = text.replace(/<noinclude>.*?<\/noinclude>/gs, '');
+  text = text.replace(/<!--.*?-->/gs, '');
+
+  const slots = [], errors = [], fixes = [];
+
+  const tabberMatch = text.match(/<tabber>([\s\S]*?)<\/tabber>/);
+  if (tabberMatch) {
+    const tabs = tabberMatch[1].split('|-|');
+    for (const tab of tabs) {
+      const headerMatch = tab.match(/^\s*([A-Za-z]+)\s*=\s*([\s\S]*)$/);
+      if (!headerMatch) continue;
+      const monthName = headerMatch[1].trim();
+      const tableMatch = headerMatch[2].match(/\{\|[\s\S]*?\|\}/);
+      if (!tableMatch) continue;
+      const parsed = parseMonthTable(tableMatch[0], monthName);
+      slots.push(...parsed.slots);
+      errors.push(...parsed.errors);
+      fixes.push(...parsed.fixes);
+    }
+    return { slots, errors, fixes };
+  }
+
+  const tableRegex = /\{\|[\s\S]*?\|\}/g;
+  let match;
+  let found = false;
+  while ((match = tableRegex.exec(text)) !== null) {
+    const tableText = match[0];
+    const captionMatch = tableText.match(/\|\+\s*(\w+)\s+(\d{4})\s+Stock History/i);
+    if (!captionMatch) continue;
+    found = true;
+    const parsed = parseMonthTable(tableText, captionMatch[1]);
+    slots.push(...parsed.slots);
+    errors.push(...parsed.errors);
+    fixes.push(...parsed.fixes);
+  }
+
+  if (!found) throw new Error('Keine Stock-History-Tabellen gefunden.');
+  return { slots, errors, fixes };
+}
+
+function parseMonthTable(tableText, monthName) {
+  const lines = tableText.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+  const dateBlocks = [];
+  const slots = [], errors = [], fixes = [];
+  const yearMatch = tableText.match(/\|\+\s*\w+\s+(\d{4})\s+Stock History/i);
+  const yearFallback = yearMatch ? yearMatch[1] : 'unknown';
+
+  let currentDates = [], currentRows = [], currentRow = null;
+
+  const flushBlock = () => {
+    if (currentRow) { currentRows.push(currentRow); currentRow = null; }
+    if (currentDates.length > 0) dateBlocks.push({ dates: currentDates, rows: currentRows });
+    currentDates = []; currentRows = [];
+  };
+
+  for (const line of lines) {
+    if (line.startsWith('{|') || line.startsWith('|}') || line.startsWith('|+')) continue;
+
+    // Neue Datums-Gruppe
+    if (line === '!') { flushBlock(); continue; }
+    if (line.startsWith('!')) {
+      const datePart = line.replace(/^!\s*/, '');
+      currentDates.push(...datePart.split('!!').map(s => s.trim()).filter(s => s));
+      continue;
+    }
+
+    // Neue Tabellenzeile (= neuer Zeit-Slot)
+    if (line.startsWith('|-')) {
+      if (currentRow) { currentRows.push(currentRow); currentRow = null; }
+      continue;
+    }
+    if (!line.startsWith('|')) continue;
+
+    // Inhalt ohne führendes "|" und ohne Zellattribute wie rowspan="2" |
+    let content = line.replace(/^\|/, '');
+    content = content.replace(/^[A-Za-z-]+\s*=\s*"[^"]*"\s*\|/, '');
+
+    // Zwei Schreibweisen unterstützen:
+    //   a) eine Zelle pro Zeile           -> |Flame, Ice
+    //   b) alles in einer Zeile           -> |12:00 AM|Flame, Ice|Dark
+    //   c) mehrere Zellen mit "||"        -> |Flame, Ice||Dark
+    const cells = /^\s*\d{1,2}:\d{2}\s*(AM|PM)\s*\|/i.test(content)
+      ? content.split('|')
+      : content.split('||');
+
+    for (const raw of cells) {
+      const cell = raw.trim();
+      if (/^\d{1,2}:\d{2}\s*(AM|PM)$/i.test(cell)) {
+        // Uhrzeit beginnt eine neue Zeile
+        if (currentRow) currentRows.push(currentRow);
+        currentRow = { time: cell, values: [] };
+      } else if (currentRow) {
+        // Jede weitere Zelle ist eine Datumsspalte (Reihenfolge = Datums-Reihenfolge)
+        currentRow.values.push(preprocessCell(cell));
+      }
+    }
+  }
+  flushBlock();
+
+  for (const block of dateBlocks) {
+    for (const row of block.rows) {
+      for (let d = 0; d < block.dates.length; d++) {
+        const dateStr = block.dates[d];
+        const parsedDate = parseStockDate(dateStr, yearFallback);
+        const rawCell = row.values[d] || '';
+        const parsed = parseFruitCell(rawCell, {
+          year: String(parsedDate.year), month: monthName,
+          date: dateStr, time: row.time,
+        });
+        slots.push({
+          year: String(parsedDate.year), month: monthName,
+          monthNum: parsedDate.month, day: parsedDate.day,
+          date: dateStr, time: row.time, fruits: parsed.fruits,
+        });
+        errors.push(...parsed.errors);
+        fixes.push(...parsed.fixes);
+      }
+    }
+  }
+  return { slots, errors, fixes };
+}
+
+function preprocessCell(cell) {
+  if (!cell) return '';
+  let s = cell
+    .replace(/<p[^>]*>/gi, '').replace(/<\/p>/gi, '')
+    .replace(/<b>/gi, '').replace(/<\/b>/gi, '')
+    .replace(/<nowiki\s*\/?>/gi, '').replace(/<[^>]+>/g, '');
+  s = s.replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (m, name, alias) => (alias || name).trim());
+  s = s.replace(/'''/g, '');
+  s = s.replace(/([A-Za-z])\s*\.\s+([A-Za-z])/g, '$1, $2');
+  s = s.replace(/\s*,\s*/g, ', ');
+  s = s.replace(/^[\s.,;:]+|[\s.,;:]+$/g, '');
+  return s;
+}
+
+function parseFruitCell(cell, context) {
+  const fruits = [], errors = [], fixes = [];
+  if (!cell || !cell.trim()) return { fruits, errors, fixes };
+  const parts = cell.split(',').map(p => p.trim()).filter(p => p.length > 0);
+  const expanded = [];
+  for (const part of parts) {
+    const words = part.split(/\s+/);
+    if (words.length > 1 && words.length <= 3) {
+      const allValid = words.every(w => CANONICAL[w.toLowerCase()] || ALIASES[w.toLowerCase()]);
+      if (allValid) { for (const w of words) expanded.push(w); continue; }
+    }
+    expanded.push(part);
+  }
+  for (const part of expanded) {
+    const result = normalizeFruit(part);
+    if (result.name) {
+      fruits.push(result.name);
+      if (result.fixed) fixes.push({ ...context, raw: result.fixed.from, fixed: result.fixed.to });
+    } else if (result.error) errors.push({ ...context, raw: part, reason: result.error });
+  }
+  return { fruits: [...new Set(fruits)], errors, fixes };
+}
+
+// ============================================================
+// STATISTIK
+// ============================================================
+function computeStats(slots) {
+  const active = slots.filter(s => s.fruits.length > 0).sort(compareSlots);
+  const totalSlots = active.length;
+
+  // Bezugsgröße pro Monat (für monatliche Wahrscheinlichkeiten)
+  const slotsPerMonth = {};
+  for (const s of active) {
+    const k = slotKey(s);
+    slotsPerMonth[k] = (slotsPerMonth[k] || 0) + 1;
+  }
+
+  const firstSlot = active[0] || null;
+  const lastSlot = active[active.length - 1] || null;
+  const firstKey = firstSlot ? slotKey(firstSlot) : null;
+  const lastKey = lastSlot ? slotKey(lastSlot) : null;
+  const lastDate = lastSlot ? slotDate(lastSlot) : null;
+  const allMonths = buildMonthRange(firstKey, lastKey);
+
+  // Vergleichsfenster "letzte 90 Tage" (bezogen auf den jüngsten Datensatz)
+  const recentFrom = lastDate ? new Date(lastDate.getTime() - 89 * 86400000) : null;
+  const recentSlots = recentFrom ? active.filter(s => slotDate(s) >= recentFrom) : [];
+  const recentTotal = recentSlots.length;
+  const recentKeys = new Set(recentSlots.map(slotKey));
+
+  const fruitData = {};
+  for (let idx = 0; idx < active.length; idx++) {
+    const slot = active[idx];
+    const inRecent = recentKeys.has(slotKey(slot));
+    for (const fruit of slot.fruits) {
+      if (!fruitData[fruit]) fruitData[fruit] = { count: 0, recent: 0, lastIdx: -1, occurrences: [] };
+      fruitData[fruit].count++;
+      if (inRecent) fruitData[fruit].recent++;
+      fruitData[fruit].lastIdx = idx;
+      fruitData[fruit].occurrences.push(slot);
+    }
+  }
+
+  const stats = Object.entries(fruitData).map(([name, data]) => {
+    const occ = data.occurrences;                    // durch "active" bereits chronologisch
+    const first = occ[0];
+    const last = occ[occ.length - 1];
+    const probability = totalSlots > 0 ? data.count / totalSlots : 0;
+    const [ciLo, ciHi] = wilsonInterval(data.count, totalSlots);
+    const pRecent = recentTotal > 0 ? data.recent / recentTotal : 0;
+    const [rLo, rHi] = wilsonInterval(data.recent, recentTotal);
+    const monthly = computeMonthly(occ);
+    const monthlyProb = {};
+    const monthlySlots = {};
+    for (const k of Object.keys(monthly)) {
+      monthlyProb[k] = monthly[k] / (slotsPerMonth[k] || 1);
+      monthlySlots[k] = slotsPerMonth[k] || 0;
+    }
+    const lastFruitKey = slotKey(last);
+    const monthsSinceLast = monthKeyDiff(lastFruitKey, lastKey);
+    const isDragonClassic = name === 'Dragon'
+      && (last.year < '2024' || (last.year === '2024' && slotMonthNum(last) < 12));
+    // "Retired" erst, wenn die Lücke seit dem letzten Auftritt deutlich größer ist
+    // als der eigene Ø-Abstand (99-%-Niveau), mindestens aber 15 Tage (90 Slots).
+    const slotsSinceLast = totalSlots - 1 - data.lastIdx;
+    const expectedGap = probability > 0 ? 1 / probability : Infinity;
+    const retiredThreshold = Math.max(90, 4.6 * expectedGap);
+    const retiredByData = probability > 0 && slotsSinceLast > retiredThreshold;
+    const isNew = monthKeyDiff(slotKey(first), lastKey) < 12;
+    return {
+      name,
+      count: data.count,
+      recentCount: data.recent,
+      recentTotal,
+      probability,
+      ciLo, ciHi,
+      pRecent,
+      recentCiLo: rLo,
+      recentCiHi: rHi,
+      trend: probability > 0 && recentTotal > 0 ? ((pRecent - probability) / probability) * 100 : 0,
+      trendSignificant: recentTotal > 0 && (rLo > ciHi || rHi < ciLo),
+      expectedPerDay: probability * 6,
+      daysPerAppearance: probability > 0 ? 1 / (probability * 6) : Infinity,
+      monthsSinceLast,
+      slotsSinceLast,
+      retiredThreshold,
+      daysSinceLast: lastDate ? Math.max(0, daysBetween(slotDate(last), new Date())) : 0,
+      isRetired: RETIRED_FRUITS.has(name) || isDragonClassic || retiredByData,
+      isDragonClassic,
+      retiredByData,
+      isNew,
+      activeMonths: Object.keys(monthly).length,
+      monthlyCoverage: allMonths.length ? Object.keys(monthly).length / allMonths.length : 0,
+      first, last, occurrences: occ, monthly, monthlyProb, monthlySlots,
+    };
+  });
+
+  stats.sort((a, b) => b.count - a.count);
+  return { stats, totalSlots, slotsPerMonth, firstKey, lastKey, lastDate, allMonths, recentTotal, active };
+}
+
+function computeMonthly(occurrences) {
+  const monthly = {};
+  for (const occ of occurrences) {
+    const monthNum = occ.monthNum || MONTH_ORDER[occ.month] || 1;
+    const key = `${occ.year}-${String(monthNum).padStart(2, '0')}`;
+    monthly[key] = (monthly[key] || 0) + 1;
+  }
+  return monthly;
+}
+
+function compareSlots(a, b) {
+  const yA = parseInt(a.year) || 0, yB = parseInt(b.year) || 0;
+  if (yA !== yB) return yA - yB;
+  const mA = a.monthNum || MONTH_ORDER[a.month] || 0;
+  const mB = b.monthNum || MONTH_ORDER[b.month] || 0;
+  if (mA !== mB) return mA - mB;
+  if ((a.day || 0) !== (b.day || 0)) return (a.day || 0) - (b.day || 0);
+  return timeToMinutes(a.time) - timeToMinutes(b.time);
+}
+
+// ============================================================
+// DATUMS-FORMATIERUNG
+// ============================================================
+function formatDate(occ) {
+  if (!occ) return '—';
+  const monthNum = occ.monthNum || MONTH_ORDER[occ.month] || 1;
+  const day = occ.day || 0;
+  const monthShort = MONTH_NAMES_SHORT[monthNum] || '?';
+  return `${String(day).padStart(2, '0')}. ${monthShort} ${occ.year}`;
+}
+function formatMonthLabel(key) {
+  const [year, month] = key.split('-');
+  return `${MONTH_NAMES_SHORT[parseInt(month)] || '?'} ${year}`;
+}
+function formatMonthShort(key) {
+  const [, month] = key.split('-');
+  return MONTH_NAMES_INITIAL[parseInt(month)] || '?';
+}
+
+// ============================================================
+// UNIVERSAL CARD RENDERER
+// ============================================================
+/**
+ * Rendert eine Liste von "Frucht-Karten" oder "Frucht-Statistik-Karten".
+ * items = [{ name, count, probability, first, last, isRetired, monthly, extraStats: [...] }]
+ */
+function renderFruitCards(items, options = {}) {
+  const {
+    showMiniChart = true,
+    showTimeline = true,
+    showStats = true,
+    onClick = null,
+    compact = false,
+    rank = true,
+    countLabel = 'Vorkommen',
+  } = options;
+
+  if (!items.length) {
+    return '<div class="empty"><div class="icon">📭</div>Keine Daten verfügbar.</div>';
+  }
+
+  const months = (state.fruitStats && state.fruitStats.allMonths) || state.allYearMonths;
+  const gridClass = compact ? 'fruit-grid compact' : 'fruit-grid';
+
+  const html = items.map((item, i) => {
+    const pct = item.probability !== undefined ? item.probability : 0;
+
+    let miniChart = '';
+    if (showMiniChart && item.monthly) {
+      const maxMonthly = Math.max(...Object.values(item.monthly), 1);
+      miniChart = `<div class="fc-mini-chart" title="Vorkommen pro Monat (${months.length} Monate)">` + months.map(key => {
+        const c = item.monthly[key] || 0;
+        const h = c > 0 ? Math.max((c / maxMonthly) * 100, 15) : 6;
+        return `<div class="fc-mini-bar ${c === 0 ? 'empty' : ''}" title="${formatMonthLabel(key)}: ${c}×"></div>`;
+      }).join('') + '</div>';
+    }
+
+    let stats = '';
+    if (showStats) {
+      const ci = item.ciLo !== undefined
+        ? `<div class="fc-stat-sub" title="95-%-Konfidenzintervall (Wilson)">95 %: ${pctStr(item.ciLo, 1)}–${pctStr(item.ciHi, 1)}</div>` : '';
+      const gap = (item.daysPerAppearance !== undefined && isFinite(item.daysPerAppearance))
+        ? `Ø alle ${item.daysPerAppearance < 10 ? item.daysPerAppearance.toFixed(1) : Math.round(item.daysPerAppearance)} Tage` : '';
+      stats = `
+        <div class="fc-stats">
+          <div><div class="fc-stat-label">P / Slot</div><div class="fc-stat-value">${pctStr(pct)}</div>${ci}</div>
+          <div><div class="fc-stat-label">Ø / Tag</div><div class="fc-stat-value">${(item.expectedPerDay || 0).toFixed(2)}</div><div class="fc-stat-sub">${gap}</div></div>
+        </div>
+        <div class="fc-stats">
+          <div><div class="fc-stat-label">Letzte 90 Tage</div><div class="fc-stat-value">${item.recentCount !== undefined ? item.recentCount : '—'}</div><div class="fc-stat-sub">${item.recentTotal ? 'von ' + item.recentTotal + ' Slots' : ''}</div></div>
+          <div><div class="fc-stat-label">Trend</div><div class="fc-stat-value">${trendBadge(item)}</div><div class="fc-stat-sub">${item.monthsSinceLast === 0 ? 'aktuell im Stock' : (item.monthsSinceLast !== undefined ? `zuletzt vor ${item.monthsSinceLast} Mon.` : '')}</div></div>
+        </div>
+      `;
+    }
+
+    let timeline = '';
+    if (showTimeline && item.first && item.last) {
+      timeline = `
+        <div class="fc-timeline">
+          <div class="fc-timeline-row"><span class="fc-timeline-label">Erstmals</span><span class="fc-timeline-date first">${formatDate(item.first)}</span></div>
+          <div class="fc-timeline-row"><span class="fc-timeline-label">Zuletzt</span><span class="fc-timeline-date last">${formatDate(item.last)}${item.daysSinceLast !== undefined ? ` <span style="color:var(--text-muted);font-size:10px;">(vor ${item.daysSinceLast} T.)</span>` : ''}</span></div>
+        </div>
+      `;
+    }
+
+    const clickHandler = onClick ? `onclick="${onClick.replace(/\{name\}/g, item.name.replace(/'/g, "\\'"))}"` : '';
+
+    return `
+      <div class="fruit-card ${item.isRetired ? 'retired' : ''}" ${clickHandler}>
+        <div class="fc-header">
+          <div class="fc-name">
+            ${fruitIcon(item.name, 'md', item.isDragonClassic)}
+            <span>${item.isRetired ? '❌' : '✅'} ${item.name}</span>
+            ${cardBadges(item)}
+          </div>
+          ${rank ? `<div class="fc-rank">#${i + 1}</div>` : ''}
+        </div>
+        <div class="fc-count">${item.count.toLocaleString('de-DE')}</div>
+        <div class="fc-count-label">${item.countLabel || countLabel}</div>
+        ${miniChart}
+        ${stats}
+        ${timeline}
+      </div>
+    `;
+  }).join('');
+
+  return `<div class="${gridClass}">${html}</div>`;
+}
+
+// ============================================================
+// FILE HANDLING
+// ============================================================
+const dropzone = document.getElementById('dropzone');
+const fileInput = document.getElementById('fileInput');
+
+dropzone.addEventListener('click', () => fileInput.click());
+dropzone.addEventListener('dragover', e => { e.preventDefault(); dropzone.classList.add('dragover'); });
+dropzone.addEventListener('dragleave', () => dropzone.classList.remove('dragover'));
+dropzone.addEventListener('drop', e => { e.preventDefault(); dropzone.classList.remove('dragover'); handleFiles(e.dataTransfer.files); });
+fileInput.addEventListener('change', e => handleFiles(e.target.files));
+
+function resetState() {
+  Object.assign(state, {
+    slots: [], errors: [], fixes: [], files: [], totalSlots: 0, totalFruits: 0,
+    fruitStats: null, allYearMonths: [], filterMatches: [],
+  });
+  state.years = new Set();
+  state.months = new Set();
+  state.times = new Set();
+}
+
+/** Ein geparstes Wiki-Dokument in den State übernehmen. */
+function ingestParsed(parsed, meta) {
+  state.files.push({
+    name: meta.name, size: meta.size || 0, source: meta.source || 'file',
+    slots: parsed.slots.length, errors: parsed.errors.length,
+  });
+  for (const slot of parsed.slots) {
+    state.slots.push(slot);
+    state.years.add(slot.year);
+    state.months.add(slot.month);
+    state.times.add(slot.time);
+  }
+  state.errors.push(...parsed.errors);
+  state.fixes.push(...parsed.fixes);
+}
+
+/** Auswertung nach dem Laden (egal ob Datei oder GitHub). */
+function finalizeLoad() {
+  const years = [...state.years].filter(y => y !== 'unknown').map(y => parseInt(y)).filter(y => !isNaN(y)).sort((a, b) => a - b);
+  if (years.length > 0) {
+    const allMonths = [];
+    for (let y = years[0]; y <= years[years.length - 1]; y++) {
+      for (let m = 1; m <= 12; m++) {
+        allMonths.push(`${y}-${String(m).padStart(2, '0')}`);
+      }
+    }
+    state.allYearMonths = allMonths;
+  }
+  state.slots.sort(compareSlots);
+  state.totalSlots = state.slots.length;
+  state.totalFruits = state.slots.reduce((a, s) => a + s.fruits.length, 0);
+  state.fruitStats = computeStats(state.slots);
+  updateFileList();
+  renderAll();
+}
+
+async function handleFiles(fileList) {
+  const files = Array.from(fileList);
+  if (!files.length) return;
+  setStatus(`Lese ${files.length} Datei(en)...`, '');
+  const failed = [];
+
+  for (const file of files) {
+    try {
+      const text = await file.text();
+      const parsed = parseStockHistory(text);
+      ingestParsed(parsed, { name: file.name, size: file.size, source: 'file' });
+    } catch (err) {
+      console.error(err);
+      failed.push(`${file.name}: ${err.message}`);
+    }
+  }
+
+  if (!state.slots.length) {
+    setStatus(`⚠ Keine Datei konnte gelesen werden (${failed.join(' · ')}).`, 'error');
+    return;
+  }
+  finalizeLoad();
+  const failInfo = failed.length ? ` · ⚠ ${failed.length} Datei(en) fehlgeschlagen (${failed.join(' · ')})` : '';
+  setStatus(`✓ ${files.length - failed.length} von ${files.length} Datei(en) geladen – ${state.totalSlots.toLocaleString('de-DE')} Slots · ${state.totalFruits.toLocaleString('de-DE')} Einträge · ${state.errors.length} Errors${failInfo}`, failed.length ? 'error' : 'ok');
+}
+
+// ============================================================
+// GITHUB-DATENQUELLE (HistoryOfStock/JAHR.txt)
+// ============================================================
+async function loadFromGitHub() {
+  resetState();
+  const filesListEl = document.getElementById('filesList');
+  if (filesListEl) filesListEl.style.display = 'none';
+  document.getElementById('results').style.display = 'none';
+  setStatus('🌐 Lade HistoryOfStock von GitHub ...', '');
+
+  const yearsWanted = historyYears();
+  const results = await Promise.all(yearsWanted.map(async year => {
+    const url = `${HISTORY_BASE}${year}.txt`;
+    try {
+      const res = await fetch(url, { cache: 'no-cache' });
+      if (res.status === 404) return { year, missing: true };
+      if (!res.ok) return { year, error: `HTTP ${res.status}` };
+      const text = await res.text();
+      return { year, text, parsed: parseStockHistory(text) };
+    } catch (err) {
+      return { year, error: err.message || 'Netzwerk-/CORS-Fehler' };
+    }
+  }));
+
+  const ok = results.filter(r => r.parsed).sort((a, b) => a.year - b.year);
+  const failed = results.filter(r => r.error);
+
+  if (!ok.length) {
+    const detail = failed.map(f => `${f.year}: ${f.error}`).join(' · ');
+    setStatus(`⚠ GitHub-Daten konnten nicht geladen werden${detail ? ` (${detail})` : ''}. Bitte die .txt-Dateien lokal ablegen – der Parser ist identisch.`, 'error');
+    return;
+  }
+
+  for (const r of ok) {
+    ingestParsed(r.parsed, { name: `${r.year}.txt`, size: r.text.length, source: 'github' });
+  }
+  finalizeLoad();
+
+  const errInfo = failed.length ? ` · ⚠ ${failed.length} Jahr(e) fehlgeschlagen (${failed.map(f => f.year).join(', ')})` : '';
+  setStatus(`✓ GitHub: ${ok.length} Jahre geladen (${ok[0].year}–${ok[ok.length - 1].year}) – ${state.totalSlots.toLocaleString('de-DE')} Slots · ${state.totalFruits.toLocaleString('de-DE')} Einträge · ${state.errors.length} Errors${errInfo}`, failed.length ? 'error' : 'ok');
+}
+
+function updateFileList() {
+  const el = document.getElementById('filesList');
+  el.style.display = 'block';
+  el.innerHTML = state.files.map(f => {
+    const icon = f.source === 'github' ? '🌐' : '📄';
+    return `<div class="file-row"><span class="name">${icon} ${f.name}</span><span class="meta">${f.slots.toLocaleString('de-DE')} Slots · ${f.errors} Errors · ${(f.size/1024).toFixed(1)} KB</span></div>`;
+  }).join('');
+}
+
+function setStatus(msg, cls) {
+  const el = document.getElementById('status');
+  el.innerHTML = `<span class="dot"></span>${msg}`;
+  el.className = 'status ' + (cls || '');
+}
+
+function clearAll() {
+  resetState();
+  document.getElementById('filesList').style.display = 'none';
+  document.getElementById('results').style.display = 'none';
+  document.getElementById('fileInput').value = '';
+  setStatus('Bereit. Lade die GitHub-Daten oder ziehe Dateien hierher.', '');
+}
+
+// ============================================================
+// RENDERING
+// ============================================================
+function renderAll() {
+  document.getElementById('results').style.display = 'block';
+  renderCards();
+  renderOverall();
+  renderCharts();
+  renderPerYear();
+  renderPerMonth();
+  renderPerSlot();
+  renderHeatmap();
+  renderErrors();
+  populateSelectors();
+}
+
+function renderCards() {
+  const { stats, totalSlots, firstKey, lastKey, recentTotal } = state.fruitStats;
+  const retired = stats.filter(s => s.isRetired).length;
+  const current = stats.length - retired;
+  const fresh = stats.filter(s => s.isNew).length;
+  const dormant = stats.filter(s => s.retiredByData).length;
+
+  const cards = [
+    { label: 'Zeit-Slots', value: totalSlots.toLocaleString('de-DE'), cls: '' },
+    { label: 'Frucht-Einträge', value: state.totalFruits.toLocaleString('de-DE'), cls: 'green' },
+    { label: 'Früchte gesamt', value: stats.length, cls: 'purple' },
+    { label: 'Ø Früchte / Slot', value: totalSlots ? (state.totalFruits / totalSlots).toFixed(2) : '0', cls: '' },
+    { label: 'Zeitraum', value: `${firstKey || '?'} – ${lastKey || '?'}`, cls: '' },
+    { label: 'Letzte 90 Tage', value: `${recentTotal} Slots`, cls: '' },
+    { label: 'Neu (12 Mon.)', value: fresh, cls: 'purple' },
+    { label: 'Vermutlich retired', value: dormant, cls: 'orange' },
+    { label: 'Korrekturen', value: state.fixes.length, cls: '' },
+    { label: 'Errors', value: state.errors.length, cls: 'red' },
+  ];
+  document.getElementById('cards').innerHTML = cards.map(c =>
+    `<div class="card ${c.cls}"><div class="label">${c.label}</div><div class="value" style="${String(c.value).length > 12 ? 'font-size:15px;' : ''}">${c.value}</div></div>`
+  ).join('');
+}
+
+// ---------------- GESAMT ----------------
+function renderOverall() {
+  const { stats } = state.fruitStats;
+  const sort = document.getElementById('sortOverall').value;
+  const search = (document.getElementById('searchOverall').value || '').toLowerCase();
+  const cat = document.getElementById('catOverall').value;
+
+  let filtered = stats.filter(s => s.name.toLowerCase().includes(search));
+  if (cat === 'current') filtered = filtered.filter(s => !s.isRetired);
+  if (cat === 'retired') filtered = filtered.filter(s => s.isRetired);
+  if (cat === 'new') filtered = filtered.filter(s => s.isNew);
+  if (cat === 'gap') filtered = filtered.filter(s => s.monthsSinceLast >= 1);
+  if (cat === 'rising') filtered = filtered.filter(s => s.trend > 0 && s.recentTotal > 0);
+  if (cat === 'falling') filtered = filtered.filter(s => s.trend < 0 && s.recentTotal > 0);
+
+  filtered = [...filtered].sort((a, b) => {
+    if (sort === 'count') return b.count - a.count;
+    if (sort === 'prob') return b.probability - a.probability;
+    if (sort === 'first') return compareSlots(a.first, b.first);
+    if (sort === 'last') return compareSlots(b.last, a.last);
+    if (sort === 'name') return a.name.localeCompare(b.name);
+    if (sort === 'trend') return b.trend - a.trend;
+    if (sort === 'recent') return b.recentCount - a.recentCount;
+    if (sort === 'gap') return b.daysPerAppearance - a.daysPerAppearance;
+    return 0;
+  });
+
+  document.getElementById('badgeOverall').textContent = filtered.length;
+
+  if (state.views.overall === 'cards') {
+    document.getElementById('viewOverall').innerHTML = renderFruitCards(filtered, {
+      onClick: "showFruitModal('{name}')",
+    });
+  } else {
+    document.getElementById('viewOverall').innerHTML = renderOverallList(filtered);
+  }
+}
+
+function renderOverallList(stats) {
+  return `
+    <table>
+      <thead><tr>
+        <th>#</th><th>Frucht</th><th>Status</th><th class="num">Anzahl</th>
+        <th class="num">P / Slot</th><th class="num">95-%-KI</th><th class="num">Ø alle</th>
+        <th class="num">90 Tage</th><th>Trend</th><th>Erstmals</th><th>Zuletzt</th>
+      </tr></thead>
+      <tbody>
+        ${stats.map((s, i) => {
+          const pct = s.probability;
+          const cls = pct > 0.15 ? 'green' : pct > 0.05 ? 'yellow' : 'red';
+          return `
+            <tr onclick="showFruitModal('${s.name.replace(/'/g, "\\'")}')" style="cursor:pointer;">
+              <td class="rank">${i + 1}</td>
+              <td class="fruit-name ${s.isRetired ? 'retired' : ''}">${fruitIcon(s.name, 'md', s.isDragonClassic)}${s.name}</td>
+              <td>${s.isRetired ? '<span class="badge-retired">RETIRED</span>' : '<span class="badge-current">CURRENT</span>'}${s.isNew ? ' <span class="badge-new">NEU</span>' : ''}</td>
+              <td class="num">${s.count.toLocaleString('de-DE')}</td>
+              <td class="num"><span class="pct-badge ${cls}">${pctStr(pct)}</span></td>
+              <td class="num" style="color:var(--text-muted);">${pctStr(s.ciLo, 1)} – ${pctStr(s.ciHi, 1)}</td>
+              <td class="num">${isFinite(s.daysPerAppearance) ? (s.daysPerAppearance < 10 ? s.daysPerAppearance.toFixed(1) : Math.round(s.daysPerAppearance)) + ' T.' : '—'}</td>
+              <td class="num">${s.recentCount}</td>
+              <td>${trendBadge(s)}</td>
+              <td><span class="date-badge first">${formatDate(s.first)}</span></td>
+              <td><span class="date-badge last">${formatDate(s.last)}</span></td>
+            </tr>
+          `;
+        }).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+// ---------------- DIAGRAMME ----------------
+// ============================================================
+// DIAGRAMM-BAUSTEINE (v9)
+// ============================================================
+const WEEKDAYS_DE = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+const SERIES_COLORS = ['#0969da', '#8250df', '#1a7f37', '#bc4c00', '#bf3989', '#9a6700'];
+
+function niceCeil(v) {
+  if (!isFinite(v) || v <= 0) return 1;
+  const exp = Math.floor(Math.log10(v));
+  const base = Math.pow(10, exp);
+  const n = v / base;
+  const step = n <= 1 ? 1 : n <= 2 ? 2 : n <= 2.5 ? 2.5 : n <= 5 ? 5 : 10;
+  return step * base;
+}
+
+/** Gleitender Durchschnitt über "win" Monate. */
+function rollingAvg(values, win) {
+  if (!win || win < 2) return values.slice();
+  return values.map((_, i) => {
+    const from = Math.max(0, i - win + 1);
+    const slice = values.slice(from, i + 1);
+    return slice.reduce((a, b) => a + b, 0) / slice.length;
+  });
+}
+
+/** Balkendiagramm (HTML/CSS) mit Gitterlinien und Tooltips. */
+function barChartHTML(months, values, opts = {}) {
+  const unit = opts.unit || '×';
+  const maxVal = Math.max(...values, 0);
+  const step = maxVal <= 5 ? 1 : Math.ceil(maxVal / 5);
+  const yMax = Math.max(step * 5, 1);
+  const ySteps = [];
+  for (let i = 5; i >= 0; i--) ySteps.push(step * i);
+
+  const bars = months.map((k, i) => {
+    const v = values[i];
+    const h = v > 0 ? Math.max((v / yMax) * 100, 2) : 0;
+    return `<div class="chart-bar ${v === 0 ? 'empty' : ''} ${opts.retired ? 'retired' : ''}"
+                 data-tooltip="${formatMonthLabel(k)}: ${fmtVal(v, unit)}">
+      <div class="chart-bar-fill" style="height:${h}%"></div>
+    </div>`;
+  }).join('');
+
+  const stepX = Math.max(1, Math.ceil(months.length / 24));
+  const xLabels = months.map((k, i) => {
+    const isYearStart = k.endsWith('-01');
+    return `<div class="chart-x-label ${isYearStart ? 'year-start' : ''}">${isYearStart || i % stepX === 0 ? formatMonthShort(k) : ''}</div>`;
+  }).join('');
+
+  return `<div class="chart-container">
+      <div class="chart-y-axis">${ySteps.map(v => `<span>${fmtVal(v, unit)}</span>`).join('')}</div>
+      <div class="chart-bars">${bars}</div>
+      <div class="chart-x-axis">${xLabels}</div>
+    </div>`;
+}
+
+/** SVG-Liniendiagramm mit Gitternetz, Jahresmarken und optionaler Trendlinie. */
+function svgLineChart(months, seriesList, opts = {}) {
+  const W = 1000;
+  const H = opts.height || 340;
+  const M = { t: 22, r: 22, b: 64, l: 66 };
+  const iw = W - M.l - M.r;
+  const ih = H - M.t - M.b;
+  const unit = opts.unit || '×';
+  const yMax = niceCeil(Math.max(...seriesList.flatMap(s => s.values), 0));
+  const x = i => M.l + (months.length <= 1 ? iw / 2 : (i / (months.length - 1)) * iw);
+  const y = v => M.t + ih - (v / yMax) * ih;
+
+  let grid = '', yLabels = '';
+  for (let t = 0; t <= 5; t++) {
+    const v = (yMax / 5) * t;
+    const yy = y(v).toFixed(1);
+    grid += `<line x1="${M.l}" y1="${yy}" x2="${W - M.r}" y2="${yy}" stroke="#e1e4e8" stroke-width="1"/>`;
+    yLabels += `<text x="${M.l - 8}" y="${(y(v) + 4).toFixed(1)}" text-anchor="end" font-size="11" fill="#8c959f">${fmtVal(v, unit)}</text>`;
+  }
+
+  let yearMarks = '';
+  months.forEach((k, i) => {
+    if (k.endsWith('-01')) {
+      yearMarks += `<line x1="${x(i).toFixed(1)}" y1="${M.t}" x2="${x(i).toFixed(1)}" y2="${M.t + ih}" stroke="#d0d7de" stroke-dasharray="3 3"/>`;
+      yearMarks += `<text x="${x(i).toFixed(1)}" y="${M.t - 8}" font-size="10" fill="#8c959f" text-anchor="middle">${k.slice(0, 4)}</text>`;
+    }
+  });
+
+  const stepX = Math.max(1, Math.ceil(months.length / 16));
+  let xLabels = '';
+  months.forEach((k, i) => {
+    if (i % stepX === 0 || k.endsWith('-01')) {
+      const px = x(i).toFixed(1);
+      xLabels += `<text x="${px}" y="${H - M.b + 18}" font-size="10" fill="#656d76" text-anchor="end" transform="rotate(-45 ${px} ${H - M.b + 18})">${formatMonthLabel(k)}</text>`;
+    }
+  });
+
+  let paths = '', dots = '', legend = '';
+  seriesList.forEach((s, si) => {
+    const color = s.color || SERIES_COLORS[si % SERIES_COLORS.length];
+    const pts = s.values.map((v, i) => `${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+    paths += `<polyline points="${pts}" fill="none" stroke="${color}" stroke-width="${s.dashed ? 2 : 2.4}" stroke-linejoin="round" ${s.dashed ? 'stroke-dasharray="7 5" opacity="0.85"' : ''}/>`;
+    s.values.forEach((v, i) => {
+      dots += s.dashed
+        ? `<circle cx="${x(i).toFixed(1)}" cy="${y(v).toFixed(1)}" r="2" fill="${color}" opacity="0.45"><title>${s.name}: ${fmtVal(v, unit)} (${formatMonthLabel(months[i])})</title></circle>`
+        : `<circle cx="${x(i).toFixed(1)}" cy="${y(v).toFixed(1)}" r="3.2" fill="#fff" stroke="${color}" stroke-width="2"><title>${s.name} · ${formatMonthLabel(months[i])}: ${fmtVal(v, unit)}</title></circle>`;
+    });
+    legend += `<span class="lg-item"><span class="lg-color" style="background:${color}"></span>${s.name}</span>`;
+  });
+
+  return `<div class="svg-wrap"><svg viewBox="0 0 ${W} ${H}" class="svg-chart" preserveAspectRatio="xMidYMid meet">${grid}${yearMarks}${paths}${dots}${yLabels}${xLabels}</svg></div><div class="chart-legend">${legend}</div>`;
+}
+
+function renderCharts() {
+  const { stats } = state.fruitStats;
+  const sel = document.getElementById('chartFruitSelect');
+  const currentVal = sel.value;
+  const sorted = [...stats].sort((a, b) => b.count - a.count);
+
+  sel.innerHTML = sorted.map(s => `<option value="${s.name.replace(/"/g, '&quot;')}">${s.name} (${s.count}×)</option>`).join('');
+  if (currentVal && sorted.some(s => s.name === currentVal)) sel.value = currentVal;
+  else if (sorted.length) sel.value = sorted[0].name;
+
+  const cmp = document.getElementById('compareFruits');
+  if (cmp) {
+    const prev = [...cmp.selectedOptions].map(o => o.value);
+    cmp.innerHTML = sorted.map(s => `<option value="${s.name.replace(/"/g, '&quot;')}">${s.name} (${s.count}×)</option>`).join('');
+    const wanted = prev.length ? prev : sorted.slice(0, 5).map(s => s.name);
+    [...cmp.options].forEach(o => { o.selected = wanted.includes(o.value); });
+  }
+
+  if (sorted.length) renderChartDetail(sel.value);
+  renderCompareChart();
+}
+
+function renderChartDetail(name) {
+  const el = document.getElementById('chartDetail');
+  const stat = state.fruitStats.stats.find(s => s.name === name);
+  if (!stat) { el.innerHTML = '<div class="empty">Keine Daten</div>'; return; }
+
+  const metric = document.getElementById('chartMetric').value;
+  const type = document.getElementById('chartType').value;
+  const roll = parseInt(document.getElementById('chartRolling').value) || 0;
+  const showEmpty = document.getElementById('chartShowEmpty').checked;
+  const pct = metric === 'prob';
+  const unit = pct ? '%' : '×';
+
+  let months = state.fruitStats.allMonths.slice();
+  if (!showEmpty) {
+    const only = months.filter(k => (stat.monthly[k] || 0) > 0);
+    if (only.length) months = only;
+  }
+  const values = months.map(k => pct ? (stat.monthlyProb[k] || 0) * 100 : (stat.monthly[k] || 0));
+
+  const series = [{ name: stat.name, values }];
+  if (roll) series.push({ name: `${roll}-Monats-Schnitt`, values: rollingAvg(values, roll), dashed: true });
+
+  const chart = type === 'line'
+    ? svgLineChart(months, series, { unit })
+    : barChartHTML(months, values, { unit, retired: stat.isRetired });
+
+  const share = state.totalFruits > 0 ? stat.count / state.totalFruits : 0;
+  const avgMonth = months.length ? values.reduce((a, b) => a + b, 0) / months.length : 0;
+  const maxMonth = Math.max(...values, 0);
+
+  el.innerHTML = `
+    <h2 style="font-size:22px;font-weight:800;margin-bottom:6px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;">
+      ${fruitIcon(stat.name, 'lg', stat.isDragonClassic)}
+      ${stat.isRetired ? '❌' : '✅'} ${stat.name}
+      ${stat.isRetired ? '<span class="badge-retired">RETIRED</span>' : '<span class="badge-current">CURRENT</span>'}
+      ${cardBadges(stat)}
+    </h2>
+    <p style="color:var(--text-dim);font-size:13px;margin-bottom:18px;">
+      ${stat.count.toLocaleString('de-DE')} Vorkommen · ${pctStr(stat.probability)} pro Slot (95-%-KI ${pctStr(stat.ciLo, 1)}–${pctStr(stat.ciHi, 1)}) ·
+      ${stat.expectedPerDay.toFixed(2)} pro Tag · Ø alle ${isFinite(stat.daysPerAppearance) ? stat.daysPerAppearance.toFixed(1) : '—'} Tage ·
+      erstmals ${formatDate(stat.first)} · zuletzt ${formatDate(stat.last)} (vor ${stat.daysSinceLast} Tagen)
+    </p>
+    ${chart}
+    <div class="chart-stats">
+      <div class="stat-item"><div class="stat-color active"></div>Aktive Monate: <strong>${stat.activeMonths} / ${state.fruitStats.allMonths.length}</strong></div>
+      <div class="stat-item">Ø pro Monat: <strong>${pct ? avgMonth.toFixed(2) + '%' : (Math.round(avgMonth * 10) / 10) + '×'}</strong></div>
+      <div class="stat-item">Bestwert: <strong>${pct ? maxMonth.toFixed(2) + '%' : maxMonth + '×'}</strong></div>
+      <div class="stat-item">Anteil aller Einträge: <strong>${pctStr(share)}</strong></div>
+      <div class="stat-item">Trend (90 Tage): ${trendBadge(stat)}</div>
+      <div class="stat-item">Letzte 90 Tage: <strong>${stat.recentCount} / ${stat.recentTotal}</strong></div>
+    </div>
+
+    <div class="modal-section" style="margin-top:24px;">
+      <div class="modal-section-title">📋 Alle Vorkommen (${stat.occurrences.length})</div>
+      <div class="occurrence-list">
+        ${stat.occurrences.slice(0, 200).map(occ => {
+          const other = occ.fruits.filter(f => f !== name);
+          return `<div class="occurrence-row">
+            <span class="occurrence-date">${formatDate(occ)}</span>
+            <span class="occurrence-time">${occ.time}</span>
+            <span class="occurrence-fruits">${fruitIcon(name, 'sm')}<span class="this">${name}</span>${other.length ? `<span class="other"> + ${other.map(o => fruitIcon(o, 'sm') + o).join(', ')}</span>` : ''}</span>
+          </div>`;
+        }).join('')}
+        ${stat.occurrences.length > 200 ? `<div style="padding:12px;text-align:center;color:var(--text-muted);font-size:12px;">... und ${stat.occurrences.length - 200} weitere</div>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+/** Vergleich mehrerer Früchte als Liniendiagramm (Wahrscheinlichkeit pro Slot). */
+function renderCompareChart() {
+  const el = document.getElementById('compareChart');
+  if (!el || !state.fruitStats) return;
+  const sel = document.getElementById('compareFruits');
+  let names = sel ? [...sel.selectedOptions].map(o => o.value) : [];
+  if (!names.length) names = state.fruitStats.stats.slice(0, 5).map(s => s.name);
+  names = names.slice(0, 6);
+
+  const months = state.fruitStats.allMonths;
+  const series = names.map(n => {
+    const st = state.fruitStats.stats.find(s => s.name === n);
+    return { name: n, values: months.map(k => st ? (st.monthlyProb[k] || 0) * 100 : 0) };
+  });
+
+  el.innerHTML = series.length
+    ? `<div class="modal-section-title">Wahrscheinlichkeit pro Slot im Monatsverlauf · ${names.length} Früchte (${state.fruitStats.firstKey} – ${state.fruitStats.lastKey})</div>`
+      + svgLineChart(months, series, { unit: '%' })
+    : '<div class="empty">Keine Früchte ausgewählt.</div>';
+}
+
+// ============================================================
+// HEATMAP
+// ============================================================
+function renderHeatmap() {
+  const el = document.getElementById('viewHeatmap');
+  const fst = state.fruitStats;
+  if (!el) return;
+  if (!fst || !fst.active.length) { el.innerHTML = '<div class="empty">Keine Daten.</div>'; return; }
+
+  const fruit = document.getElementById('heatFruit').value;
+  const mode = document.getElementById('heatMode').value;
+  const metric = document.getElementById('heatMetric').value;
+  const scope = state.views.heat === 'recent' ? 'recent' : 'all';
+
+  let slots = fst.active;
+  if (scope === 'recent') slots = slots.filter(s => monthKeyDiff(slotKey(s), fst.lastKey) < 12);
+
+  const times = [...new Set(slots.map(s => s.time))].sort((a, b) => timeToMinutes(a) - timeToMinutes(b));
+  if (!times.length) { el.innerHTML = '<div class="empty">Keine Daten.</div>'; return; }
+
+  const rows = mode === 'weekday' ? WEEKDAYS_DE : MONTH_NAMES_DE.slice(1);
+  const rowIdx = slot => mode === 'weekday'
+    ? ((slotDate(slot).getDay() + 6) % 7)
+    : (slotMonthNum(slot) - 1);
+
+  const slotsIn = rows.map(() => times.map(() => 0));
+  const hitsIn = rows.map(() => times.map(() => 0));
+  let hitsTotal = 0, slotsTotal = 0;
+  for (const slot of slots) {
+    const c = times.indexOf(slot.time);
+    if (c < 0) continue;
+    const r = rowIdx(slot);
+    const hits = fruit ? (slot.fruits.includes(fruit) ? 1 : 0) : slot.fruits.length;
+    slotsIn[r][c]++;
+    hitsIn[r][c] += hits;
+    hitsTotal += hits;
+    slotsTotal++;
+  }
+  const overall = slotsTotal ? hitsTotal / slotsTotal : 0;
+
+  const noFruit = !fruit;
+  const fmtCell = (hits, slotsN) => {
+    if (!slotsN) return '–';
+    const prob = hits / slotsN;
+    const lift = overall > 0 ? prob / overall : 0;
+    if (metric === 'prob') return noFruit ? prob.toFixed(2) : (prob * 100).toFixed(1) + '%';
+    if (metric === 'count') return String(hits);
+    return lift.toFixed(2) + '×';
+  };
+
+  const header = `<tr><th></th>${times.map(t => `<th>${t.replace(' ', '')}</th>`).join('')}<th>Ø Zeile</th></tr>`;
+
+  const body = rows.map((label, r) => {
+    let rowHits = 0, rowSlots = 0;
+    const cells = times.map((t, c) => {
+      const slotsN = slotsIn[r][c];
+      const hits = hitsIn[r][c];
+      rowHits += hits; rowSlots += slotsN;
+      if (!slotsN) return '<td class="heat-cell" style="background:var(--bg-elevated);color:var(--text-muted);">–</td>';
+      const prob = hits / slotsN;
+      // Additive Glättung (60 fiktive Slots): kleine Stichproben werden in
+      // Richtung Durchschnitt gezogen, damit Zufall nicht als Muster erscheint.
+      const SMOOTH = 60;
+      const probShrunk = (hits + SMOOTH * overall) / (slotsN + SMOOTH);
+      const lift = overall > 0 ? probShrunk / overall : 0;
+      const dev = lift - 1;
+      const alpha = 0.08 + Math.min(1, Math.abs(dev) * 3) * 0.72;
+      const bg = dev >= 0 ? `rgba(26,127,55,${alpha.toFixed(3)})` : `rgba(207,34,46,${alpha.toFixed(3)})`;
+      const dark = alpha > 0.5;
+      const val = noFruit ? `${prob.toFixed(2)} Früchte pro Slot` : `${(prob * 100).toFixed(2)} %`;
+      const raw = overall > 0 ? (prob / overall) : 0;
+      const tooltip = `${label} ${t}: ${hits} Treffer in ${slotsN} Slots = ${val} · roh ${raw.toFixed(2)}×, geglättet ${lift.toFixed(2)}×`;
+      return `<td class="heat-cell" title="${tooltip}" style="background:${bg};${dark ? 'color:#fff;' : ''}">${fmtCell(hits, slotsN)}</td>`;
+    }).join('');
+    const avg = rowSlots ? fmtCell(rowHits, rowSlots) : '–';
+    return `<tr><td class="heat-rowlabel">${label}</td>${cells}<td class="heat-cell" style="background:var(--bg-elevated);">${avg}</td></tr>`;
+  }).join('');
+
+  const metricTxt = metric === 'prob'
+    ? (fruit ? 'Wahrscheinlichkeit pro Slot' : 'Ø Früchte pro Slot')
+    : metric === 'count' ? 'Anzahl Treffer'
+    : 'Faktor gegenüber dem Durchschnitt';
+
+  el.innerHTML = `
+    <p class="legend">
+      ${fruit ? `Frucht: <strong>${fruitIcon(fruit, 'sm')}${fruit}</strong>` : 'Alle Früchte (Ø Früchte pro Slot)'} ·
+      ${metricTxt} · ${scope === 'recent' ? 'letzte 12 Monate' : 'gesamter Zeitraum'} ·
+      ${slotsTotal.toLocaleString('de-DE')} Slots ausgewertet
+    </p>
+    <div class="heat-legend"><span>seltener als Ø</span><span class="heat-scale"></span><span>häufiger als Ø</span></div>
+    <table class="heat-table"><thead>${header}</thead><tbody>${body}</tbody></table>
+    <p style="font-size:12px;color:var(--text-dim);">
+      Lesebeispiel: Ein Wert von <strong>1.50×</strong> bedeutet, dass die Frucht in diesem Zeitfenster 50 % häufiger auftritt als im Durchschnitt.
+      Die Farben nutzen einen geglätteten Faktor (additive Glättung über 60 Slots), damit Zufall bei seltenen Früchten nicht als Muster erscheint –
+      der ungeglättete Wert steht im Tooltip. Zeilen mit wenigen Slots schwanken stärker.
+    </p>
+  `;
+}
+
+// ---------------- PRO JAHR ----------------
+function renderPerYear() {
+  const search = (document.getElementById('searchYear').value || '').toLowerCase();
+  const sortBy = document.getElementById('sortYear').value;
+  const years = [...state.years].filter(y => y !== 'unknown').sort();
+  const statMap = {};
+  for (const s of state.fruitStats.stats) statMap[s.name] = s;
+
+  const fruitPerYear = {};
+  const slotsPerYear = {};
+  for (const slot of state.fruitStats.active) {
+    slotsPerYear[slot.year] = (slotsPerYear[slot.year] || 0) + 1;
+    for (const fruit of slot.fruits) {
+      if (!fruitPerYear[fruit]) fruitPerYear[fruit] = {};
+      fruitPerYear[fruit][slot.year] = (fruitPerYear[fruit][slot.year] || 0) + 1;
+    }
+  }
+
+  const fruitList = Object.keys(fruitPerYear).filter(f => f.toLowerCase().includes(search));
+  const totals = {};
+  for (const f of fruitList) totals[f] = Object.values(fruitPerYear[f]).reduce((a, b) => a + b, 0);
+  fruitList.sort((a, b) => sortBy === 'count' ? totals[b] - totals[a] : a.localeCompare(b));
+
+  if (!fruitList.length) {
+    document.getElementById('viewYear').innerHTML = '<div class="empty"><div class="icon">📭</div>Keine Daten.</div>';
+    return;
+  }
+
+  if (state.views.year === 'cards') {
+    const html = '<div class="fruit-grid wide">' + fruitList.map((f, i) => {
+      const st = statMap[f] || {};
+      const isRetired = st.isRetired !== undefined ? st.isRetired : RETIRED_FRUITS.has(f);
+      const total = totals[f];
+      const share = state.totalFruits > 0 ? total / state.totalFruits : 0;
+      const maxOwn = Math.max(...years.map(y => fruitPerYear[f][y] || 0), 1);
+
+      const yearBars = years.map(y => {
+        const c = fruitPerYear[f][y] || 0;
+        const slotsY = slotsPerYear[y] || 1;
+        const h = c > 0 ? Math.max((c / maxOwn) * 100, 12) : 4;
+        return `<div class="fc-mini-bar ${c === 0 ? 'empty' : ''}" style="height:${h}%;"
+                     title="${y}: ${c}× (${(c / slotsY * 100).toFixed(1)} % der Slots)"></div>`;
+      }).join('');
+
+      const yearRows = years.map(y => {
+        const c = fruitPerYear[f][y] || 0;
+        if (c === 0) return '';
+        const slotsY = slotsPerYear[y] || 1;
+        return `<div class="fc-timeline-row"><span class="fc-timeline-label">${y}</span><span class="fc-timeline-date">${c}× <span style="color:var(--text-muted);font-size:10px;">(${(c / slotsY * 100).toFixed(2)} %)</span></span></div>`;
+      }).join('');
+
+      return `
+        <div class="fruit-card ${isRetired ? 'retired' : ''}">
+          <div class="fc-header">
+            <div class="fc-name">${fruitIcon(f, 'md')}<span>${isRetired ? '❌' : '✅'} ${f}</span>${cardBadges(st)}</div>
+            <div class="fc-rank">#${i + 1}</div>
+          </div>
+          <div class="fc-count">${total.toLocaleString('de-DE')}</div>
+          <div class="fc-count-label">Gesamt über alle Jahre</div>
+
+          <div class="fc-mini-chart" style="height:44px;" title="Balken sind je Frucht auf ihr bestes Jahr skaliert">${yearBars}</div>
+          <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--text-muted);margin-top:-6px;margin-bottom:10px;">
+            <span>${years[0] || ''}</span>
+            <span>${years[years.length - 1] || ''}</span>
+          </div>
+
+          <div class="fc-stats">
+            <div><div class="fc-stat-label">Anteil Einträge</div><div class="fc-stat-value">${pctStr(share)}</div></div>
+            <div><div class="fc-stat-label">Jahre aktiv</div><div class="fc-stat-value">${Object.keys(fruitPerYear[f]).length} / ${years.length}</div></div>
+          </div>
+          <div class="fc-stats">
+            <div><div class="fc-stat-label">Trend</div><div class="fc-stat-value">${trendBadge(st)}</div></div>
+            <div><div class="fc-stat-label">Ø / Tag</div><div class="fc-stat-value">${st.expectedPerDay !== undefined ? st.expectedPerDay.toFixed(2) + ' / Tag' : '—'}</div><div class="fc-stat-sub">${st.daysPerAppearance !== undefined && isFinite(st.daysPerAppearance) ? 'Ø alle ' + st.daysPerAppearance.toFixed(1) + ' Tage' : ''}</div></div>
+          </div>
+
+          <div class="fc-timeline">${yearRows}</div>
+        </div>
+      `;
+    }).join('') + '</div>';
+
+    document.getElementById('viewYear').innerHTML = html;
+  } else {
+    const rows = fruitList.map(f => {
+      const st = statMap[f] || {};
+      const isRetired = st.isRetired !== undefined ? st.isRetired : RETIRED_FRUITS.has(f);
+      return `<tr>
+        <td class="fruit-name ${isRetired ? 'retired' : ''}">${fruitIcon(f, 'sm')}${f}</td>
+        ${years.map(y => `<td class="num">${fruitPerYear[f][y] || 0}</td>`).join('')}
+        <td class="num"><strong>${totals[f]}</strong></td>
+        <td class="num">${st.probability !== undefined ? pctStr(st.probability) : '—'}</td>
+        <td>${trendBadge(st)}</td>
+      </tr>`;
+    }).join('');
+
+    document.getElementById('viewYear').innerHTML = `
+      <table>
+        <thead><tr><th>Frucht</th>${years.map(y => `<th class="num">${y}</th>`).join('')}
+        <th class="num">Gesamt</th><th class="num">P / Slot</th><th>Trend 90 T.</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    `;
+  }
+}
+
+// ---------------- PRO MONAT ----------------
+function renderPerMonth() {
+  const search = (document.getElementById('searchMonth').value || '').toLowerCase();
+  const yearFilter = document.getElementById('yearMonth').value;
+  const statMap = {};
+  for (const s of state.fruitStats.stats) statMap[s.name] = s;
+
+  const data = {};
+  for (const slot of state.fruitStats.active) {
+    if (yearFilter !== 'all' && slot.year !== yearFilter) continue;
+    const monthNum = slotMonthNum(slot);
+    const key = `${slot.year}-${String(monthNum).padStart(2, '0')}`;
+    if (!data[key]) data[key] = { year: slot.year, monthNum, slots: 0, fruits: {} };
+    data[key].slots++;
+    for (const fruit of slot.fruits) data[key].fruits[fruit] = (data[key].fruits[fruit] || 0) + 1;
+  }
+
+  const monthKeys = Object.keys(data).sort();
+  if (!monthKeys.length) {
+    document.getElementById('viewMonth').innerHTML = '<div class="empty"><div class="icon">📭</div>Keine Daten.</div>';
+    return;
+  }
+
+  if (state.views.month === 'cards') {
+    const html = monthKeys.map(key => {
+      const d = data[key];
+      const entries = Object.entries(d.fruits)
+        .filter(([name]) => name.toLowerCase().includes(search))
+        .map(([name, count]) => ({
+          name, count,
+          probability: d.slots > 0 ? count / d.slots : 0,
+          expectedPerDay: d.slots > 0 ? (count / d.slots) * 6 : 0,
+          isRetired: statMap[name] ? statMap[name].isRetired : RETIRED_FRUITS.has(name),
+          isNew: statMap[name] ? statMap[name].isNew : false,
+          isDragonClassic: statMap[name] ? statMap[name].isDragonClassic : false,
+        }))
+        .sort((a, b) => b.count - a.count)
+        .slice(0, 12);
+
+      if (!entries.length) return '';
+      const maxCount = entries[0].count;
+
+      const cards = entries.map((e, i) => `
+          <div class="fruit-card ${e.isRetired ? 'retired' : ''}" style="cursor:default;">
+            <div class="fc-header">
+              <div class="fc-name">${fruitIcon(e.name, 'md', e.isDragonClassic)}<span>${e.isRetired ? '❌' : '✅'} ${e.name}</span>${cardBadges(e)}</div>
+              <div class="fc-rank">#${i + 1}</div>
+            </div>
+            <div class="fc-count">${e.count}</div>
+            <div class="fc-count-label">in ${MONTH_NAMES_DE[d.monthNum]} ${d.year}</div>
+            <div class="fc-stats">
+              <div><div class="fc-stat-label">P / Slot</div><div class="fc-stat-value">${pctStr(e.probability)}</div></div>
+              <div><div class="fc-stat-label">Ø / Tag</div><div class="fc-stat-value">${e.expectedPerDay.toFixed(2)}</div></div>
+            </div>
+            <div class="fc-bar-track" title="${e.count} von maximal ${maxCount} im Monat">
+              <div class="fc-bar-fill" style="width:${(e.count / maxCount * 100).toFixed(1)}%"></div>
+            </div>
+          </div>
+        `).join('');
+
+      return `
+        <div class="result-block">
+          <div class="result-block-header">
+            <h3 class="month-header">${MONTH_NAMES_DE[d.monthNum]} ${d.year} <span class="month-slot-count">(${d.slots} Slots · ${Object.keys(d.fruits).length} Früchte)</span></h3>
+          </div>
+          <div class="fruit-grid">${cards}</div>
+        </div>
+      `;
+    }).join('');
+
+    document.getElementById('viewMonth').innerHTML = html || '<div class="empty"><div class="icon">📭</div>Keine Daten.</div>';
+  } else {
+    const html = monthKeys.map(key => {
+      const d = data[key];
+      const entries = Object.entries(d.fruits)
+        .filter(([name]) => name.toLowerCase().includes(search))
+        .map(([name, count]) => ({ name, count, prob: d.slots ? count / d.slots : 0 }))
+        .sort((a, b) => b.count - a.count)
+        .slice(0, 20);
+
+      return `
+        <h3 class="month-header">${MONTH_NAMES_DE[d.monthNum]} ${d.year} <span class="month-slot-count">(${d.slots} Slots)</span></h3>
+        <table>
+          <thead><tr><th>#</th><th>Frucht</th><th class="num">Anzahl</th><th class="num">P / Slot</th><th class="num">Ø / Tag</th></tr></thead>
+          <tbody>
+            ${entries.map((e, i) => `
+              <tr onclick="showFruitModal('${e.name.replace(/'/g, "\\'")}')" style="cursor:pointer;">
+                <td class="rank">${i + 1}</td>
+                <td class="fruit-name ${RETIRED_FRUITS.has(e.name) ? 'retired' : ''}">${fruitIcon(e.name, 'sm')}${e.name}</td>
+                <td class="num">${e.count}</td>
+                <td class="num">${pctStr(e.prob)}</td>
+                <td class="num">${(e.prob * 6).toFixed(2)}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+    }).join('');
+    document.getElementById('viewMonth').innerHTML = html || '<div class="empty"><div class="icon">📭</div>Keine Daten.</div>';
+  }
+}
+
+// ---------------- PRO ZEIT ----------------
+function renderPerSlot() {
+  const search = (document.getElementById('searchSlot').value || '').toLowerCase();
+  const statMap = {};
+  for (const s of state.fruitStats.stats) statMap[s.name] = s;
+  const totalSlots = state.fruitStats.totalSlots || 1;
+
+  const data = {}, slotTotals = {};
+  for (const slot of state.fruitStats.active) {
+    if (!data[slot.time]) data[slot.time] = {};
+    slotTotals[slot.time] = (slotTotals[slot.time] || 0) + 1;
+    for (const fruit of slot.fruits) data[slot.time][fruit] = (data[slot.time][fruit] || 0) + 1;
+  }
+
+  const times = Object.keys(data).sort((a, b) => timeToMinutes(a) - timeToMinutes(b));
+  const globalCount = {};
+  for (const t of times) for (const [f, c] of Object.entries(data[t])) globalCount[f] = (globalCount[f] || 0) + c;
+
+  const fruitList = Object.keys(globalCount)
+    .filter(f => f.toLowerCase().includes(search))
+    .sort((a, b) => globalCount[b] - globalCount[a])
+    .slice(0, 80);
+
+  if (state.views.slot === 'cards') {
+    const html = '<div class="fruit-grid wide">' + fruitList.map((f, i) => {
+      const st = statMap[f] || {};
+      const isRetired = st.isRetired !== undefined ? st.isRetired : RETIRED_FRUITS.has(f);
+      const total = globalCount[f];
+      const globalP = total / totalSlots;                 // korrekte Bezugsgröße: alle Slots
+      const maxTime = Math.max(...times.map(t => data[t][f] || 0), 1);
+
+      const timeBars = times.map(t => {
+        const c = data[t][f] || 0;
+        const probT = c / (slotTotals[t] || 1);
+        const lift = globalP > 0 ? probT / globalP : 1;
+        const isHigh = lift > 1.35 && c >= 3;
+        const h = c > 0 ? Math.max((c / maxTime) * 100, 10) : 5;
+        return `<div class="fc-mini-bar ${c === 0 ? 'empty' : ''}"
+                     style="height:${h}%;${isHigh ? 'background:var(--green);' : (lift < 0.7 && c > 0 ? 'background:var(--red);' : '')}"
+                     title="${t}: ${c}× in ${slotTotals[t] || 0} Slots (${(probT * 100).toFixed(1)} %, Faktor ${lift.toFixed(2)}×)"></div>`;
+      }).join('');
+
+      const best = times.reduce((b, t) => {
+        const lb = globalP > 0 ? (data[b][f] || 0) / (slotTotals[b] || 1) / globalP : 0;
+        const lt = globalP > 0 ? (data[t][f] || 0) / (slotTotals[t] || 1) / globalP : 0;
+        return lt > lb ? t : b;
+      }, times[0]);
+      const bestLift = globalP > 0 ? ((data[best][f] || 0) / (slotTotals[best] || 1)) / globalP : 0;
+
+      return `
+        <div class="fruit-card ${isRetired ? 'retired' : ''}">
+          <div class="fc-header">
+            <div class="fc-name">${fruitIcon(f, 'md')}<span>${isRetired ? '❌' : '✅'} ${f}</span>${cardBadges(st)}</div>
+            <div class="fc-rank">#${i + 1}</div>
+          </div>
+          <div class="fc-count">${total.toLocaleString('de-DE')}</div>
+          <div class="fc-count-label">Gesamt über alle Slots</div>
+
+          <div class="fc-mini-chart" style="height:44px;">${timeBars}</div>
+          <div style="display:flex;justify-content:space-between;font-size:9px;color:var(--text-muted);margin-top:-6px;margin-bottom:10px;flex-wrap:wrap;gap:2px;">
+            ${times.map(t => `<span style="flex:1;text-align:center;font-size:8px;">${t.replace(' ', '')}</span>`).join('')}
+          </div>
+
+          <div class="fc-stats">
+            <div><div class="fc-stat-label">P / Slot</div><div class="fc-stat-value">${pctStr(globalP)}</div><div class="fc-stat-sub">alle Uhrzeiten zusammen</div></div>
+            <div><div class="fc-stat-label">Beste Zeit</div><div class="fc-stat-value">${best}</div><div class="fc-stat-sub">${bestLift.toFixed(2)}× so oft wie sonst</div></div>
+          </div>
+
+          <div class="fc-timeline">
+            ${times.map(t => {
+              const c = data[t][f] || 0;
+              const probT = c / (slotTotals[t] || 1);
+              const lift = globalP > 0 ? probT / globalP : 0;
+              const color = lift > 1.35 && c >= 3 ? 'color:var(--green);' : (lift < 0.7 && c > 0 ? 'color:var(--red);' : '');
+              return `<div class="fc-timeline-row">
+                <span class="fc-timeline-label">${t}</span>
+                <span class="fc-timeline-date" style="${color}">${c}× <span style="color:var(--text-muted);font-size:10px;">(${(probT * 100).toFixed(1)} % · ${lift.toFixed(2)}×)</span></span>
+              </div>`;
+            }).join('')}
+          </div>
+        </div>
+      `;
+    }).join('') + '</div>';
+
+    document.getElementById('viewSlot').innerHTML = html;
+  } else {
+    document.getElementById('viewSlot').innerHTML = `
+      <table>
+        <thead><tr><th>Frucht</th>${times.map(t => `<th class="num">${t}</th>`).join('')}<th class="num">Gesamt</th><th class="num">P / Slot</th></tr></thead>
+        <tbody>
+          ${fruitList.map(f => `
+            <tr>
+              <td class="fruit-name ${RETIRED_FRUITS.has(f) ? 'retired' : ''}">${fruitIcon(f, 'sm')}${f}</td>
+              ${times.map(t => `<td class="num">${data[t][f] || 0}</td>`).join('')}
+              <td class="num"><strong>${globalCount[f]}</strong></td>
+              <td class="num">${pctStr(globalCount[f] / totalSlots)}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    `;
+  }
+}
+
+// ---------------- ERRORS ----------------
+function renderErrors() {
+  const el = document.getElementById('tableErrors');
+  document.getElementById('badgeErrors').textContent = state.errors.length;
+  if (!state.errors.length && !state.fixes.length) {
+    el.innerHTML = '<div class="empty">✅ Keine Errors oder Korrekturen.</div>';
+    return;
+  }
+  const fixSummary = {}, errSummary = {};
+  for (const f of state.fixes) fixSummary[`${f.raw} → ${f.fixed}`] = (fixSummary[`${f.raw} → ${f.fixed}`] || 0) + 1;
+  for (const e of state.errors) errSummary[e.raw] = (errSummary[e.raw] || 0) + 1;
+
+  let html = '';
+  if (Object.keys(fixSummary).length) {
+    html += `<h3 style="color:var(--green);font-size:14px;margin-bottom:10px;">✅ Korrekturen (${state.fixes.length})</h3>
+      <table><thead><tr><th>Original</th><th>Korrigiert</th><th class="num">Anzahl</th></tr></thead><tbody>
+      ${Object.entries(fixSummary).sort((a,b) => b[1] - a[1]).map(([key, count]) => {
+        const [from, to] = key.split(' → ');
+        return `<tr><td style="color:var(--red);">${from}</td><td style="color:var(--green);font-weight:600;">${fruitIcon(to, 'sm')}${to}</td><td class="num">${count}</td></tr>`;
+      }).join('')}</tbody></table>`;
+  }
+  if (Object.keys(errSummary).length) {
+    html += `<h3 style="color:var(--red);font-size:14px;margin:20px 0 10px 0;">⚠ Errors (${state.errors.length})</h3>
+      <table><thead><tr><th>Eintrag</th><th class="num">Anzahl</th></tr></thead><tbody>
+      ${Object.entries(errSummary).sort((a,b) => b[1] - a[1]).map(([raw, count]) => `<tr><td style="color:var(--red);">${raw}</td><td class="num">${count}</td></tr>`).join('')}</tbody></table>`;
+  }
+  el.innerHTML = html;
+}
+
+function populateSelectors() {
+  const years = [...state.years].filter(y => y !== 'unknown').sort();
+  const opts = years.map(y => `<option value="${y}">${y}</option>`).join('');
+  const el1 = document.getElementById('yearMonth'), el2 = document.getElementById('filterYear');
+  if (el1) el1.innerHTML = '<option value="all">Alle</option>' + opts;
+  if (el2) el2.innerHTML = '<option value="all">Alle</option>' + opts;
+
+  const heat = document.getElementById('heatFruit');
+  if (heat && state.fruitStats) {
+    const cur = heat.value;
+    heat.innerHTML = '<option value="">— Alle Früchte —</option>'
+      + state.fruitStats.stats.map(s => `<option value="${s.name.replace(/"/g, '&quot;')}">${s.name}</option>`).join('');
+    if (cur && state.fruitStats.stats.some(s => s.name === cur)) heat.value = cur;
+  }
+}
+
+// ---------------- MODAL ----------------
+function showFruitModal(name) {
+  const stat = state.fruitStats.stats.find(s => s.name === name);
+  if (!stat) return;
+
+  const months = state.fruitStats.allMonths;
+  const values = months.map(k => stat.monthly[k] || 0);
+  const occRows = stat.occurrences.slice(0, 200).map(occ => {
+    const other = occ.fruits.filter(f => f !== name);
+    return `<div class="occurrence-row">
+      <span class="occurrence-date">${formatDate(occ)}</span>
+      <span class="occurrence-time">${occ.time}</span>
+      <span class="occurrence-fruits">${fruitIcon(name, 'sm')}<span class="this">${name}</span>${other.length ? `<span class="other"> + ${other.map(o => fruitIcon(o, 'sm') + o).join(', ')}</span>` : ''}</span>
+    </div>`;
+  }).join('');
+
+  document.getElementById('modalBody').innerHTML = `
+    <div class="modal-header">
+      <div class="modal-title">${fruitIcon(stat.name, 'xl', stat.isDragonClassic)} ${stat.isRetired ? '❌' : '✅'} ${stat.name}
+        ${stat.isRetired ? '<span class="badge-retired">RETIRED</span>' : '<span class="badge-current">CURRENT</span>'}
+        ${cardBadges(stat)}
+      </div>
+      <div class="modal-subtitle">${stat.count.toLocaleString('de-DE')} Vorkommen · ${pctStr(stat.probability)} pro Slot · erstmals ${formatDate(stat.first)} · zuletzt ${formatDate(stat.last)}</div>
+    </div>
+    <div class="modal-stats">
+      <div class="modal-stat"><div class="modal-stat-label">Anzahl</div><div class="modal-stat-value">${stat.count.toLocaleString('de-DE')}</div></div>
+      <div class="modal-stat"><div class="modal-stat-label">P / Slot</div><div class="modal-stat-value" style="color:var(--purple);">${pctStr(stat.probability)}</div><div class="fc-stat-sub">95 %: ${pctStr(stat.ciLo, 1)}–${pctStr(stat.ciHi, 1)}</div></div>
+      <div class="modal-stat"><div class="modal-stat-label">Ø / Tag</div><div class="modal-stat-value">${stat.expectedPerDay.toFixed(2)}</div></div>
+      <div class="modal-stat"><div class="modal-stat-label">Ø Abstand</div><div class="modal-stat-value">${isFinite(stat.daysPerAppearance) ? stat.daysPerAppearance.toFixed(1) + ' T.' : '—'}</div></div>
+      <div class="modal-stat"><div class="modal-stat-label">Trend 90 Tage</div><div class="modal-stat-value">${trendBadge(stat)}</div><div class="fc-stat-sub">${stat.recentCount} von ${stat.recentTotal} Slots</div></div>
+      <div class="modal-stat"><div class="modal-stat-label">Zuletzt gesehen</div><div class="modal-stat-value" style="color:var(--orange);">vor ${stat.daysSinceLast} T.</div></div>
+    </div>
+    <div class="modal-section">
+      <div class="modal-section-title">📈 Vorkommen pro Monat (${months.length} Monate)</div>
+      ${barChartHTML(months, values, { unit: '×', retired: stat.isRetired })}
+      <div class="chart-stats">
+        <div class="stat-item">Aktive Monate: <strong>${stat.activeMonths} / ${months.length}</strong></div>
+        <div class="stat-item">Ø pro Monat: <strong>${(stat.count / Math.max(stat.activeMonths, 1)).toFixed(1)}×</strong></div>
+        <div class="stat-item">Bester Monat: <strong>${Math.max(...values, 0)}×</strong></div>
+        <div class="stat-item">Abdeckung: <strong>${pctStr(stat.monthlyCoverage, 0)}</strong></div>
+      </div>
+    </div>
+    <div class="modal-section">
+      <div class="modal-section-title">📋 Alle Vorkommen (${stat.occurrences.length})</div>
+      <div class="occurrence-list">${occRows}${stat.occurrences.length > 200 ? `<div style="padding:12px;text-align:center;color:var(--text-muted);font-size:12px;">... und ${stat.occurrences.length - 200} weitere</div>` : ''}</div>
+    </div>
+  `;
+  document.getElementById('modalOverlay').classList.add('active');
+}
+
+function closeModal() { document.getElementById('modalOverlay').classList.remove('active'); }
+document.getElementById('modalOverlay').addEventListener('click', e => { if (e.target.id === 'modalOverlay') closeModal(); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+// ---------------- FILTER ----------------
+function runFilter() {
+  const fruit = (document.getElementById('filterFruit').value || '').toLowerCase();
+  const year = document.getElementById('filterYear').value;
+  const month = document.getElementById('filterMonth').value;
+  const statMap = {};
+  for (const s of state.fruitStats.stats) statMap[s.name] = s;
+
+  const matches = [];
+  let scopeSlots = 0;
+  for (const slot of state.fruitStats.active) {
+    if (year !== 'all' && slot.year !== year) continue;
+    if (month !== 'all' && String(slotMonthNum(slot)) !== month) continue;
+    scopeSlots++;
+    if (fruit && !slot.fruits.some(f => f.toLowerCase().includes(fruit))) continue;
+    matches.push(slot);
+  }
+  state.filterMatches = matches;
+
+  const fruitCount = {};
+  for (const m of matches) for (const f of m.fruits) if (!fruit || f.toLowerCase().includes(fruit)) fruitCount[f] = (fruitCount[f] || 0) + 1;
+  const topFruits = Object.entries(fruitCount).sort((a, b) => b[1] - a[1]).slice(0, 30);
+
+  const items = topFruits.map(([name, count]) => {
+    const [ciLo, ciHi] = wilsonInterval(count, scopeSlots);
+    return {
+      name, count,
+      probability: scopeSlots > 0 ? count / scopeSlots : 0,
+      expectedPerDay: scopeSlots > 0 ? (count / scopeSlots) * 6 : 0,
+      ciLo, ciHi,
+      isRetired: statMap[name] ? statMap[name].isRetired : RETIRED_FRUITS.has(name),
+      isNew: statMap[name] ? statMap[name].isNew : false,
+      isDragonClassic: statMap[name] ? statMap[name].isDragonClassic : false,
+      countLabel: `Treffer in ${scopeSlots} Slots`,
+    };
+  });
+
+  const rangeTxt = `${year === 'all' ? 'alle Jahre' : year}${month === 'all' ? '' : ' · ' + MONTH_NAMES_DE[parseInt(month)]}`;
+
+  if (state.views.filter === 'cards') {
+    const cardsHtml = renderFruitCards(items, {
+      showMiniChart: false,
+      showTimeline: false,
+      onClick: "showFruitModal('{name}')",
+    });
+
+    const matchesHtml = matches.slice(0, 100).map(m => `
+      <tr>
+        <td>${formatDate(m)}</td>
+        <td>${m.time}</td>
+        <td>${m.fruits.map(f => fruitIcon(f, 'sm') + (RETIRED_FRUITS.has(f) ? `<span style="color:var(--text-muted);text-decoration:line-through;">${f}</span>` : (f.toLowerCase() === fruit ? `<strong style="color:var(--purple);">${f}</strong>` : f))).join(', ')}</td>
+      </tr>
+    `).join('');
+
+    document.getElementById('viewFilter').innerHTML = `
+      <p class="legend">${matches.length.toLocaleString('de-DE')} Treffer · Top ${items.length} Früchte · Zeitraum: ${rangeTxt} · Bezug: ${scopeSlots.toLocaleString('de-DE')} Slots</p>
+      ${cardsHtml}
+      <h3 style="color:var(--accent);font-size:14px;margin:20px 0 10px 0;">Erste 100 Treffer</h3>
+      <table>
+        <thead><tr><th>Datum</th><th>Zeit</th><th>Früchte</th></tr></thead>
+        <tbody>${matchesHtml}</tbody>
+      </table>
+    `;
+  } else {
+    document.getElementById('viewFilter').innerHTML = `
+      <p class="legend">${matches.length.toLocaleString('de-DE')} Treffer · Zeitraum: ${rangeTxt} · Bezug: ${scopeSlots.toLocaleString('de-DE')} Slots</p>
+      <table>
+        <thead><tr><th>#</th><th>Frucht</th><th class="num">Treffer</th><th class="num">P / Slot</th><th class="num">95-%-KI</th><th class="num">Ø / Tag</th></tr></thead>
+        <tbody>
+          ${items.map((it, i) => `
+            <tr onclick="showFruitModal('${it.name.replace(/'/g, "\\'")}')" style="cursor:pointer;">
+              <td class="rank">${i + 1}</td>
+              <td class="fruit-name ${it.isRetired ? 'retired' : ''}">${fruitIcon(it.name, 'sm')}${it.name}</td>
+              <td class="num">${it.count}</td>
+              <td class="num">${pctStr(it.probability)}</td>
+              <td class="num" style="color:var(--text-muted);">${pctStr(it.ciLo, 1)} – ${pctStr(it.ciHi, 1)}</td>
+              <td class="num">${it.expectedPerDay.toFixed(2)}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
+    `;
+  }
+}
+
+// ============================================================
+// HELPERS
+// ============================================================
+// ============================================================
+// ZEIT- UND STATISTIK-HELFER (v9)
+// ============================================================
+function slotMonthNum(slot) {
+  return slot.monthNum || MONTH_ORDER[slot.month] || 1;
+}
+function slotKey(slot) {
+  return `${slot.year}-${String(slotMonthNum(slot)).padStart(2, '0')}`;
+}
+function slotDate(slot) {
+  return new Date(parseInt(slot.year) || 1970, slotMonthNum(slot) - 1, slot.day || 1);
+}
+function monthKeyDiff(from, to) {
+  const [fy, fm] = from.split('-').map(Number);
+  const [ty, tm] = to.split('-').map(Number);
+  return (ty - fy) * 12 + (tm - fm);
+}
+function daysBetween(a, b) { return Math.round((b - a) / 86400000); }
+
+/** 95-%-Konfidenzintervall nach Wilson – robust bei kleinen Stichproben. */
+function wilsonInterval(successes, n, z) {
+  z = z || 1.96;
+  if (!n) return [0, 0];
+  const p = successes / n;
+  const d = 1 + (z * z) / n;
+  const c = p + (z * z) / (2 * n);
+  const s = z * Math.sqrt((p * (1 - p)) / n + (z * z) / (4 * n * n));
+  return [Math.max(0, (c - s) / d), Math.min(1, (c + s) / d)];
+}
+function buildMonthRange(firstKey, lastKey) {
+  const out = [];
+  if (!firstKey || !lastKey) return out;
+  let [y, m] = firstKey.split('-').map(Number);
+  const [ly, lm] = lastKey.split('-').map(Number);
+  while (y < ly || (y === ly && m <= lm)) {
+    out.push(`${y}-${String(m).padStart(2, '0')}`);
+    m++;
+    if (m > 12) { m = 1; y++; }
+  }
+  return out;
+}
+/** Zahl + Einheit für Diagramm-Achsen und Tooltips. */
+function fmtVal(v, unit) {
+  if (unit === '%') return (v < 10 ? v.toFixed(1) : v.toFixed(0)) + '%';
+  if (unit === '×') return (Number.isInteger(v) ? v : v.toFixed(1)) + '×';
+  return String(v);
+}
+function pctStr(v, digits) {
+  if (v === undefined || v === null || !isFinite(v)) return '—';
+  return (v * 100).toFixed(digits === undefined ? 2 : digits) + '%';
+}
+
+/** Statusabzeichen einer Frucht (Retired / Classic / Neu). */
+function cardBadges(item) {
+  let b = '';
+  if (item.isDragonClassic) b += '<span class="badge-retired">CLASSIC</span>';
+  if (item.isNew) b += '<span class="badge-new">NEU</span>';
+  if (item.isRetired && !item.isDragonClassic) {
+    const why = RETIRED_FRUITS.has(item.name)
+      ? 'offiziell retired'
+      : `zuletzt vor ${item.monthsSinceLast} Monaten im Stock`;
+    b += `<span class="badge-retired" title="${why}">RETIRED</span>`;
+  }
+  return b;
+}
+
+/** Trend-Abzeichen: letzte 90 Tage gegen den Gesamtzeitraum (mit Signifikanzprüfung). */
+function trendBadge(item) {
+  if (item.probability === undefined || !item.recentTotal) return '<span class="trend-badge muted">–</span>';
+  const sig = item.trendSignificant;
+  const base = `Letzte 90 Tage: ${pctStr(item.pRecent)} (${item.recentCount}/${item.recentTotal}) · Gesamt: ${pctStr(item.probability)}`;
+  if (!item.recentCount) {
+    return `<span class="trend-badge ${sig === false ? 'muted' : 'down'}" title="${base}">▼ 100%</span>`;
+  }
+  const t = item.trend;
+  const up = t >= 0;
+  const val = Math.abs(t) >= 1000 ? '>999' : Math.abs(t).toFixed(0);
+  const title = `${base} · ${sig === false ? 'Unterschied statistisch nicht gesichert' : 'signifikanter Unterschied (95 %)'}`;
+  return `<span class="trend-badge ${sig === false ? 'muted' : (up ? 'up' : 'down')}" title="${title}">${sig === false ? '≈' : (up ? '▲' : '▼')} ${val}%</span>`;
+}
+
+function timeToMinutes(t) {
+  const m = t.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
+  if (!m) return 0;
+  let h = parseInt(m[1]);
+  if (m[3].toUpperCase() === 'PM' && h !== 12) h += 12;
+  if (m[3].toUpperCase() === 'AM' && h === 12) h = 0;
+  return h * 60 + parseInt(m[2]);
+}
+
+// ============================================================
+// EVENT HANDLERS
+// ============================================================
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    tab.classList.add('active');
+    document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
+    if (tab.dataset.tab === 'charts') renderCharts();
+    if (tab.dataset.tab === 'heatmap') renderHeatmap();
+  });
+});
+
+// View-Toggles für alle Tabs
+const toggleConfigs = [
+  { id: 'viewToggleOverall', view: 'overall', render: renderOverall },
+  { id: 'viewToggleYear', view: 'year', render: renderPerYear },
+  { id: 'viewToggleMonth', view: 'month', render: renderPerMonth },
+  { id: 'viewToggleSlot', view: 'slot', render: renderPerSlot },
+  { id: 'viewToggleFilter', view: 'filter', render: () => state.filterMatches.length > 0 && runFilter() },
+  { id: 'viewToggleHeat', view: 'heat', render: renderHeatmap },
+];
+toggleConfigs.forEach(cfg => {
+  const el = document.getElementById(cfg.id);
+  if (!el) return;
+  el.querySelectorAll('button').forEach(btn => {
+    btn.addEventListener('click', () => {
+      el.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.views[cfg.view] = btn.dataset.view;
+      cfg.render();
+    });
+  });
+});
+
+// Live-Updates
+['sortOverall','searchOverall','catOverall'].forEach(id => document.getElementById(id)?.addEventListener('input', () => state.totalSlots && renderOverall()));
+['searchYear','sortYear'].forEach(id => document.getElementById(id)?.addEventListener('input', () => state.totalSlots && renderPerYear()));
+['searchMonth','yearMonth'].forEach(id => document.getElementById(id)?.addEventListener('input', () => state.totalSlots && renderPerMonth()));
+['searchSlot'].forEach(id => document.getElementById(id)?.addEventListener('input', () => state.totalSlots && renderPerSlot()));
+['chartMetric', 'chartType', 'chartRolling', 'chartShowEmpty'].forEach(id =>
+  document.getElementById(id)?.addEventListener('input', () => state.totalSlots && renderChartDetail(document.getElementById('chartFruitSelect').value)));
+['chartFruitSelect'].forEach(id =>
+  document.getElementById(id)?.addEventListener('change', () => state.totalSlots && renderChartDetail(document.getElementById('chartFruitSelect').value)));
+document.getElementById('compareFruits')?.addEventListener('change', () => state.totalSlots && renderCompareChart());
+['heatFruit', 'heatMode', 'heatMetric'].forEach(id =>
+  document.getElementById(id)?.addEventListener('input', () => state.totalSlots && renderHeatmap()));
+
+// Demo
+function loadDemo() {
+  const demo = `{{About|previous stocks|the current stock|Stock}}
+{| class="article-table"
+|+October 2026 Stock History
+!
+!10/1/26
+!10/2/26
+!10/3/26
+!10/4/26
+|-
+|12:00 AM
+|Spring, Smoke, Flame, Dark, Diamond
+|Flame, Eagle
+|Smoke, Ice, Rubber, '''[[Pain]]'''
+|Blade, Flame, Ice, '''[[Portal]]''', '''[[Lightning]]'''
+|-
+|4:00 AM
+|Blade, Flame, Ice, '''[[Blizzard]]'''
+|Spring, Bomb, Smoke
+|Blade, Bomb, Dark, Diamond
+|Blade, Smoke, Flame, Eagle
+|-
+|8:00 AM
+|Blade, Spike
+|Blade, Spike, Flame, Dark, Eagle, Diamond, Light, Ghost
+|Smoke, Flame, Light, Magma
+|Smoke, Ice, Dark
+|-
+|12:00 PM
+|Dark, '''[[Quake]]'''
+|Blade, Magma, '''[[Love]]'''
+|Spike, Flame, Sand, Rubber, '''[[Spider]]''', '''[[Blizzard]]'''
+|Flame
+|-
+|4:00 PM
+|Blade, Spring, Bomb, Magma, '''[[Love]]''', '''[[Portal]]'''
+|Flame
+|Blade, Flame, '''[[Quake]]'''
+|Spike, Ice, '''[[Creation]]'''
+|-
+|8:00 PM
+|Spike, Ice, Light, '''[[Gravity]]'''
+|Light
+|Spring
+|Blade, Spring, Flame
+|}
+`;
+  const fakeFile = new File([demo], 'demo-october.txt', { type: 'text/plain' });
+  resetState();
+  handleFiles([fakeFile]);
+}
+
+// ============================================================
+// AUTOSTART – Analyse direkt aus dem GitHub-Repo
+// ============================================================
+loadFromGitHub();
+</script>
+</body>
+</html>
