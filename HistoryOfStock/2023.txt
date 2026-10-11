@@ -1,0 +1,3940 @@
+<noinclude>{{Stock History}}</noinclude>
+<tabber>
+January=
+{| class="article-table"
+|+January 2023 Stock History
+!
+!1/1/23
+!1/2/23
+!1/3/23
+!1/4/23
+|-
+|12:00 AM
+|Chop, Spring, Smoke, Sand, Love
+|Chop, Bomb, Smoke, Flame, Light, Rubber, Magma
+|Chop, Flame, Light
+|Chop, Dark, '''[[Spider]]'''
+|-
+|4:00 AM 
+|Bomb, Revive
+|Chop, Spike, Diamond, Barrier, '''[[Control]]'''
+|Spring, Bomb, Flame, Sand, Diamond, Barrier
+|Bird: Falcon, Ice
+|-
+|8:00 AM
+|Spike, '''[[Quake]]'''
+|Spring, Flame, Sand, Revive, '''[[Buddha]]'''
+|Bird: Falcon, Magma
+|Sand
+|-
+|12:00 PM
+|Spring, Smoke, Flame, Light
+|Chop, Smoke, Falcon
+|Revive, '''[[Blizzard]]'''
+|Chop, Bomb, Spike, Flame
+|-
+|4:00 PM
+|Flame, Bird: Falcon
+|Chop, Smoke, '''[[Buddha]]'''
+|Chop, Rubber, '''[[Phoenix]]'''
+|Flame
+|-
+|8:00 PM
+|Smoke, Sand, '''[[Rumble]]''', '''[[Gravity]]'''
+|Chop, Flame, Rubber
+|Smoke, Dark, Light
+|Spring, Light, Magma, '''[[Portal]]'''
+|-
+!
+!1/5/23
+!1/6/23
+!1/7/23
+!1/8/23
+|-
+|12:00 AM
+|Flame
+|Smoke
+|Sand, '''[[Spider]]''', '''[[Phoenix]]'''
+|Dark
+|-
+|4:00 AM
+|Chop, Spring, Smoke, Flame, Ice 
+|Chop, Flame 
+|Chop, Flame
+|Chop, Light, Rubber
+|-
+|8:00 AM
+|Chop, Spike, Falcon
+|Spike, Flame, Ice, Rubber
+|Spring, Ice, '''[[Buddha]]''', '''[[Dough]]''', '''[[Shadow]]'''
+|Bomb, Flame, Ice, Magma
+|-
+|12:00 PM
+|Chop, Flame, Sand, Light, Magma
+|Spring, Smoke, Falcon, Diamond, '''[[Buddha]]'''
+|Chop, Smoke, Spike, '''[[Spirit]]'''
+|Spring, Smoke, Flame
+|-
+|4:00 PM
+|Bomb, Light, '''[[Quake]]'''
+|Sand, Revive, '''[[Spirit]]'''
+|Bird: Falcon
+|Chop, Spike, Flame, Light, '''[[Quake]]'''
+|-
+|8:00 PM
+|Flame, '''[[Spirit]]'''
+|Light, Barrier, Magma, '''[[Quake]]'''
+|Chop, Flame, Revive, Diamond, '''[[Blizzard]]'''
+|Sand, Dark
+|-
+!
+!1/9/23
+!1/10/23
+!1/11/23
+!1/12/23
+|-
+|12:00 AM
+|Chop, Light
+|Chop, Light, Barrier, '''[[Blizzard]]'''
+|Chop, Flame, Sand, Light, Rubber
+|Chop, Diamond, Barrier
+|-
+|4:00 AM
+|Smoke, Falcon, Magma
+|Spike
+|Chop, Spring
+|Smoke, Dark
+|-
+|8:00 AM
+|Sand
+|Chop, Smoke, Flame, Love
+|Smoke, Spike, Falcon, Ice, Rubber
+|Chop, Flame, Ice, Sand
+|-
+|12:00 PM
+|Chop, Bomb, Light, '''[[Dough]]'''
+|Bomb, Revive, '''[[Spider]]'''
+|Bomb, Revive
+|Ice, Rubber, Magma
+|-
+|4:00 PM
+|Spring, Smoke, '''[[Leopard]]'''
+|Flame, Magma
+|Flame, Ice, Dark
+|Spike
+|-
+|8:00 PM
+|Sand, Rubber, Magma
+|Spring, Smoke, Dark, '''[[Quake]]''', '''[[Spirit]]'''
+|Revive, '''[[Quake]]'''
+|Diamond, '''[[Blizzard]]'''
+|-
+!
+!1/13/23
+!1/14/23
+!1/15/23
+!1/16/23
+|-
+|12:00 AM
+|Chop, Spring, Bomb
+|Spring, Flame, Dark, Revive, '''[[Spider]]'''
+|'''[[Venom]]'''
+|Chop, Flame, Diamond
+|-
+|4:00 AM
+|Chop, Bomb, Flame
+|Spring, Flame, Light, Love, Barrier, Magma
+|Spring, Bomb, Falcon, Dark, Diamond
+|Smoke, Flame, Ice, Light
+|-
+|8:00 AM
+|Flame, Falcon
+|Chop, Sand, Diamond, Light, Rubber
+|Light
+|Dark
+|-
+|12:00 PM
+|Spring, Smoke, Barrier
+|Bomb, Sand, '''[[Quake]]'''
+|Chop, Spring, Smoke, Flame
+|Chop, Spring, Sand, Light
+|-
+|4:00 PM
+|Ice, Sand, '''[[Rumble]]'''
+|Chop, Bomb, Falcon
+|Chop, Sand, Light
+|Flame, Ice
+|-
+|8:00 PM
+|Chop, Flame, Diamond, Rubber
+|Chop, Spike, Flame, Ice, Love
+|Spike, Flame, Ice, '''[[Buddha]]'''
+|Spring, Smoke
+|-
+!
+!1/17/23
+!1/18/23
+!1/19/23
+!1/20/23
+|-
+|12:00 AM
+|Smoke, Light, '''[[Gravity]]'''
+|Smoke, Flame, Ice, Barrier
+|Flame. Ice
+|Sand, Dark
+|-
+|4:00 AM
+|Chop, Bomb, Ice, Sand, Revive
+|Chop, Smoke, Dark, Magma
+|Falcon, Rubber, '''[[Spider]]'''
+|Bomb, Falcon, Ice
+|-
+|8:00 AM
+|Bird: Falcon
+|Chop, Bomb, Diamond
+|Chop, Bomb, Smoke, Spike, Revive, Love, '''[[Portal]]'''
+|Chop, Ice, Rubber
+|-
+|12:00 PM
+|Smoke, Ice, Dark
+|Chop, Spring, Sand, Love
+|Smoke, Ice, Sand, Dark, Diamond
+|Flame
+|-
+|4:00 PM
+|Light, Love, Magma, '''[[Blizzard]]''', '''[[Control]]'''
+|Spring, Dark, Light, Magma
+|Chop, Smoke, Light, '''[[Leopard]]'''
+|Spring, Flame, Barrier
+|-
+|8:00 PM
+|Spring
+|Chop
+|Spring, Spike, Flame, Barrier, Magma
+|Chop, '''[[Quake]]''', '''[[Spider]]'''
+|-
+!
+!1/21/23
+!1/22/23
+!1/23/23
+!1/24/23
+|-
+|12:00 AM
+|Ice, Sand, Dark
+|Flame, Diamond, '''[[Dough]]'''
+|Sand, Magma
+|Chop, Smoke, Sand, '''[[Spider]]'''
+|-
+|4:00 AM
+|Chop, Smoke, '''[[Gravity]]'''
+|Chop
+|Bomb, Smoke, Flame, Sand, '''[[Spider]]'''
+|Spring, Falcon, Ice, Magma
+|-
+|8:00 AM
+|Spring
+|Smoke, Falcon, Ice, Rubber
+|Sand, Dark, Light
+|Chop, Flame, Falcon, Diamond
+|-
+|12:00 PM
+|Chop, Falcon, Ice
+|Bomb, Sand, Revive, Light, '''[[Rumble]]'''
+|Spring, Dark, Diamond, Light
+|Falcon, Light, Rubber
+|-
+|4:00 PM
+|Chop, Flame
+|Chop, Spring, Smoke, Flame, Revive, Light, Love
+|Spring
+|Smoke, Flame
+|-
+|8:00 PM
+|Bomb, Smoke, Rubber, '''[[Spirit]]'''
+|Chop, Spike, sand, Light, Rubber
+|Bomb, Spike, Flame, Diamond
+|Chop, Falcon, Ice, '''[[Phoenix]]'''
+|-
+!
+!1/25/23
+!1/26/23
+!1/27/23
+!1/28/23
+|-
+|12:00 AM
+|Smoke, Revive, Love, Rubber, '''[[Leopard]]'''
+|Rubber
+|Spring, Bird: Falcon, Ice, Barrier, Magma
+|Flame, '''[[Phoenix]]''', '''[[Rumble]]'''
+|-
+|4:00 AM
+|Spring, Flame, Barrier
+|Smoke, '''[[Portal]]'''
+|Spring
+|Spring, Bomb, Smoke, Ice, Barrier, '''[[Quake]]''', '''[[Portal]]'''
+|-
+|8:00 AM
+|Smoke, Magma
+|Bomb, Smoke, Spike, Sand, Light
+|Chop, Spring
+|Bomb, '''[[Portal]]'''
+|-
+|12:00 PM
+|Smoke
+|Sand
+|Chop, Spring, Magma
+|Dark, Light, Magma
+|-
+|4:00 PM
+|Chop, Spike, Flame, '''[[Quake]]''', '''[[Rumble]]'''
+|Spring, Flame, Sand, Dark, Light
+|Spike, Diamond, Love
+|Chop, Spring, Bomb, Diamond, '''[[Buddha]]''', '''[[Spider]]'''
+|-
+|8:00 PM
+|Spike, Flame, Ice, Dark, Rubber
+|Smoke, Flame, Sand, '''[[Venom]]'''
+|Chop, Flame
+|Spike, Diamond 
+|-
+!
+!1/29/23
+!1/30/23
+!1/31/23
+|-
+|12:00 AM
+|Bomb, Flame, Ice, Dark, Magma, '''[[Blizzard]]'''
+|Smoke, Spike, Ice
+|Spring, Falcon
+|-
+|4:00 AM
+|Bomb, Smoke, Flame, Light, '''[[Venom]]'''
+|Chop, Spike, Falcon, Rubber
+|Chop, Smoke, Flame, Ice, Dark
+|-
+|8:00 AM
+|Smoke, Spike, Flame, Diamond, Magma, '''[[Buddha]]'''
+|Sand, Barrier, '''[[Quake]]'''
+|Smoke, Flame, Dark, '''[[Control]]'''
+|-
+|12:00 PM
+|Chop, Smoke, Falcon, Ice, Sand, Rubber, '''[[Quake]]'''
+|Spring, Spike, '''[[Spider]]''', '''[[Dough]]''', '''[[Control]]'''
+|Smoke, Light, Barrier
+|-
+|4:00 PM
+|'''[[Buddha]]'''
+|Chop, Spring, Flame, Light
+|Chop, Flame, Sand, Light, '''[[Buddha]]'''
+|-
+|8:00 PM
+|Chop, Smoke, Spike, Love
+|Spring, Flame, Sand, Diamond, Light
+|'''[[Portal]]'''
+|}
+|-|
+February=
+{| class="article-table"
+|+February 2023 Stock History
+!
+!2/1/23
+!2/2/23
+!2/3/23
+!2/4/23
+|-
+|12:00 AM
+|Love, '''[[Quake]]'''
+|Light, Magma
+|Flame, Magma, '''[[Rumble]]'''
+|Chop, Spring, '''[[Rumble]]''', '''[[Venom]]'''
+|-
+|4:00 AM
+|Light, '''[[Control]]'''
+|Chop, Diamond
+|Chop, Flame, Diamond, Rubber, Barrier, '''[[Blizzard]]'''
+|Smoke, Magma
+|-
+|8:00 AM
+|Smoke, Ice
+|Chop, Flame, Sand, Rubber, Magma
+|Chop, Ice
+|Chop, Bomb, Flame, Dark, Light, '''[[Blizzard]]'''
+|-
+|12:00 PM
+|Sand, Light
+|Bomb
+|Spring, Bomb, Revive, Light, '''[[Portal]]'''
+|Chop, Falcon, Ice, Love, Rubber, '''[[Dough]]'''
+|-
+|4:00 PM
+|Bomb, Smoke, Diamond, Rubber
+|Spring, Flame, Diamond, Light
+|Smoke, Dark, Love, '''[[Spider]]'''
+|Smoke, Sand, Diamond, '''[[Quake]]''', '''[[Spider]]'''
+|-
+|8:00 PM
+|Chop, Flame, Revive, Light
+|Smoke, Spike, Flame
+|Spike, Sand
+|Spring, Smoke, Flame, '''[[Buddha]]'''
+|-
+!
+!2/5/23
+!2/6/23
+!2/7/23
+!2/8/23
+|-
+|12:00 AM
+|Dark, Love
+|Dark
+|Flame, Rubber, '''[[Spider]]'''
+|Spring, Light, Magma
+|-
+|4:00 AM
+|Spike
+|Smoke, Revive, Light, Rubber
+|Spring, Diamond
+|Smoke, Flame, Diamond
+|-
+|8:00 AM
+|Flame, Ice, Light, Rubber
+|Chop, Dark, Barrier
+|Smoke
+|Chop, Bomb, Ice, '''[[Portal]]''', '''[[Venom]]'''
+|-
+|12:00 PM
+|Chop, Bomb, Flame, Sand, Diamond, Magma
+|Spring, Ice, Magma
+|Chop, Diamond
+|Spring
+|-
+|4:00 PM
+|Spring, Diamond, '''[[Dragon]]'''
+|Sand
+|Bomb, Falcon, Dark
+|Smoke, Spike, Rubber
+|-
+|8:00 PM
+|Chop, Smoke, '''[[Spider]]'''
+|Chop, Bomb, Smoke, Flame, Love
+|Spike, Ice, Sand, Light, Rubber, '''[[Rumble]]'''
+|Spring, Bomb, Flame, Falcon, Ice, Dark, Revive
+|-
+!
+!2/9/23
+!2/10/23
+!2/11/23
+!2/12/23
+|-
+|12:00 AM
+|Sand
+|Chop, Falcon, Diamond, '''[[Gravity]]'''
+|Spike, Ice, Sand, Love, Barrier
+|Kilo, Spin, Chop, Spring, Sand, '''[[Dough]]'''
+|-
+|4:00 AM
+|Smoke, Dark
+|Sand, Diamond
+|Falcon, Magma
+|Spike, Dark, Revive, Light, Rubber, '''[[Dragon]]'''
+|-
+|8:00 AM
+|Magma
+|Smoke
+|Flame, Dark
+|Falcon
+|-
+|12:00 PM
+|Flame, Light, '''[[Quake]]''', '''[[Control]]'''
+|Chop, Bomb, Dark, Rubber, '''[[Phoenix]]'''
+|Chop, Bomb, Smoke, Sand, Barrier
+|Diamond, '''[[Buddha]]'''
+|-
+|4:00 PM
+|Chop, Spring, Flame, Dark, Rubber
+|Chop, Smoke, Ice
+|Flame, Sand, Barrier
+|Smoke, Ice
+|-
+|8:00 PM
+|Spike, Ice, Revive
+|Spring, Flame, '''[[Quake]]'''
+|Falcon, '''[[Quake]]''', '''[[Paw]]'''
+|Chop, Flame, '''[[Paw]]'''
+|-
+!
+!2/13/23
+!2/14/23
+!2/15/23
+!2/16/23
+|-
+|12:00 AM
+|Ice, '''[[Quake]]'''
+|Ice, Diamond, Magma
+|Smoke
+|Smoke
+|-
+|4:00 AM
+|Spring, Flame, Light
+|Spring, Spike, Flame, Rubber
+|Chop, Spring, Smoke, Rubber
+|Chop, Spring, Smoke, Sand
+|-
+|8:00 AM
+|Flame, Revive, Light, 
+Rubber, '''[[Buddha]]'''
+|Spring, Flame, Sand, '''[[Spider]]''', '''[[Spirit]]'''
+|Chop, Revive, Light
+|Spring, Flame, Dark, '''[[Spider]]'''
+|-
+|12:00 PM
+|Smoke, Flame, Light
+|Chop, Smoke, Dark, Diamond, Barrier
+|Falcon, Dark
+|Flame, Rubber, Magma, '''[[Gravity]]'''
+|-
+|4:00 PM
+|Chop, Dark, '''[[Phoenix]]'''
+|Bomb
+|Spring, Flame
+|Love, Magma, '''[[Buddha]]'''
+|-
+|8:00 PM
+|Spring, Love
+|Bomb, Spike, Flame, Magma, '''[[Control]]'''
+|Chop, Spike, Revive
+|Falcon, Light
+|-
+!
+!2/17/23
+!2/18/23
+!2/19/23
+!2/20/23
+|-
+|12:00 AM
+|Chop, Ice
+|Chop, Bomb, Smoke, Diamond, Light, '''[[Portal]]'''
+|Spring, Flame, Dark, Rubber, Magma, '''[[Buddha]]'''
+|Light
+|-
+|4:00 AM
+|Chop, Sand, Diamond, Light, '''[[Phoenix]]''', '''[[Control]]'''
+|Smoke, Flame
+|Smoke, Ice
+|Love, Barrier
+|-
+|8:00 AM
+|Flame
+|Chop, Sand, Light
+|Bomb, '''[[Phoenix]]'''
+|Spring, Bomb, Smoke, Flame, Falcon, Magma, '''[[Quake]]''', '''[[Spirit]]'''
+|-
+|12:00 PM
+|Spring, Smoke, Dark
+|Spring, Smoke, Ice, '''[[Buddha]]'''
+|Chop, Flame, Sand, Revive, Light
+|Chop, Smoke, Flame, Ice, Sand, '''[[Dough]]'''
+|-
+|4:00 PM
+|Smoke, Ice, Revive, Rubber, Barrier, '''[[Control]]'''
+|Flame, Dark, Revive, '''[[Paw]]'''
+|Chop, Spike, Flame, Ice, Revive
+|Diamond
+|-
+|8:00 PM
+|Smoke, Falcon, Magma
+|Chop, Falcon, Diamond, Light, '''[[Spider]]'''
+|Spring, Bomb
+|Dark, Light, Rubber, Barrier, Magma, '''[[Quake]]'''
+|-
+!
+!2/21/23
+!2/22/23
+!2/23/23
+!2/24/23
+|-
+|12:00 AM
+|Sand
+|Magma 
+|Chop, Spring, Flame, Ice, Light, Rubber 
+|Spike, Flame, Diamond
+|-
+|4:00 AM
+|Chop, Ice
+|Flame, Dark
+|Bomb, Barrier, '''[[Paw]]'''
+|Rubber, Venom
+|-
+|8:00 AM
+|Spring, Flame, Light, '''[[Quake]]'''
+|Chop, Ice, Barrier
+|Bomb, Dark, '''[[Venom]]'''
+|Chop, Smoke, Flame
+|-
+| 12:00 PM
+|Smoke, Falcon, Sand, '''[[Shadow]]'''
+|Spring, Sand, '''[[Venom]]''', '''[[Spirit]]'''
+| Chop, Spike, Sand
+|Sand, '''[[Buddha]]'''
+|-
+|4:00 PM 
+|Chop, Smoke, Spike. Flame, '''[[Buddha]]''', '''[[Spider]]''', '''[[Gravity]]'''
+|Smoke, Flacon, Dark 
+|Spring, Smoke, Sand, '''[[Dragon]]'''
+|Spring, Flame, Ice, Revive, Diamond, Magma
+|-
+|8:00 PM
+|Chop, Smoke, Diamond, Rubber
+|Bomb, Flame, Falcon, Revive
+|Chop, Falcon, Ice
+|Chop, Falcon, Revive, '''[[Buddha]]'''
+|-
+!
+!2/25/23
+!2/26/23
+!2/27/23
+!2/28/23
+|-
+|12:00 AM
+|Chop, Falcon, Love, Rubber, '''[[Venom]]'''
+|Chop, Bomb, Flame, Light, Rubber, '''[[Quake]]''', '''[[Love]]'''
+|Spike, Ice, Dark, '''[[Spider]]'''
+|Flame
+|-
+|4:00 AM
+|Spring, Smoke, Flame, Diamond, '''[[Phoenix]]''', '''[[Portal]]'''
+|Bomb, Spike
+|Smoke, Ice
+|Ice
+|-
+|8:00 AM
+|Spike, '''[[Quake]]'''
+|Bomb
+|Chop, Flame, Dark, '''[[Control]]'''
+|Smoke, Revive
+|-
+|12:00 PM
+|Dark
+|Flame, Ice, Diamond, Rubber
+|Smoke, Revive, Rubber
+|Bomb, Dark, Rubber, Barrier, '''[[Shadow]]'''
+|-
+|4:00 PM
+|Spring, Smoke, Ice
+|Spring, Light
+|Spring, Sand, Dark, Diamond
+|Chop, Falcon, Light, '''[[Love]]'''
+|-
+|8:00 PM
+|'''[[Venom]]'''
+|Flame, Sand, '''[[Buddha]]'''
+|Chop, Spring, Flame, '''[[Quake]]'''
+|Sand, Light, Magma
+|}
+|-|
+March=
+{| class="article-table"
+|+March 2023 Stock History
+!
+!3/1/23
+!3/2/23
+!3/3/23
+!3/4/23
+|-
+|12:00 AM
+|Chop, Flame, Light, '''[[Phoenix]]'''
+|Smoke, Rubber
+|Spring, Light
+|Chop, '''[[Quake]]''', '''[[Buddha]]'''
+|-
+|4:00 AM
+|Chop, Bomb, Smoke, Dark, '''[[Buddha]]'''
+|Chop, '''[[Buddha]]'''
+|Spike
+|Chop, Ice
+|-
+|8:00 AM
+|Falcon, Barrier
+|Spring, Ice, '''[[Phoenix]]'''
+|Chop, Sand
+|Smoke, Spike, Flame, Diamond
+|-
+|12:00 PM
+|Chop, Ice
+|Smoke, Rubber, Barrier
+|Bomb, Smoke
+|Chop, Flame, Revive, Rubber
+|-
+|4:00 PM
+|Smoke, Ice
+|Bomb, Smoke, Flame, Light, '''[[Quake]]'''
+|Bomb, Ice, Dark, Revive, Light
+|Spike, Falcon, Dark
+|-
+|8:00 PM
+|Spike, Dark
+|Ice, Rubber
+|Chop, Spring, Smoke, Light
+|Chop, '''[[Quake]]''', '''[[Portal]]''', '''[[Rumble]]'''
+|-
+!
+!3/5/23
+!3/6/23
+!3/7/23
+!3/8/23
+|-
+|12:00 AM
+|Chop, Spring, Barrier
+|Bomb
+|Light, '''[[Spirit]]'''
+|Smoke, Sand
+|-
+|4:00 AM 
+|Spring, Light
+|Sand, Light, Barrier, '''[[Portal]]'''
+|Flame, Dark, Revive, Rubber
+|Flame
+|-
+|8:00 AM
+|Chop, Ice, Sand, Revive, Light
+|Chop, Falcon, Magma
+|Smoke
+|Chop, Spike, Dark, Barrier, '''[[Dragon]]'''
+|-
+|12:00 PM
+|Smoke, Falcon, Dark, '''[[Phoenix]]'''
+|Spring, '''[[Gravity]]'''
+|Spring, Spike, Dark, '''[[Buddha]]'''
+|Smoke, Spike, Light
+|-
+|4:00 PM
+|Chop, Dark, Magma, '''[[Spider]]''', '''[[Gravity]]'''
+|Bomb, Smoke, Light
+|Dark
+|Chop, Rubber
+|-
+|8:00 PM
+|Bomb, Smoke, Light, Magma
+|Chop, Spring, Rubber
+|Chop, Light
+|Chop, Bomb, Smoke, Flame, Revive
+|-
+!
+!3/9/23
+!3/10/23
+!3/11/23
+!3/12/23
+|-
+|12:00 AM
+|Dark, Light, '''[[Portal]]'''
+|Smoke, Revive, Rubber, '''[[Quake]]''', '''[[Buddha]]'''
+|Spike, Flame, Light, Magma, '''[[Control]]'''
+|Chop, Smoke, Sand
+|-
+|4:00 AM
+|Chop, Ice, Rubber, '''[[Quake]]'''
+|Chop, Spike
+|Chop, Falcon, Diamond
+|Chop, Spring, Bomb, Light
+|-
+| 8:00 AM
+|Smoke, Spike, Flame, Ice, '''[[Spider]]'''
+|Spring, Falcon, '''[[Buddha]]'''
+|Ice, '''[[Love]]''', '''[[Shadow]]'''
+|Spike, Revive, '''[[Spider]]''', '''[[Dough]]'''
+|-
+|12:00 PM
+|Spring, Falcon, Barrier
+|Chop, Spring
+|Dark, Light
+|Smoke
+|-
+|4:00 PM
+|Chop, Bomb
+|Flame, Light, Magma
+|Smoke, Revive, '''[[Spider]]'''
+|Chop, Flame
+|-
+| 8:00 PM
+|Chop, Smoke, Flame, Light
+|Chop, Bomb, Smoke, Rubber
+|Revive
+|Chop, Flame, Rubber
+|-
+!
+!3/13/23
+!3/14/23
+!3/15/23
+!3/16/23
+|-
+|12:00 AM 
+|Flame, Falcon
+|Bomb, Spike
+|Rubber
+|Chop, Flame, Dark
+|-
+|4:00 AM
+|Spike, Flame, Sand, Barrier
+|Falcon
+|Chop, Spike, Dark, Light
+|Spring, Ice, '''[[Buddha]]''', '''[[Gravity]]'''
+|-
+|8:00 AM 
+|Bomb, Smoke, Ice, '''[[Quake]]'''
+|Dark
+|Falcon, Sand, Diamond, '''[[Buddha]]'''
+|Chop, Spring, Smoke, Spike, Flame, Ice, Magma, '''[[Spider]]''', '''[[Blizzard]]'''
+|-
+|12:00 PM
+|Flame
+|Spring, Bomb, Light
+|Chop
+|Flame, Rubber
+|-
+| 4:00 PM
+|Spring, Smoke
+|Flame, Sand, Dark
+|Bomb, Smoke, Falcon, Light
+|Chop, Bomb, Flame, Sand, Love
+|-
+|8:00 PM
+|Smoke, Dark
+|Chop, Smoke, Flame
+|Sand, Rubber
+|Smoke, Dark
+|-
+!
+!3/17/23
+!3/18/23
+!3/19/23
+!3/20/23
+|-
+|12:00 AM
+|Chop, '''[[Quake]]''', '''[[Buddha]]'''
+|Smoke, Flame, Falcon, Barrier
+|Flame, Rubber
+|Spring, Smoke, Spike, Dark, '''[[Dough]]'''
+|-
+|4:00 AM
+|Sand, Magma
+|Sand, '''[[Quake]]'''
+|Chop, '''[[Dough]]'''
+|Chop, Magma
+|-
+|8:00 AM
+|Spring, Light
+|Flame, '''[[Love]]''', '''[[Spider]]'''
+|Magma
+|Chop, Spring, Smoke, Flame, Sand
+|-
+|12:00 PM
+|Chop, Flame, Falcon, Rubber, '''[[Dough]]'''
+|Smoke, Light
+|Spring, Smoke, Sand
+|Smoke
+|-
+|4:00 PM
+|Spring
+|'''[[Buddha]]''', '''[[Venom]]'''
+|Spring, Smoke, Spike, Dark, Rubber, Barrier
+|Revive, Light
+|-
+|8:00 PM
+|Bomb, Spike, '''[[Buddha]]'''
+|Spring, Bomb, Flame
+|Flame, Ice, Light
+|Chop, Spring, Sand, Dark, '''[[Quake]]''', '''[[Phoenix]]'''
+|-
+!
+!3/21/23
+!3/22/23
+!3/23/23
+!3/24/23
+|-
+|12:00 AM
+|Chop, Flame
+|Flame, Magma
+|Flame, Diamond, Barrier
+|Smoke, Flame, Dark
+|-
+| 4:00 AM
+|Chop, Spike, Flame, Dark, Light
+|Spike, Ice, Revive
+|Flame, Ice, '''[[Portal]]'''
+|Chop, Spring, Revive, Light, Rubber, Love 
+|-
+|8:00 AM
+|Spring, Smoke
+|Spring
+|Chop
+|Chop, Spike
+|-
+|12:00 PM
+|Bomb, Smoke, Diamond, Light, '''[[Spider]]'''
+|Chop, Falcon, Ice, '''[[Dough]]'''
+|Chop, Smoke, '''[[Rumble]]'''
+|Spring, Falcon
+|-
+|4:00 PM 
+|Chop, Dark, Light, Rubber, '''[[Dough]]'''
+|Chop, Ice
+|Chop, Spring, Bomb, Flame
+|Ice, Magma, '''[[Buddha]]'''
+|-
+|8:00 PM
+|Chop, Bomb, Ice, Sand, Light
+|Chop, Dark, Light, Rubber, '''[[Quake]]'''
+|Bomb
+|Chop, Flame, Sand, Light
+|-
+!
+!3/25/23
+!3/26/23
+!3/27/23
+!3/28/23
+|-
+| 12:00 AM
+|Chop, Spring, Smoke, Flame
+|Spring, Diamond, Magma
+|Smoke, Flame, Light
+|Love, '''[[Spider]]'''
+|-
+|4:00 AM
+|Dark, Revive, Diamond
+|Chop, Sand
+|Revive, Diamond, '''[[Spider]]'''
+|Chop, Flame, Revive
+|-
+|8:00 AM
+|Bomb, Spike, Light, Love
+|Bomb, Falcon
+|Chop, Dark
+|Flame, Falcon, Ice, Dark
+|-
+|12:00 PM
+|Rubber
+|Chop, Spike, Sand, Revive, Rubber, '''[[Paw]]'''
+|Flame, Ice, Revive
+|Smoke, Spike, Diamond, Light
+|-
+|4:00 PM
+|Smoke, Falcon, Sand
+|Flame
+|Light, '''[[Phoenix]]'''
+|Chop, Barrier, '''[[Quake]]''', '''[[Phoenix]]''', '''[[Paw]]'''
+|-
+|8:00 PM 
+|Chop, Smoke, Flame, '''[[Blizzard]]'''
+|Chop, Smoke, Falcon, '''[[Buddha]]'''
+|Falcon, Barrier
+|Flame, Sand, Light, '''[[Spider]]''', '''[[Portal]]''', '''[[Dragon]]'''
+|-
+!
+!3/29/23
+!3/30/23
+!3/31/23 
+|-
+|12:00 AM
+|Chop, Spring, Rubber, '''[[Rumble]]'''
+|Chop, Bomb, Ice, Revive, Light, Rubber
+|Ice, Light, Rubber
+|-
+|4:00 AM
+|Smoke, Ice
+|Chop, Spike, Falcon, Ice, Revive
+|Chop, Smoke, Sand
+|-
+|8:00 AM
+|Bomb, Flame
+|Spring, Flame, Falcon, Light, Paw
+|Chop, Bomb, Light, Magma
+|-
+|12:00 PM
+|Chop, Rubber, '''[[Buddha]]'''
+|Light
+|Chop, Sand
+|-
+| 4:00 PM
+|Spike, Flame, Dark
+|Spring
+|Spike, Flame, Diamond, '''[[Buddha]]'''
+|-
+| 8:00 PM 
+|Spring, Smoke, Magma, '''[[Dragon]]'''
+|Flame, Sand
+|Smoke, Spike, Falcon, Ice, '''[[Quake]]'''
+|}
+|-|
+April=
+{| class="article-table"
+|+April 2023 Stock History
+!
+!4/1/23
+!4/2/23
+!4/3/23
+!4/4/23
+|-
+|12:00 AM
+|Chop, Flame, Falcon, Light, Rubber
+|Spring, Flame, Barrier
+|Sand, Diamond, Light
+|Chop, Spring, Smoke
+|-
+|4:00 AM
+|Sand, Barrier
+|Spring, Flame, Quake
+|Smoke, Light, Rubber, Magma, '''[[Gravity]]'''
+|Spike, '''[[Spider]]'''
+|-
+|8:00 AM
+|Falcon, Dark, Revive, '''[[Phoenix]]'''
+|Chop, Smoke, Dark, '''[[Love]]'''
+|Flame, Rubber
+|Spring, Flame
+|-
+|12:00 PM
+|Chop, Flame, Ice, Magma
+|Smoke, Spike, Ice
+|Falcon
+|Light, '''[[Quake]]''', '''[[Phoenix]]'''
+|-
+|4:00 PM
+|Smoke, Diamond
+|Bomb
+|Spring, Bomb, Ice, Revive, Barrier, '''[[Shadow]]'''
+|Spring, Flame, Dark, '''[[Venom]]'''
+|-
+|8:00 PM
+|Chop, '''[[Spider]]'''
+|Chop, Spike, Dark, Light, Rubber, Barrier
+|Chop
+|Light, Barrier
+|-
+!
+!4/5/23
+!4/6/23
+!4/7/23
+!4/8/23
+|-
+|12:00 AM
+|Smoke, Flame, Diamond
+|Spring, Bomb, Flame
+|Flame, Diamond, Barrier, '''[[Venom]]'''
+|Falcon, '''[[Phoenix]]'''
+|-
+|4:00 AM
+|Bomb, Dark
+|Smoke, Flame, Diamond
+|Spring, Dark
+|Smoke, Dark, '''[[Quake]]'''
+|-
+|8:00 AM
+|Spring, Spike, Rubber, '''[[Love]]'''
+|Chop, Ice, Light, Magma
+|Chop, Flame, '''[[Quake]]'''
+|Chop, Light, Barrier
+|-
+|12:00 PM
+|Light, '''[[Rumble]]''', '''[[Spirit]]'''
+|Chop, Falcon, '''[[Quake]]'''
+|Spring, Smoke, Diamond
+|Flame, '''[[Buddha]]'''
+|-
+|4:00 PM
+|Chop, Dark
+|Smoke, Rubber
+|Light
+|Chop, Bomb, Spike, Ice, Sand, Revive, Light
+|-
+|8:00 PM
+|Falcon
+|Chop, Smoke, Spike, Light, Rubber
+|Smoke, Flame, Revive
+|Chop, Smoke, Falcon, Diamond, Barrier, '''[[Phoenix]]'''
+|-
+!
+!4/9/23
+!4/10/23
+!4/11/23
+!4/12/23
+|-
+|12:00 AM
+|Flame, Light, Rubber, '''[[Quake]]''', '''[[Love]]'''
+|Chop, Spike, Light, '''[[Love]]''', '''[[Spider]]'''
+|Chop, Smoke, '''[[Spider]]'''
+|Chop, Spring, Bomb, Smoke
+|-
+|4:00 AM
+|Chop, Light
+|Chop
+|Chop, Revive, Rubber
+|Smoke, Light, '''[[Spider]]''', '''[[Phoenix]]'''
+|-
+|8:00 AM
+|Chop, Smoke, Flame, Diamond, Barrier
+|Bomb, Flame, Ice, Sand
+|Flame, Light
+|Spike, Flame, '''[[Quake]]'''
+|-
+|12:00 PM
+|Chop, Bomb, Spike, Flame, Sand, Revive
+|Barrier, Magma, '''[[Phoenix]]'''
+|Chop, Bomb, Smoke, Diamond, '''[[Quake]]'''
+|Chop, Dark, Rubber
+|-
+|4:00 PM
+|Rubber, '''[[Phoenix]]'''
+|Chop, Smoke, '''[[Quake]]'''
+|Chop, Sand, Barrier, '''[[Love]]'''
+|Chop, Bomb
+|-
+|8:00 PM
+|Light, '''[[Quake]]'''
+|Flame, Ice, Light, '''[[Blizzard]]'''
+|Flame, '''[[Gravity]]'''
+|Spring
+|-
+!
+!4/13/23
+!4/14/23
+!4/15/23
+!4/16/23
+|-
+|12:00 AM
+|Smoke, Spike, Light
+|Smoke, Barrier, '''[[Control]]'''
+|Chop, Smoke, Dark, Revive, Diamond
+|Smoke, '''[[Quake]]''', '''[[Love]]''', '''[[Rumble]]'''
+|-
+|4:00 AM
+|Chop, Bomb, Ice, Magma
+|Ice, Dark, Rubber, '''[[Spider]]'''
+|Chop
+|Spring, Barrier, '''[[Dough]]''', '''[[Shadow]]'''
+|-
+|8:00 AM
+|Chop, Flame, Light, Rubber
+|Chop, Flame, Sand, '''[[Buddha]]'''
+|Bomb, Falcon
+|Spike, Flame, Dark, Diamond, '''[[Love]]'''
+|-
+|12:00 PM
+|'''[[Quake]]'''
+|Spring, Bomb, Revive, Light
+|Chop, Smoke, Spike, Ice, Sand
+|Smoke, Flame, Falcon, Rubber
+|-
+|4:00 PM
+|Chop, Spring, Falcon, Ice, Dark
+|Spike, Barrier, Magma
+|Chop, Diamond, Light, Rubber
+|Bomb, Smoke, Sand
+|-
+|8:00 PM
+|Spike, Light, Magma
+|Chop, Bomb, '''[[Phoenix]]'''
+|Spring, Spike, Barrier
+|Spring, Flame
+|-
+!
+!4/17/23
+!4/18/23
+!4/19/23
+!4/20/23
+|-
+|12:00 AM
+|Chop, Flame
+|Chop, Spring, Flame
+|Bomb, Flame, '''[[Control]]'''
+|Chop, Spring, Bomb, Magma, '''[[Love]]'''
+|-
+|4:00 AM
+|Bomb, Flame, Revive, Light
+|Flame, Rubber, Barrier
+|Chop, '''[[Quake]]''', '''[[Love]]''', '''[[Portal]]'''
+|Flame, Falcon, Ice, Dark
+|-
+|8:00 AM
+|Chop, Rubber
+|Flame, Light
+|Smoke, Sand, Dark, '''[[Phoenix]]'''
+|Spring, Bomb
+|-
+|12:00 PM
+|Smoke, Spike
+|Spring, Flame, Ice, Dark
+|Chop, Revive, Light
+|Spike, Flame, Sand
+|-
+|4:00 PM
+|Bomb, Falcon, Dark, Rubber
+|Chop, Spring, Smoke, Spike, Flame
+|Spring
+|Falcon
+|-
+|8:00 PM
+|Chop, Smoke, Light, '''[[Spider]]'''
+|Bomb, Falcon, Light, Rubber, '''[[Spider]]'''
+|Spike, Diamond, Rubber
+|Chop, Spring, Flame, Ice, Magma, '''[[Love]]'''
+|-
+!
+!4/21/23
+!4/22/23
+!4/23/23
+!4/24/23
+|-
+|12:00 AM
+|Spike, Dark, Rubber
+|Smoke, Ice, Light
+|Spring, Bomb, Smoke, '''[[Phoenix]]'''
+|Chop, Smoke, Dark
+|-
+|4:00 AM
+|Smoke
+|Spring, Ice, Rubber, '''[[Buddha]]'''
+|Chop, Spike, Falcon
+|Chop, Bomb, Falcon, '''[[Blizzard]]'''
+|-
+|8:00 AM
+|Smoke, Revive
+|Chop, Flame, Dark, Barrier
+|Spike, Light
+|Spike, Light, Magma
+|-
+|12:00 PM
+|Flame, Dark, Light, '''[[Portal]]'''
+|Chop, Sand, Revive, Magma, '''[[Spider]]'''
+|Spring, Sand, Dark, Light, Quake
+|Flame, Light
+|-
+|4:00 PM
+|Chop, Rubber, Magma
+|'''[[Portal]]'''
+|Flame
+|Spring, Bomb, Ice, Sand, Light, '''[[Quake]]'''
+|-
+|8:00 PM
+|Falcon
+|Flame, Light
+|Smoke, Revive, Rubber
+|Chop, Rubber
+|-
+!
+!4/25/23
+!4/26/23
+!4/27/23
+!4/28/23
+|-
+|12:00 AM
+|Ice
+|Chop, Bomb, Smoke, Flame
+|Spike, Quake, '''[[Leopard]]'''
+|Smoke, Spike
+|-
+|4:00 AM
+|Chop, Smoke, Dark, Light
+|Sand, '''[[Blizzard]]'''
+|Bomb, Smoke, '''[[Light]]''', '''[[Rubber]]'''
+|Flame, Rubber, Barrier, '''[[Magma]]'''
+|-
+|8:00 AM
+|Flame, Falcon
+|Smoke, Falcon
+|Chop, Smoke, Flame, Dark, '''[[Portal]]'''
+|Diamond
+|-
+|12:00 PM
+|Sand, Revive, Magma, '''[[Buddha]]'''
+|Chop, Bomb, '''[[Quake]]''', '''[[Love]]'''
+|Revive, Diamond, Barrier
+|Chop, Flame, Light
+|-
+|4:00 PM
+|Chop, Smoke, '''[[Phoenix]]'''
+|Chop, Spring, Smoke, Sand, Dark, Diamond, Light
+|Spring, Rubber, '''[[Love]]''', '''[[Phoenix]]'''
+|Falcon
+|-
+|8:00 PM
+|Ice, Diamond, Rubber
+|'''[[Buddha]]'''
+|Smoke, Dark, Revive, Barrier, '''[[Buddha]]''', '''[[Rumble]]'''
+|Chop, Spring, Bomb, Spike, Flame, '''[[Love]]'''
+|-
+!
+!4/29/23
+!4/30/23
+|-
+|12:00 AM 
+|Smoke, Light, Rubber
+|Chop, Light, '''[[Blizzard]]'''
+|-
+|4:00 AM 
+|Smoke, Magma
+|Rubber, Magma, '''[[Buddha]]'''
+|-
+|8:00 AM 
+|Chop, Flame, Rubber, '''[[Dough]]'''
+|Spring, Ice, Sand, Barrier
+|-
+|12:00 PM 
+|Chop, Dark, Diamond, Light
+|Chop, Bomb, Flame, Dark, Magma
+|-
+|4:00 PM 
+|Spring
+|Bomb, Spike, Flame, Dark, '''[[Love]]'''
+|-
+|8:00 PM 
+|Flame
+|Chop, Spring, Light
+|}
+|-|
+May=
+{| class="article-table"
+|+May 2023 Stock History
+!
+!5/1/23
+!5/2/23
+!5/3/23
+!5/4/23
+|-
+|12:00 AM
+|Bomb, Smoke, Revive
+|Barrier
+|Flame
+|Spike, Flame, Dark
+|-
+|4:00 AM
+|Chop, Spike, Light, Barrier, '''[[Quake]]''', '''[[Buddha]]''', '''[[Love]]''', '''[[Paw]]'''
+|Chop, Spike
+|Chop, Spike, '''[[Phoenix]]'''
+|Chop, Spike, Ice, Light, '''[[Quake]]'''
+|-
+|8:00 AM
+|Bomb, Sand, Light, Rubber
+|Chop, Smoke, Flame, Revive
+|Flame, Magma
+|Chop, Smoke, Sand, Magma
+|-
+|12:00 PM
+|Magma
+|Ice
+|Chop, Flame, '''[[Quake]]'''
+|Chop, Spring, Barrier, '''[[Love]]'''
+|-
+|4:00 PM
+|Chop, Bomb, Spike, Flame, Diamond
+|Revive, Rubber
+|Ice, Barrier
+|Chop
+|-
+|8:00 PM
+|Spring, Sand, Dark
+|Smoke, Flame, Falcon, Dark
+|Dark, Light
+|Ice, Dark, Diamond, Light
+|-
+!
+!5/5/23
+!5/6/23
+!5/7/23
+!5/8/23
+|-
+|12:00 AM
+|Sand, Light
+|Chop, Spring
+|Barrier
+|Spring, Rubber
+|-
+|4:00 AM
+|Flame, Dark, '''[[Spider]]'''
+|Bomb, Smoke, Falcon, Sand, Diamond, Light, Barrier
+|Revive
+|Barrier, '''[[Love]]'''
+|-
+|8:00 AM
+|Flame, Barrier, '''[[Quake]]'''
+|Falcon, Revive, '''[[Gravity]]'''
+|Chop, Bomb, Ice, Magma
+|Smoke, Magma, '''[[Dragon]]'''
+|-
+|12:00 PM
+|Chop, Spring, Smoke, Magma, '''[[Quake]]'''
+|Chop, Bomb, Flame, Sand, '''[[Portal]]''', '''[[Paw]]'''
+|Smoke
+|Chop, Spring
+|-
+|4:00 PM
+|Spring
+|Chop, Flame
+|Chop
+|Bomb, Flame, Sand, Rubber
+|-
+|8:00 PM
+|Bomb, Ice, '''[[Buddha]]'''
+|Falcon, '''[[Shadow]]''', '''[[Spirit]]'''
+|Flame, Magma
+|Diamond, Magma
+|-
+!
+!5/9/23
+!5/10/23
+!5/11/23
+!5/12/23
+|-
+|12:00 AM
+|Chop, Smoke, Falcon, Light
+|Smoke, Spike, Falcon, '''[[Buddha]]''', '''[[Love]]'''
+|Chop, '''[[Love]]''', '''[[Spider]]'''
+|Bomb
+|-
+|4:00 AM
+|Chop, Spring, Flame, Sand, '''[[Blizzard]]'''
+|Smoke, '''[[Phoenix]]'''
+|Bomb, Smoke, Revive, '''[[Paw]]'''
+|Spring, Spike, Light, Rubber, Magma
+|-
+|8:00 AM
+|Chop, Flame, Ice, Light, Rubber
+|Spring, Bomb, Revive, Light
+|Chop, Flame, Sand
+|Chop, Smoke, Flame, Falcon, '''[[Phoenix]]'''
+|-
+|12:00 PM
+|Bomb, Smoke, Ice, Sand, Revive, Barrier
+|Chop, '''[[Love]]'''
+|Smoke, Dark, Magma, '''[[Love]]'''
+|Chop, Sand, Rubber, Barrier, '''[[Love]]'''
+|-
+|4:00 PM
+|Chop, Flame, Magma
+|Spring, Flame, Dark, Barrier
+|Ice
+|Flame
+|-
+|8:00 PM
+|Diamond, Light, Magma, '''[[Buddha]]'''
+|'''[[Quake]]'''
+|Chop, Flame, Light, Rubber, '''[[Dough]]'''
+|Chop, Spring, Bomb, Flame, Revive
+|-
+!
+!5/13/23
+!5/14/23
+!5/15/23
+!5/16/23
+|-
+|12:00 AM
+|Smoke, Light
+|Falcon, Diamond
+|Sand, Diamond
+|Chop, Flame, Sand, Rubber
+|-
+|4:00 AM
+|Rubber, '''[[Spider]]'''
+|Sand
+|Spring, Smoke, Flame, Sand, Diamond
+|Spring, '''[[Portal]]'''
+|-
+|8:00 AM
+|Spring, Flame, Sand
+|Chop
+|Bomb, Spike
+|Chop, Smoke, Revive, Magma
+|-
+|12:00 PM
+|Smoke, Spike, Ice, Dark
+|Bomb, Revive
+|Chop, Spring, Flame, Light
+|Bomb, Flame, Ice, '''[[Dragon]]'''
+|-
+|4:00 PM
+|Spring, Bomb, Barrier
+|Flame, Light
+|Flame, Dark, Revive, '''[[Buddha]]'''
+|Spring, Bomb, Flame, Dark, Light
+|-
+|8:00 PM
+|Dark, Light
+|Bomb, Flame, Falcon, '''[[Leopard]]'''
+|Chop, Smoke, Flame, Ice, '''[[Spider]]'''
+|Chop, Flame, Dark, Revive, '''[[Quake]]'''
+|-
+!
+!5/17/23
+!5/18/23
+!5/19/23
+!5/20/23
+|-
+|12:00 AM
+|Chop, Falcon, Diamond
+|Spring, Bomb, Flame, Ice
+|Bomb, Light, Magma
+|'''[[Paw]]'''
+|-
+|4:00 AM
+|Flame, Light
+|Smoke, Revive, Magma, '''[[Phoenix]]'''
+|Spring, Spike, Revive, '''[[Love]]'''
+|Chop, Spring, Ice, Light, '''[[Quake]]'''
+|-
+|8:00 AM
+|Smoke, Flame, Dark, Diamond, '''[[Rumble]]'''
+|Chop, Spring, Flame
+|Spring, Smoke, Flame, Revive, '''[[Spider]]'''
+|Bomb, Smoke, Flame, Sand, Revive
+|-
+|12:00 PM
+|Chop, Spring, Barrier
+|Ice
+|Diamond
+|Chop, '''[[Buddha]]'''
+|-
+|4:00 PM
+|Smoke, Sand
+|Chop,  Smoke, Flame, Falcon
+|Chop, Ice, Light, '''[[Buddha]]'''
+|Diamond, '''[[Venom]]'''
+|-
+|8:00 PM
+|Bomb, Flame, Light, '''[[Dough]]''', '''[[Control]]'''
+|Chop, Sand
+|Bomb, Falcon, '''[[Love]]''', '''[[Spider]]'''
+|Chop, Bomb, Spike, Diamond
+|-
+!
+!5/21/23
+!5/22/23
+!5/23/23
+!5/24/23
+|-
+|12:00 AM
+|Diamond, Rubber
+|Spring, Bomb, Smoke, Spike, Ice, Dark, Light
+|Spring, '''[[Phoenix]]'''
+|Dark
+|-
+|4:00 AM
+|Smoke, Dark
+|Chop, Smoke, Flame, Ice, Rubber, Magma
+|Chop, Ice
+|Smoke, Spike, Ice, Revive, '''[[Rumble]]'''
+|-
+|8:00 AM
+|Spring, Falcon, '''[[Love]]'''
+|Spike
+|Spring, Flame, Diamond, '''[[Quake]]'''
+|Chop, Flame
+|-
+|12:00 PM
+|Chop, Smoke, Flame, Light
+|Falcon, Ice, Sand, Light, '''[[Portal]]'''
+|Chop, Sand, '''[[Love]]''', '''[[Dough]]'''
+|Spring, '''[[Spider]]'''
+|-
+|4:00 PM
+|Chop, Flame, Revive
+|Chop, Smoke, Ice, Light, '''[[Love]]'''
+|Smoke, Flame, Sand, '''[[Portal]]'''
+|Spike, Ice, Light, Rubber, '''[[Quake]]''', '''[[Blizzard]]'''
+|-
+|8:00 PM
+|Spring, Flame
+|Flame, Barrier
+|Chop, Falcon, Barrier
+|Smoke, Sand, Dark
+|-
+!
+!5/25/23
+!5/26/23
+!5/27/23
+!5/28/23
+|-
+|12:00 AM
+|Flame, Falcon
+|Light
+|Bomb, Light
+|Spring, Smoke
+|-
+|4:00 AM
+|Ice, Sand, Light
+|Chop, Sand, '''[[Phoenix]]'''
+|Smoke, Flame, Light
+|'''[[Paw]]'''
+|-
+|8:00 AM
+|Ice, Revive, Rubber, Magma
+|Smoke, Spike, Flame, '''[[Portal]]''', '''[[Dragon]]'''
+|Smoke, Spike, Dark
+|Flame, Diamond
+|-
+|12:00 PM
+|Chop, Ice, '''[[Buddha]]'''
+|Magma
+|Chop, Smoke
+|Chop, Ice, Dark
+|-
+|4:00 PM
+|Sand, Dark
+|Spring
+|Spring, Magma
+|Smoke
+|-
+|8:00 PM
+|Bomb, Rubber
+|Dark
+|Spring, Ice, Barrier
+|Sand
+|-
+!
+!5/29/23
+!5/30/23
+!5/31/23
+|-
+|12:00 AM
+|Spring, Flame, Revive
+|Chop, Flame, Sand, Diamond, Light
+|Smoke, Flame, Light, Rubber, Barrier, '''[[Love]]'''
+|-
+|4:00 AM
+|Falcon, Diamond, Magma
+|Bomb
+|Bomb, Smoke, '''[[Rumble]]'''
+|-
+|8:00 AM
+|Chop, Ice, '''[[Phoenix]]'''
+|Spring, Falcon, Rubber
+|Smoke, '''[[Blizzard]]'''
+|-
+|12:00 PM
+|'''[[Portal]]'''
+|Chop, Smoke, Spike, '''[[Phoenix]]''',  '''[[Portal]]''', '''[[Venom]]'''
+|Flame, Falcon, Dark, Light
+|-
+|4:00 PM
+|Spike, Dark, '''[[Spider]]'''
+|Chop, Flame, Barrier
+|Spike, Barrier
+|-
+|8:00 PM
+|Spring, Flame, '''[[Love]]'''
+|Spike, Falcon
+|Chop, Flame, Sand
+|}
+|-|
+June=
+{| class="article-table"
+|+June 2023 Stock History
+!
+!6/1/23
+!6/2/23
+!6/3/23
+!6/4/23
+|-
+|12:00 AM
+|Falcon, Dark, Light, Rubber
+|Chop, Spring, Revive, Rubber
+|Flame
+|Smoke, Flame, Ice
+|-
+|4:00 AM
+|Bomb, Smoke, Flame
+|Chop, '''[[Portal]]'''
+|Chop, Spring, Flame, Falcon, Ice, Revive, Diamond, Light, Rubber
+|Bomb, Falcon, '''[[Portal]]'''
+|-
+|8:00 AM
+|Smoke, Sand
+|Ice
+|Chop, Revive, Light, '''[[Love]]'''
+|Chop, Smoke, Flame, Diamond
+|-
+|12:00 PM
+|Chop, Smoke, Light
+|Light
+|Smoke, Light, '''[[Quake]]'''
+|Chop, Bomb
+|-
+|4:00 PM
+|Smoke, Flame, Ice, '''[[Quake]]'''
+|Chop
+|Spring, Sand, Light, Rubber, Barrier, Magma, '''[[Paw]]'''
+|Magma, '''[[Control]]'''
+|-
+|8:00 PM
+|Sand
+|Smoke, Flame, Dark, Barrier
+|Chop, '''[[Quake]]'''
+|Ice, Revive, Magma
+|-
+!
+!6/5/23
+!6/6/23
+!6/7/23
+!6/8/23
+|-
+|12:00 AM
+|Spring, Flame
+|Spring, Bomb, Smoke, Ice, Sand, '''[[Portal]]'''
+|Light, '''[[Portal]]'''
+|Bomb, Spike, Revive
+|-
+|4:00 AM
+|Bomb, Flame, Light
+|Flame
+|Chop, Flame, Falcon, Ice, Sand, Light, '''[[Rumble]]'''
+|Chop, Smoke, Ice
+|-
+|8:00 AM
+|Smoke, '''[[Dragon]]'''
+|Chop, Falcon, Ice, Light
+|Flame, Sand, '''[[Spirit]]'''
+|Chop, Bomb, Spike, Sand, Light, Rubber
+|-
+|12:00 PM
+|Spring, Light
+|Falcon, '''[[Portal]]'''
+|Smoke, '''[[Spider]]''', '''[[Phoenix]]'''
+|Smoke, Rubber
+|-
+|4:00 PM
+|Bomb, Flame, Sand, Dark
+|Chop, Flame, Sand, Dark, Revive
+|Chop, Bomb, Smoke, '''[[Quake]]'''
+|Sand, Dark, Rubber, '''[[Spider]]'''
+|-
+|8:00 PM
+|Chop
+|Spring, Smoke, Rubber
+|Spring, Magma
+|Magma, '''[[Love]]'''
+|-
+!
+!6/9/23
+!6/10/23
+!6/11/23
+!6/12/23
+|-
+|12:00 AM
+|Chop, Bomb, Smoke, Spike, Falcon, Sand, Rubber
+|Ice
+|Dark, '''[[Spider]]'''
+|Chop, Bomb, Sand, Dark
+|-
+|4:00 AM
+|Falcon, Rubber
+|Spring, Light, '''[[Phoenix]]'''
+|Bomb, Falcon, Sand
+|Spike, Dark, Rubber
+|-
+|8:00 AM
+|Chop, Ice, Rubber
+|Chop, Flame, Dark
+|Spring, Smoke, Flame, Magma
+|Smoke, Flame, Magma
+|-
+|12:00 PM
+|Spring, Flame
+|Ice, Diamond, '''[[Buddha]]'''
+|Chop, Spring
+|Chop, Spring, Smoke, Flame
+|-
+|4:00 PM
+|Revive
+|Smoke
+|Spring, Ice, Diamond
+|Ice
+|-
+|8:00 PM
+|Spring, Bomb, Smoke, Dark, '''[[Quake]]''', '''[[Spider]]'''
+|Chop, Spring, Flame, Light, Rubber
+|Smoke, Flacon
+|Spring, Flame, Diamond, Light
+|-
+!
+!6/13/23
+!6/14/23
+!6/15/23
+!6/16/23
+|-
+|12:00 AM
+|'''[[Rumble]]'''
+|Bomb, Falcon, Dark, Diamond, '''[[Buddha]]''', '''[[Phoenix]]''', '''[[Portal]]'''
+|Smoke, Flame, Light, Rubber
+|Flame, Diamond, Magma, '''[[Shadow]]'''
+|-
+|4:00 AM
+|Chop, Spring, Spike
+|Dark
+|Chop, Smoke, Flame, Ice, Light
+|Spring, Smoke, Ice
+|-
+|8:00 AM
+|Flame, Barrier, '''[[Quake]]''', '''[[Venom]]'''
+|Dark, Light, Rubber
+|Spring, Bomb, '''[[Spider]]''', '''[[Rumble]]'''
+|Spring
+|-
+|12:00 PM
+|Smoke, Flame
+|Smoke, Flame, Diamond
+|Flame, Light, Rubber
+|Spike, Flame, Ice
+
+|-
+|4:00 PM
+|Flame
+|Spike, Flame, Ice, Sand, Barrier
+|Chop, Smoke, '''[[Phoenix]]'''
+|Chop
+
+|-
+|8:00 PM
+|Smoke, Ice, Sand, '''[[Paw]]'''
+|Falcon, '''[[Phoenix]]''', '''[[Spirit]]''', '''[[Dragon]]'''
+|Light, Rubber, '''[[Rumble]]'''
+|Chop, Falcon
+|-
+!
+!6/17/23
+!6/18/23
+!6/19/23
+!6/20/23
+|-
+|12:00 AM
+|Chop, '''[[Spirit]]'''
+|Spring, Flame, Dark
+|Bomb, Flame, Dark, Light
+|Sand
+|-
+|4:00 AM
+|Chop, Bomb, Ice, Revive, Light
+|Flame, Light
+|Chop, Flame, Barrier, Magma, '''[[Quake]]'''
+|Flame, Ice, Dark, Light, Rubber, Barrier
+|-
+|8:00 AM
+|Chop, Smoke, Diamond, '''[[Spider]]'''
+|Chop, Smoke, Spike, Flame, Ice, Sand
+|Smoke, Falcon, Rubber
+|Spring, Smoke, Revive, '''[[Buddha]]'''
+|-
+|12:00 PM
+|Chop, Spike, Ice, Sand, Diamond, '''[[Love]]'''
+|Falcon, Light, Rubber, Magma
+|Spring, Flame, Dark, '''[[Paw]]'''
+|Chop, Bomb, Falcon, Diamond, Light, '''[[Quake]]''', '''[[Phoenix]]'''
+|-
+|4:00 PM
+|Chop, Spring, Falcon, Rubber, '''[[Blizzard]]'''
+|Smoke, Flame
+|Spike, Flame
+|Magma
+|-
+|8:00 PM
+|Bomb, Dark, '''[[Love]]''', '''[[Rumble]]''', '''[[Venom]]'''
+|Spring, Ice, '''[[Phoenix]]'''
+|Smoke
+|Chop, Spring
+|-
+!
+!6/21/23
+!6/22/23
+!6/23/23
+!6/24/23
+|-
+|12:00 AM
+|Spring, Flame, Falcon, '''[[Gravity]]'''
+|Smoke
+|Bomb, Smoke, Sand
+|Flame
+|-
+|4:00 AM
+|Chop, Bomb, Ice, Sand, Diamond
+|Chop, Falcon
+|Chop. Spike, '''[[Portal]]'''
+|Chop, Spring, Flame, Light
+|-
+|8:00 AM
+|Chop, Revive, Light
+|Chop, Sand, '''[[Quake]]''', '''[[Portal]]''', '''[[Blizzard]]'''
+|Chop, Falcon, Rubber, Barrier
+|Spring, Spike, '''[[Spirit]]'''
+|-
+|12:00 PM
+|Spike, Rubber, Magma
+|Spring, Bomb, Flame, '''[[Dough]]'''
+|Flame, Sand, '''[[Buddha]]'''
+|Smoke, Dark, Rubber
+|-
+|4:00 PM
+|Spring, Bomb, Ice, Light, '''[[Love]]'''
+|Chop, Ice, '''[[Spirit]]'''
+|Flame, Dark, Light
+|Chop, Sand, Light, '''[[Spider]]''', '''[[Paw]]'''
+|-
+|8:00 PM
+|Chop, Flame, Diamond
+|Light, '''[[Quake]]'''
+|Smoke, Flame, Revive, Barrier, '''[[Love]]''', '''[[Phoenix]]'''
+|Light, Barrier, '''[[Spider]]''', '''[[Portal]]'''
+|-
+!
+!6/25/23
+!6/26/23
+!6/27/23
+!6/28/23
+|-
+|12:00 AM
+|Smoke. Flame
+|Chop, Spring, Falcon, Revive, '''[[Love]]''', '''[[Portal]]'''
+|Flame, Ice, '''[[Dragon]]'''
+|Smoke, Flame, Falcon, Rubber, Barrier, '''[[Spider]]'''
+|-
+|4:00 AM
+|Chop, '''[[Love]]'''
+|Flame, '''[[Dragon]]'''
+|Spring, Revive '''[[Portal]]'''
+|Chop, Light, Barrier
+|-
+|8:00 AM
+|Spring, Flame, Barrier, '''[[Dragon]]'''
+|Chop, Smoke, Spike, Ice, Barrier
+|Smoke, Spike
+|Sand, '''[[Phoenix]]'''
+|-
+|12:00 PM
+|Spike, Flame
+|Spring
+|Bomb, Flame
+|Chop, Bomb, Rubber, Barrier
+|-
+|4:00 PM
+|Chop, Bomb, Smoke, Light
+|Spring, Diamond, Rubber, '''[[Rumble]]'''
+|Chop, Spring, Ice, Magma, '''[[Spirit]]'''
+|Light, '''[[Dragon]]'''
+|-
+|8:00 PM
+|Sand, Diamond, Magma
+|Chop, Smoke, Spike, Flame, '''[[Love]]'''
+|Smoke, Sand, '''[[Buddha]]'''
+|Spring, Flame, Magma
+|-
+!
+!6/29/23
+!6/30/23
+|-
+|12:00 AM
+|Chop, Rubber
+|Chop, Spring, Ice, Revive, Magma
+|-
+|4:00 AM
+|Chop, Flame, Dark
+|Light, Rubber
+|-
+|8:00 AM
+|Bomb, '''[[Spider]]'''
+|Chop, Ice
+|-
+|12:00 PM
+|Revive, Barrier, '''[[Portal]]''', '''[[Control]]'''
+|Flame, '''[[Love]]'''
+|-
+|4:00 PM
+|Flame
+|Falcon, Light
+|-
+|8:00 PM
+|Chop, Sand, Dark
+|Chop, Dark
+|}
+|-|
+July=
+{| class="article-table"
+|+July 2023 Stock History
+!
+!7/1/23
+!7/2/23
+!7/3/23
+!7/4/23
+|-
+|12:00 AM
+|Flame
+|Spring, '''[[Blizzard]]'''
+|Chop, Flame, Rubber
+|Spring
+|-
+|4:00 AM
+|Chop, Smoke, Magma
+|Bomb, Smoke, Flame, '''[[Quake]]''', '''[[Love]]''', '''[[Spider]]'''
+|Bomb, Smoke, Revive, Light, Barrier, '''[[Quake]]'''
+|Chop, Dark, '''[[Quake]]''', '''[[Buddha]]'''
+|-
+|8:00 AM
+|Spike, Flame, Sand
+|Flame, Dark, Light, Magma
+|Chop, Flame, Revive, '''[[Love]]'''
+|Light
+|-
+|12:00 PM
+|Spring, Smoke, Revive
+|Spring
+|Smoke, Spike, Diamond, Barrier, '''[[Gravity]]'''
+|Chop, Smoke, Flame, Rubber, Magma
+|-
+|4:00 PM
+|Chop, Bomb, '''[[Quake]]''', '''[[Portal]]'''
+|Smoke, Falcon, Ice, '''[[Portal]]'''
+|Bomb, Dark, Light, '''[[Quake]]'''
+|Bomb, Smoke, Dark
+|-
+|8:00 PM
+|Flame, Ice, Sand, Light, Magma
+|Chop, Ice, Sand
+|Flame, Falcon
+|Bomb, Smoke, Sand
+|-
+!
+!7/5/23
+!7/6/23
+!7/7/23
+!7/8/23
+|-
+|12:00 AM
+|Chop, Flame, Barrier
+|Spring, Bomb, Rubber, '''[[Shadow]]'''
+|Spring, Smoke, Light, '''[[Phoenix]]''', '''[[Portal]]'''
+|Smoke, Spike, Flame, Revive, Diamond, Barrier
+|-
+|4:00 AM
+|Chop, Flame, Falcon
+|Flame, Falcon, Ice
+|Sand, Light, Barrier
+|Flame, Sand, Light
+|-
+|8:00 AM
+|Chop, Sand
+|Chop, Bomb, Smoke, Spike, Barrier
+|Chop, Flame, Sand
+|Rubber, '''[[Spider]]''', '''[[Spirit]]'''
+|-
+|12:00 PM
+|Spring, Barrier, '''[[Buddha]]''', '''[[Blizzard]]''', '''[[Gravity]]'''
+|Bomb, Flame, Rubber
+|Chop, Spring, Smoke, '''[[Love]]'''
+|Chop, Flame, Falcon, Diamond
+|-
+|4:00 PM
+|Flame, Sand, Light
+|Falcon, Light
+|Chop
+|Chop, Falcon, '''[[Buddha]]'''
+|-
+|8:00 PM
+|Chop, Spike, Light, Magma, '''[[Portal]]'''
+|Chop, Bomb, Light
+|Bomb, Smoke, Dark, Revive
+|Smoke, Falcon, Rubber
+|-
+!
+!7/9/23
+!7/10/23
+!7/11/23
+!7/12/23
+|-
+|12:00 AM
+|Chop, Spring, Falcon
+|Spike
+|Chop, '''[[Buddha]]'''
+|'''[[Spider]]''', '''[[Gravity]]'''
+|-
+|4:00 AM
+|Sand, Light, '''[[Spider]]'''
+|Spike, Revive, Diamond
+|Spring
+|Spring, Sand, Dark, Barrier
+|-
+|8:00 AM
+|Flame, Ice, Sand, Dark, Rubber, '''[[Gravity]]'''
+|Chop, Flame, Dark, Light, Rubber, Barrier
+|Chop, Spring
+|Smoke, Falcon, Revive, '''[[Portal]]'''
+|-
+|12:00 PM
+|Spring, Smoke, Magma, '''[[Shadow]]'''
+|Flame, Ice, Sand
+|Spring, Bomb, Smoke, Flame, Revive, Light, '''[[Buddha]]'''
+|Smoke, Falcon
+|-
+|4:00 PM
+|'''[[Quake]]'''
+|Smoke, Ice, Magma
+|Chop, Spring
+|Flame, Magma
+|-
+|8:00 PM
+|Flame, '''[[Love]]'''
+|Chop, '''[[Quake]]''', '''[[Spider]]'''
+|Bomb, Flame, Ice, Sand, Light
+|Chop, Spike
+|-
+!
+!7/13/23
+!7/14/23
+!7/15/23
+!7/16/23
+|-
+|12:00 AM
+|'''[[Buddha]]'''
+|Smoke, Flame, Sand, Revive
+|Flame, Dark
+|Spring, Spike
+|-
+|4:00 AM
+|Smoke, Flame, Revive, Diamond
+|Ice, Diamond, Rubber, '''[[Gravity]]'''
+|Barrier, '''[[Love]]'''
+|Chop, Flame, Falcon, '''[[Dragon]]'''
+|-
+|8:00 AM
+|Spring, Bomb, '''[[Quake]]''', '''[[Phoenix]]'''
+|Chop
+|Chop, Spike
+|Spring, Light
+|-
+|12:00 PM
+|Chop, Spring, Smoke, Flame, Dark, '''[[Rumble]]'''
+|Dark
+|Bomb, Sand, Dark
+|Sand
+|-
+|4:00 PM
+|Ice
+|Spring, Bomb, Smoke, Flame, '''[[Spider]]'''
+|Smoke, Flame, Rubber, Magma, '''[[Love]]''', '''[[Paw]]'''
+|Chop, Falcon
+|-
+|8:00 PM
+|Chop, Bomb
+|Chop, Spring, Flame, Revive
+|Smoke, Flame, Ice
+|Smoke
+|-
+!
+!7/17/23
+!7/18/23
+!7/19/23
+!7/20/23
+|-
+|12:00 AM
+|Flame, Magma
+|Smoke, Revive, Magma, '''[[Paw]]'''
+|Flame, Dark
+|Ice, Sand, Dark
+|-
+|4:00 AM
+|Chop, Smoke, Flame, '''[[Portal]]'''
+|Spring
+|Falcon, Revive
+|Flame
+|-
+|8:00 AM
+|Magma
+|Flame, Falcon, Dark
+|Smoke, Dark, Rubber, '''[[Love]]'''
+|Smoke
+|-
+|12:00 PM
+|Spring, Smoke, Falcon, Rubber
+|Rubber, '''[[Spider]]'''
+|Sand, Dark, '''[[Spider]]'''
+|Bomb, Smoke, Light
+|-
+|4:00 PM
+|Chop, Sand, Magma, '''[[Gravity]]'''
+|Chop, Bomb, Magma
+|Spring, Bomb, Flame, Light, '''[[Portal]]'''
+|Spring, Flame, Light
+|-
+|8:00 PM
+|Chop, Bomb, Flame, Ice
+|Chop, Spring, Bomb, Smoke, Ice, Light, Barrier
+|Spring, Smoke, Diamond
+|Ice, Sand, Diamond, '''[[Quake]]'''
+|-
+!
+!7/21/23
+!7/22/23
+!7/23/23
+!7/24/23
+|-
+|12:00 AM
+|Diamond, '''[[Buddha]]'''
+|Chop, '''[[Gravity]]'''
+|Spike, '''[[Buddha]]'''
+|Chop, Smoke, Spike, Rubber
+|-
+|4:00 AM
+|Chop, Spring, Bomb, Ice, Dark, Rubber, '''[[Paw]]'''
+|Spike, Ice, '''[[Spider]]'''
+|Diamond, Rubber
+|Chop, Spring, Ice, '''[[Control]]'''
+|-
+|8:00 AM
+|Spike, Revive, '''[[Blizzard]]'''
+|Chop, Bomb, Light, '''[[Love]]'''
+|Sand
+|Chop
+|-
+|12:00 PM
+|Flame, Light
+|Chop, Smoke, Flame
+|Chop, Bomb, Smoke, Light
+|Chop, Flame, Sand, Dark
+|-
+|4:00 PM
+|Flame, Ice, Sand, Magma
+|Flame, Dark, Magma
+|Chop
+|Smoke, Ice, Light
+|-
+|8:00 PM
+|Spring, Smoke, Light
+|Diamond, Barrier
+|Flame, Falcon, Dark, Diamond, Light
+|Spike, Sand, Rubber, '''[[Love]]'''
+|-
+!
+!7/25/23
+!7/26/23
+!7/27/23
+!7/28/23
+|-
+|12:00 AM
+|Spring, Dark, Rubber, Magma
+|Flame, Light, '''[[Dough]]'''
+|Chop, Flame, Falcon
+|Spike, Ice, Rubber
+|-
+|4:00 AM
+|Flame, Ice, Diamond, '''[[Love]]'''
+|Chop, Bomb, Ice
+|Bomb, Smoke, Flame, Sand, Dark, '''[[Shadow]]'''
+|'''[[Blizzard]]'''
+|-
+|8:00 AM
+|Chop, Flame, Dark, Light
+|Ice, Diamond
+|Smoke, Flame, Light, '''[[Rumble]]'''
+|Smoke, Ice, Magma
+|-
+|12:00 PM
+|Chop, Spike, Falcon, Dark
+|Spike, Light, '''[[Quake]]''', '''[[Buddha]]'''
+|Spring, Magma
+|Flame
+|-
+|4:00 PM
+|'''[[Buddha]]'''
+|Chop, Smoke, Sand, Rubber, Magma
+|Chop, Spring
+|Chop, Spring, Spike, Flame, Ice, Diamond, '''[[Quake]]''', '''[[Buddha]]''', '''[[Love]]'''
+|-
+|8:00 PM
+|Chop, Spring, Smoke, Rubber
+|Chop, Flame, Light
+|Spring, Smoke, Ice, Light, Rubber
+|Diamond
+|-
+!
+!7/29/23
+!7/30/23
+!7/31/23
+|-
+|12:00 AM
+|Spring, Flame, Sand, Light
+|Sand, '''[[Quake]]'''
+|Flame, Ice, Sand, Diamond, Magma
+|-
+|4:00 AM
+|Chop, Spike, Falcon, Rubber, Magma
+|Bomb, Magma, '''[[Rumble]]'''
+|Chop, Bomb, Smoke
+|-
+|8:00 AM
+|Smoke, '''[[Phoenix]]''', '''[[Portal]]'''
+|Spring, Light, Rubber, '''[[Dough]]'''
+|Chop, Bomb, Smoke
+|-
+|12:00 PM
+|Chop, '''[[Buddha]]'''
+|Spike, Flame, Revive
+|Chop, Spike, Flame
+|-
+|4:00 PM
+|Flame
+|Chop, Smoke, '''[[Spider]]'''
+|Rubber
+|-
+|8:00 PM
+|Chop, Dark, '''[[Gravity]]'''
+|Spring, Ice, Dark
+|Chop, Spring, Flame, '''[[Dough]]'''
+|}
+|-|
+August=
+{| class="article-table"
+|+August 2023 Stock History
+!
+!8/1/23
+!8/2/23
+!8/3/23
+!8/4/23
+|-
+|12:00 AM
+|Chop, Spring
+|Smoke, '''[[Love]]'''
+|Bomb, Barrier, '''[[Gravity]]'''
+|Chop, Revive, '''[[Paw]]'''
+|-
+|4:00 AM
+|Rubber, Magma
+|Chop, Spring, Smoke, Ice, Dark
+|Chop, Spring, Dark, Diamond
+|Spring, Sand, Light
+|-
+|8:00 AM
+|Chop, Flame, Light
+|Chop, Falcon, Diamond, Rubber, Magma
+|Flame, Falcon
+|Chop, Smoke, Ice, Dark
+|-
+|12:00 PM
+|Chop, Sand, Dark, '''[[Spider]]'''
+|Smoke, Flame, Sand, Light
+|Chop, Spike
+|Falcon, Magma, '''[[Love]]'''
+|-
+|4:00 PM
+|Spike, Sand
+|Smoke, '''[[Buddha]]''', '''[[Phoenix]]'''
+|Spring, Sand, Light, Rubber
+|Flame, Light, '''[[Phoenix]]'''
+|-
+|8:00 PM
+|Ice
+|Smoke, Ice, '''[[Love]]'''
+|Smoke, Flame
+|Rubber
+|-
+!
+!8/5/23
+!8/6/23
+!8/7/23
+!8/8/23
+|-
+|12:00 AM
+|Spike, Dark, Magma
+|Chop, Spring, Smoke, Flame, Ice, Revive, '''[[Gravity]]'''
+|Bomb, Smoke, '''[[Phoenix]]''', '''[[Rumble]]'''
+|Chop, Smoke
+|-
+|4:00 AM
+|Chop, Ice
+|Bomb
+|Chop, Falcon, Rubber
+|Smoke, '''[[Spider]]''', '''[[Rumble]]'''
+|-
+|8:00 AM
+|Chop, Spike, Barrier, '''[[Buddha]]'''
+|Flame, Dark, Rubber, '''[[Buddha]]'''
+|Smoke, Flame, Light
+|Spring, Rubber, '''[[Shadow]]'''
+|-
+|12:00 PM
+|Sand, Dark
+|Chop, '''[[Blizzard]]'''
+|Flame, Light, '''[[Quake]]'''
+|Chop, Flame, Ice
+|-
+|4:00 PM
+|Chop, Spring, Smoke, Flame, Falcon, Light
+|Spring, Smoke, Magma
+|Chop, Falcon, Ice, '''[[Buddha]]'''
+|Chop, Bomb
+|-
+|8:00 PM
+|Spring, Diamond
+|Smoke, Flame, Ice, Dark, Light
+|Spring, Dark
+|Smoke, Flame, Diamond, Rubber, Barrier, '''[[Dough]]'''
+|-
+!
+!8/9/23
+!8/10/23
+!8/11/23
+!8/12/23
+|-
+|12:00 AM
+|Chop, Ice, Light, '''[[Spider]]'''
+|Flame, Ice, Dark, Revive, '''[[Quake]]'''
+|Chop, Spring, Dark, Light, Magma
+|Chop, Smoke, Flame, '''[[Love]]'''
+|-
+|4:00 AM
+|Ice, Sand, Dark
+|Revive, Diamond
+|Smoke, Flame, Sand, Diamond
+|Sand
+|-
+|8:00 AM
+|'''[[Rumble]]'''
+|Smoke, Light
+|Bomb, Light, Rubber, '''[[Paw]]'''
+|Chop, Smoke, Flame, '''[[Love]]'''
+|-
+|12:00 PM 
+|Chop, Smoke, Spike, Flame
+|Smoke, Spike, '''[[Buddha]]''', '''[[Paw]]'''
+|Flame, Sand, '''[[Spider]]'''
+|Flame, Light
+|-
+| 4:00 PM
+|Chop, Spring, '''[[Love]]''', '''[[Paw]]'''
+|Chop, Flame, Diamond, Light, '''[[Love]]''', '''[[Spider]]'''
+|Bomb, Ice
+|Chop, Smoke, Flame, Falcon, Sand, Revive, Light, Rubber
+|-
+|8:00 PM
+|'''[[Spider]]'''
+|Spring
+|Chop, Magma
+|Smoke, Sand, Light
+|-
+!
+!8/13/23
+!8/14/23
+!8/15/23 
+!8/16/23
+|-
+|12:00 AM
+|Ice, Magma
+|Sand, Revive, Light
+|Ice
+|Chop, Dark, '''[[Venom]]'''
+|-
+|4:00 AM
+|Chop, '''[[Spider]]'''
+|Spike, Rubber
+|Chop, Spike, '''[[Love]]'''
+|Flame, Light, Magma
+|-
+|8:00 AM
+|Dark, '''[[Quake]]'''
+|Bomb, Sand, Rubber, '''[[Spider]]'''
+|Spring
+|Spring, Ice
+|-
+|12:00 PM
+|Smoke, Diamond
+|Chop, Spike, Ice, Dark, Rubber, Barrier
+|Chop, Dark, Light, '''[[Spider]]'''
+|Dark, '''[[Dough]]'''
+|-
+|4:00 PM
+|Bomb, Flame
+|Chop, Flame, Falcon
+|Spring, Flame, Magma, '''[[Paw]]'''
+|Chop, Flame, Light, '''[[Dragon]]'''
+|-
+|8:00 PM
+|Flame, Light
+|Smoke, Revive, Rubber
+|Smoke, Ice, '''[[Quake]]'''
+|Spring, Ice, '''[[Portal]]''' 
+|-
+!
+!8/17/23
+!8/18/23
+!8/19/23 
+!8/20/23
+|-
+|12:00 AM
+|Spring, Smoke, Light
+|Spring, Flame, Sand, Dark, Diamond
+|Bomb, Flame, Sand
+|Chop, Falcon, Ice, Dark
+|-
+|4:00 AM
+|Chop, Bomb, Falcon
+|Chop, Spring, Smoke, Flame, Magma
+|Smoke, Falcon, Ice, Diamond
+|Chop, Smoke, Dark, Light, '''[[Quake]]''', '''[[Paw]]''', '''[[Dough]]'''
+|-
+|8:00 AM
+|'''[[Spider]]'''
+|Smoke, Magma
+|Spike, '''[[Quake]]''', '''[[Portal]]'''
+|Dark, Revive, Light, Rubber
+|-
+|12:00 PM
+|Spike
+|Spring, Spike, '''[[Quake]]'''
+|Chop, Smoke, Ice
+|Ice
+|-
+|4:00 PM
+|Chop, Flame, Revive, Rubber
+|Falcon, Sand
+|Chop, Dark, Diamond
+|Smoke, Flame, Sand
+|-
+|8:00 PM
+|Chop, Spike, Rubber, Barrier
+|Flame
+|Bomb, Sand, '''[[Love]]'''
+|Falcon, '''[[Buddha]]''', '''[[Phoenix]]'''
+|-
+!
+!8/21/23
+!8/22/23
+!8/23/23 
+!8/24/23
+|-
+|12:00 AM
+|Chop
+|Chop, Bomb, Smoke, Light
+|Light, '''[[Spirit]]'''
+|Spring, Sand, Revive, '''[[Love]]''', '''[[Spider]]'''
+|-
+|4:00 AM
+|Chop, Bomb, Flame, Light
+|Spring, Flame, Light, Barrier
+|Chop, Spring, Flame, Sand, '''[[Quake]]'''
+|Spike, Light
+|-
+|8:00 AM
+|Smoke, Flame
+|Chop, Spring, Bomb, Sand, Dark, '''[[Quake]]'''
+|Spike, Dark, '''[[Love]]'''
+|'''[[Gravity]]'''
+|-
+|12:00 PM
+|Smoke, Sand, Magma, '''[[Quake]]'''
+|Smoke
+|Chop, Bomb, Falcon, Barrier, '''[[Buddha]]'''
+|Rubber, Magma, '''[[Blizzard]]'''
+|-
+|4:00 PM
+|Flame, Ice, Dark, '''[[Phoenix]]'''
+|Chop, Smoke, Spike, Flame, Ice, Rubber
+|Rubber
+|Chop, Bomb, Flame, Sand, Light
+|-
+|8:00 PM
+|Rubber
+|Chop, Spring, Bomb, Revive, Rubber, '''[[Spider]]'''
+|'''[[Rumble]]'''
+|Chop, Spiring, Flame, Dark, Light
+|-
+!
+!8/25/23
+!8/26/23
+!8/27/23 
+!8/28/23
+|-
+|12:00 AM
+|Flame
+|Chop, Diamond
+|Dark, '''[[Rumble]]''', '''[[Paw]]'''
+|Chop, Sand, Dark, Barrier
+|-
+|4:00 AM
+|Smoke, Flame, '''[[Leopard]]'''
+|Chop, Bomb, Light, '''[[Quake]]'''
+|Spike
+|Spring, Smoke, Flame
+|-
+|8:00 AM
+|Flame, Ice, Magma, '''[[Venom]]'''
+|Chop, Smoke, Spike
+|Spring, Smoke, Flame, Diamond, Light, Rubber, '''[[Quake]]'''
+|Bomb
+|-
+|12:00 PM
+|Smoke, Spike, Dark
+|Chop, Spring
+|Flame, Magma, '''[[Shadow]]'''
+|Chop, Ice, Diamond, '''[[Dough]]'''
+|-
+|4:00 PM
+|Chop, Spring, Smoke, Flame, Sand, Barrier, '''[[Dough]]'''
+|Chop, Diamond, Magma
+|Chop
+|Chop, Diamond, '''[[Quake]]'''
+|-
+|8:00 PM
+|Ice, Light
+|Sand
+|Spike, Falcon, Dark, '''[[Gravity]]'''
+|Spring, Spike, Sand, Dark
+|-
+!
+!8/29/23
+!8/30/23 
+!8/31/23
+|-
+|12:00 AM
+|Smoke, Flame, Falcon, Rubber, Barrier
+|Spike, Light
+|Chop, Spring, Smoke, Sand, '''[[Buddha]]''', '''[[Venom]]'''
+|-
+|4:00 AM
+|Revive 
+|Chop, Spring, Smoke, Falcon, '''[[Buddha]]'''
+|Chop, Revive, Light
+|-
+|8:00 AM
+|Chop, Flame, Sand, '''[[Buddha]]'''
+|Chop, Rubber, Magma
+|Bomb, Dark, Light
+|-
+|12:00 PM
+|Bomb, Flame, Magma
+|Bomb, Dark
+
+|Chop, Flame, Revive, '''[[Phoenix]]'''
+|-
+|4:00 PM
+|Smoke, Falcon, Dark, '''[[Quake]]'''
+|Smoke, Flame
+|Chop, Spring, Magma, '''[[Portal]]'''
+|-
+|8:00 PM
+|Chop, Spring, Sand
+|Chop, Flame, '''[[Quake]]'''
+|Bomb, '''[[Buddha]]'''
+|}
+|-|
+September=
+{| class="article-table"
+|+September 2023 Stock History
+!
+!9/1/23
+!9/2/23
+!9/3/23
+!9/4/23
+|-
+|12:00 AM
+|Chop, Light, '''[[Love]]''', '''[[Shadow]]'''
+|Spring, Flame, Rubber
+|Chop, Spring, Bomb, Smoke, Flame, '''[[Blizzard]]'''
+|Chop, '''[[Spider]]'''
+|-
+|4:00 AM
+|Spring, Smoke, Flame, Sand, Dark, Barrier, '''[[Quake]]'''
+|Flame, Ice, Dark
+|Spring, Sand
+|Spring, Bomb, Spike, '''[[Rumble]]'''
+|-
+|8:00 AM
+|Bomb, Flame, Revive
+|Magma
+|Flame, Sand, Rubber, Barrier, '''[[Rumble]]'''
+|Ice, Sand, Light, '''[[Love]]'''
+|-
+|12:00 PM
+|Light
+|Chop, Spring, Diamond, '''[[Rumble]]'''
+|Flame, Magma, '''[[Love]]'''
+|Dark, '''[[Dragon]]'''
+|-
+|4:00 PM
+|Smoke, Spike
+|Bomb, Spike, Barrier, '''[[Love]]'''
+|Revive, '''[[Paw]]''', '''[[Gravity]]'''
+|Chop, Flame, Ice, Magma, '''[[Dough]]'''
+|-
+|8:00 PM
+|Chop, Bomb, '''[[Love]]'''
+|Smoke, Spike
+|Chop, Spike, Flame, '''[[Spider]]'''
+|Bomb
+|-
+!
+!9/5/23
+!9/6/23
+!9/7/23
+!9/8/23
+|-
+|12:00 AM
+|Chop, Falcon, '''[[Rumble]]'''
+|Falcon
+|Bomb, Flame, Light
+|Chop, Flame, Falcon, Rubber, '''[[Love]]'''
+|-
+|4:00 AM
+|Spike, Barrier, '''[[Love]]'''
+|Flame
+|Flame, Magma, '''[[Spider]]'''
+|Revive, '''[[Portal]]''' 
+|-
+|8:00 AM
+|Spring, Bomb, Flame, Ice, Revive, '''[[Buddha]]'''
+|Chop, Bomb, Flame, '''[[Quake]]'''
+|Spring, '''[[Shadow]]'''
+|Light
+|-
+|12:00 PM
+|Ice, Sand, Dark, Light
+|Chop, Diamond, Light, '''[[Phoenix]]'''
+|Spring, Bomb, Sand, Barrier
+|Spring, Revive
+|-
+|4:00 PM
+|Smoke
+|Chop, Smoke, Spike
+|Chop, Ice, Dark, Magma
+|Chop, Flame, Sand, '''[[Paw]]'''
+|-
+|8:00 PM
+|Chop, Spring, Dark, Rubber, Magma, '''[[Buddha]]'''
+|Spike, Falcon, Ice, '''[[Love]]''', '''[[Dragon]]'''
+|Smoke, Light, Barrier
+|Spring, Smoke, Spike, Light
+|-
+!
+!9/9/23
+!9/10/23
+!9/11/23
+!9/12/23
+|-
+|12:00 AM
+|Smoke, Dark, Rubber, '''[[Shadow]]'''
+|Spike, Dark, Diamond, '''[[Quake]]'''
+|Bomb, Revive
+|Smoke, Spike, Flame, Sand, Light, Rubber, '''[[Buddha]]''', '''[[Dough]]'''
+|-
+|4:00 AM
+|Chop, Smoke, Flame, '''[[Love]]''', '''[[Portal]]'''
+|Spring, Sand, Rubber
+|Chop, Smoke, Flame
+|Sand, Barrier
+|-
+|8:00 AM
+|'''[[Rumble]]'''
+|Chop, Sand
+|Ice, Dark, Barrier
+|Ice, Revive, LIght
+|-
+|12:00 PM
+|Bomb, Smoke
+|Spike, Ice
+|Spike, Flame, Falcon, Diamond, Light
+|Sand
+|-
+|4:00 PM
+|Spring, Flame, Ice, Light
+|Spring, Smoke, Rubber, '''[[Shadow]]'''
+|Chop, Spring, Bomb, Sand
+|Dark
+|-
+|8:00 PM
+|Chop, Flame, Light
+|Flame
+|Chop, Light, '''[[Love]]''', '''[[Shadow]]'''
+|Spring, Smoke, Flame, Magma
+|-
+!
+!9/13/23
+!9/14/23
+!9/15/23
+!9/16/23
+|-
+|12:00 AM
+|Chop, Smoke, Spike, Barrier, '''[[Shadow]]'''
+|Falcon, Ice
+|Spike, Sand, Light, '''[[Control]]'''
+|Flame, Sand, Light
+|-
+|4:00 AM
+|Chop, Ice, Rubber, '''[[Love]]''', '''[[Dough]]'''
+|Chop, Flame, Light, '''[[Quake]]'''
+|Sand, Rubber, Barrier, '''[[Buddha]]'''
+|Chop, Spring, Bomb, Sand, Light
+|-
+|8:00 AM
+|Flame, Falcon, Diamond
+|Spring, Sand, Diamond
+|Ice, Rubber, '''[[Portal]]'''
+|Chop, Spring, Smoke, Sand, Dark
+|-
+|12:00 PM
+|Spring, Bomb
+|Spring, Diamond
+|Bomb, Smoke, '''[[Quake]]'''
+|Ice, Sand, Revive
+|-
+|4:00 PM
+|Smoke, Flame, Falcon, Dark, Light
+|Flame
+|Chop, Dark, Diamond, '''[[Buddha]]'''
+|Spring, '''[[Dragon]]'''
+|-
+|8:00 PM
+|Bomb, Sand, '''[[Gravity]]'''
+|Chop, Smoke, Spike, Flame, Light
+|Spring, Bomb
+|Chop, Falcon, Dark, Barrier, '''[[Rumble]]'''
+|-
+!
+!9/17/23
+!9/18/23
+!9/19/23
+!9/20/23
+|-
+|12:00 AM
+|Bomb, Falcon, Diamond, '''[[Love]]'''
+|Spring, Flame, Rubber, '''[[Paw]]'''
+|Chop, Spring, Ice
+|Spike, Rubber, '''[[Rumble]]'''
+|-
+|4:00 AM
+|Smoke, Ice, Magma
+|Smoke, Dark, Revive
+|Spring, Flame, Sand, '''[[Paw]]'''
+|Spring
+|-
+|8:00 AM
+|Chop, Spike, Flame, Revive
+|Chop, Flame, '''[[Quake]]'''
+|Spring, Smoke, Spike, Flame, Dark, '''[[Love]]'''
+|Chop, Spring, Spike, Flame, Dark
+|-
+|12:00 PM
+|Sand, Diamond
+|Chop, Spring, Flame, Ice
+|Smoke, Flame, Light
+|Spring, Bomb, Sand, Dark, '''[[Spider]]'''
+|-
+|4:00 PM
+|Chop, Ice
+|Light, Rubber, '''[[Venom]]'''
+|Bomb, Spike, Sand, Light
+|Spring, Smoke, Flame, Sand, '''[[Dough]]'''
+|-
+|8:00 PM
+|Flame
+|Sand
+|Rubber, Barrier, '''[[Love]]'''
+|Chop, '''[[Buddha]]'''
+|-
+!
+!9/21/23
+!9/22/23
+!9/23/23
+!9/24/23
+|-
+|12:00 AM
+|Chop, Barrier
+|Sand
+|Spring, '''[[Quake]]'''
+|Chop, Sand
+|-
+|4:00 AM
+|Flame, Ice, Sand, Light
+|Smoke, Ice
+|Chop, Dark, Light, Barrier
+|Chop, Smoke, Flame, Falcon, Ice, '''[[Rumble]]'''
+|-
+|8:00 AM
+|Bomb, Flame, '''[[Love]]'''
+|Light
+|Spring, Smoke, Falcon, Ice, Diamond
+|Rubber, Barrier, '''[[Love]]'''
+|-
+|12:00 PM
+|Chop, Smoke, Sand, Diamond
+|Spring, Falcon, Magma
+|Chop, Bomb, Sand
+|Flame, Ice, Dark, Light
+|-
+|4:00 PM
+|Spring
+|Chop, Bomb, Spike, Sand, Revive
+|Chop, Smoke, Flame, Magma
+|Spring, Bomb, Smoke, Flame, Dark, '''[[Portal]]'''
+|-
+|8:00 PM
+|Spring, Spike, Flame, Sand
+|Smoke, Rubber
+|Spring, Diamond, Magma, '''[[Quake]]'''
+|Spring, Smoke
+|-
+!
+!9/25/23
+!9/26/23
+!9/27/23
+!9/28/23
+|-
+|12:00 AM
+|Falcon
+|Chop, Spring, Flame, Magma
+|Chop, Bomb, Spike, Sand, Dark, Light, Magma
+|Chop, Smoke, Dark, '''[[Rumble]]'''
+|-
+|4:00 AM
+|Chop, Bomb, Barrier
+|Spring
+|Chop, Smoke, Ice, Revive, Light
+|Chop, Spring, Bomb, Light
+|-
+|8:00 AM
+|Spring, Ice, Light, Rubber
+|Chop, Ice, Magma
+|Chop, Ice, Diamond
+|Chop, Sand, Diamond
+|-
+|12:00 PM
+|Flame, '''[[Quake]]'''
+|Light
+|Spring, Smoke, Magma
+|Chop, Ice, Light
+|-
+|4:00 PM
+|Spring, Barrier
+|Revive, Rubber, '''[[Gravity]]'''
+|Spring, Smoke, '''[[Paw]]'''
+|Flame, '''[[Spider]]'''
+|-
+|8:00 PM
+|Bomb, Smoke, Falcon, Sand
+|Spring, Smoke, Falcon
+|Spike, Magma
+|Bomb, Revive, Rubber, '''[[Portal]]'''
+|-
+!
+!9/29/23
+!9/30/23
+|-
+|12:00 AM
+|Chop, Smoke, Spike, Flame
+|Spring, Smoke, Ice, Light, Magma
+|-
+|4:00 AM
+|Spring, Barrier, Magma, '''[[Spider]]'''
+|Chop, Spike, Falcon, Sand. '''[[Spider]]'''
+|-
+|8:00 AM
+|Bomb, Light, '''[[Rumble]]'''
+|Smoke, Flame, Dark
+|-
+|12:00 PM
+|Chop, Flame, Sand, Dark, Diamond, '''[[Love]]'''
+|Chop, Bomb, Falcon, Light
+|-
+|4:00 PM
+|Flame, Diamond, Rubber
+|Sand
+|-
+|8:00 PM
+|Flame, Revive
+|Revive, Diamond, Rubber, Magma
+|}
+|-|
+October=
+{| class="article-table"
+|+October 2023 Stock History
+!
+!10/1/23
+!10/2/23
+!10/3/23
+!10/4/23
+|-
+|12:00 AM
+|Chop, Ice, '''[[Love]]''', '''[[Phoenix]]''' 
+|Smoke, Sand, Revive
+|Smoke, Flame, Sand, Revive, Diamond
+|Chop, Bomb, Flame, Magma
+|-
+|4:00 AM
+|Chop, Spring, Spike
+|Flame, Light, Barrier
+|Ice, Sand, Light, Magma, '''[[Gravity]]'''
+|Chop, Smoke, Revive, Light, '''[[Gravity]]'''
+|-
+|8:00 AM
+|Smoke, Dark, Rubber
+|Falcon
+|Chop, Flame, Dark
+|Spring, Flame, Sand, Diamond
+|-
+|12:00 PM
+|Bomb, Flame, Sand
+|Chop, Spring, Dark
+|Bomb, Ice, '''[[Blizzard]]'''
+|Falcon, Barrier
+|-
+|4:00 PM
+|Flame, Barrier, '''[[Shadow]]'''
+|Chop, Bomb, Spike, Rubber, Barrier
+|Chop, Spring
+|Bomb, Smoke, Flame, Dark, Barrier
+|-
+|8:00 PM
+|Chop, Dark, '''[[Quake]]'''
+|Chop, Flame, Falcon, Ice, '''[[Quake]]'''
+|Flame, Dark, Rubber
+|Chop, Spring, Spike
+|-
+!
+!10/5/23
+!10/6/23
+!10/7/23
+!10/8/23
+|-
+|12:00 AM
+|Chop, '''[[Paw]]'''
+|Diamond, '''[[Quake]]'''
+|Flame, '''[[Spider]]'''
+|Chop, Smoke, Sand, Dark, Light, '''[[Quake]]'''
+|-
+|4:00 AM
+|Spring, Smoke, Diamond, Light
+|Spring, Smoke, Flame
+|Chop, Spring, Falcon, Sand, '''[[Buddha]]''', '''[[Spider]]'''
+|Bomb, Ice
+|-
+|8:00 AM
+|Flame
+|Chop, Smoke
+|Chop, Spring, Flame, Revive
+|Chop, Smoke, Spike, Light, '''[[Control]]'''
+|-
+|12:00 PM
+|Chop, Flame, Dark, '''[[Venom]]'''
+|Chop, Flame, Rubber
+|Chop, Spring, Bomb, Ice
+|Spring, Rubber, Barrier
+|-
+|4:00 PM
+|Spring, Flame, Light, Magma
+|Dark, Light, '''[[Shadow]]'''
+|Smoke, Flame, Falcon, Diamond, Light
+|Chop, Smoke, Barrier
+|-
+|8:00 PM
+|Spike, Falcon, '''[[Spider]]'''
+|Flame, Diamond, Light, Magma
+|Smoke, Spike, Flame, Dark
+|Sand, Dark, Revive, Light
+|-
+!
+!10/9/23
+!10/10/23
+!10/11/23
+!10/12/23
+|-
+|12:00 AM
+|Smoke, Ice
+|Chop, Bomb, Smoke, Dark
+|Chop, Spring, Bomb, Smoke, Spike, Light
+|Smoke, Flame, Ice
+|-
+|4:00 AM
+|Chop, Flame
+|Smoke
+|Smoke, Ice, Sand
+|Chop, Spring, Smoke, Dark, Barrier, '''[[Pain]]'''
+|-
+|8:00 AM
+|Spike, Sand
+|Ice, Light
+|Chop, Spring, Flame, Falcon, Light
+|Smoke, Spike, Light
+|-
+|12:00 PM
+|Spring, Spike, Magma, '''[[Buddha]]'''
+|Bomb, Flame
+|'''[[Quake]]'''
+|Flame, '''[[Spider]]'''
+|-
+|4:00 PM
+|Chop, Flame, Falcon
+|Rubber, Barrier, '''[[Spider]]'''
+|Chop, Sand
+|Smoke, Sand, '''[[Rumble]]'''
+|-
+|8:00 PM
+|Chop, Smoke, Revive, Diamond
+|Flame, Falcon, Magma
+|Falcon, Light, Rubber
+|Bomb, '''[[Love]]'''
+|-
+!
+!10/13/23
+!10/14/23
+!10/15/23
+!10/16/23
+|-
+|12:00 AM
+|Chop, Spring, Bomb, Flame, Rubber
+|Falcon, Rubber, '''[[Portal]]'''
+|Chop, Falcon
+|Dark, '''[[Dragon]]'''
+|-
+|4:00 AM
+|Flame
+|Smoke, Flame
+|Flame, Falcon
+|Chop, Spike, Rubber, '''[[Quake]]'''
+|-
+|8:00 AM
+|Bomb, Smoke, Dark, Diamond
+|Chop
+|Spring, Dark, '''[[Phoenix]]'''
+|Chop, Smoke, Spike, '''[[Portal]]'''
+|-
+|12:00 PM
+|Chop, Spring, Bomb, Sand, Rubber
+|Flame, Dark
+|Bomb, Smoke, Revive, Magma, '''[[Quake]]'''
+|Flame, Diamond, Magma
+|-
+|4:00 PM
+|Sand
+|Smoke
+|Flame, Ice, '''[[Rumble]]'''
+|Rubber
+|-
+|8:00 PM
+|Chop, Sand, '''[[Rumble]]'''
+|Chop
+|Spring, Dark, Revive, '''[[Gravity]]'''
+|Chop, Spring, Bomb, Flame, Ice, Light, '''[[Portal]]'''
+|-
+!
+!10/17/23
+!10/18/23
+!10/19/23
+!10/20/23
+|-
+|12:00 AM
+|Bomb
+|Spring, Smoke, Flame, Light
+|Chop, Bomb, Flame, Ice
+|Spike, Flame, Rubber, '''[[Spider]]'''
+|-
+|4:00 AM
+|Bomb, Smoke, '''[[Dragon]]'''
+|Falcon, Light, Magma
+|Chop, Light
+|Chop, Falcon, Diamond
+|-
+|8:00 AM
+|Flame, Ice, Dark
+|Chop, Sand
+|Smoke, Spike, Flame, Light
+|'''[[Buddha]]'''
+|-
+|12:00 PM
+|Light
+|Smoke, Dark, Rubber, Barrier, '''[[Control]]''', '''[[Leopard]]'''
+|Sand, Light, '''[[Love]]'''
+|Bomb, Flame
+|-
+|4:00 PM
+|Spring, Dark, Rubber, Barrier, Magma
+|Bomb, Ice, Rubber, '''[[Quake]]'''
+|Bomb, Smoke, Sand, Dark, Diamond, Light
+|Chop, Smoke, Spike, Rubber
+|-
+|8:00 PM
+|Spring, Flame
+|Smoke, Falcon
+|Chop, Smoke, Flame, '''[[Buddha]]'''
+|Ice, Light
+|-
+!
+!10/21/23
+!10/22/23
+!10/23/23
+!10/24/23
+|-
+|12:00 AM
+|Flame
+|Flame, Rubber, Barrier, Magma
+|Light
+|Smoke, Flame, Dark
+|-
+|4:00 AM
+|Flame
+|Flame, Ice, Light, Magma
+|Spike, Flame, Sand, Diamond, Light, Rubber
+|Chop, Barrier, Magma
+|-
+|8:00 AM
+|Chop, Rubber
+|Bomb, Flame, Dark, Diamond, '''[[Buddha]]'''
+|Chop, Falcon
+|Bomb, Ice, Revive, Diamond
+|-
+|12:00 PM
+|Smoke, Light
+|Spring, Falcon
+|Spring, Bomb, Revive, '''[[Sound]]'''
+|Chop, '''[[Quake]]'''
+|-
+|4:00 PM
+|Chop
+|Smoke, Revive, '''[[Shadow]]'''
+|Spring, '''[[Quake]]'''
+|Chop, Smoke, Flame, Sand, Barrier
+|-
+|8:00 PM
+|Chop, Sand, '''[[Quake]]'''
+|Smoke, Dark
+|Chop, Spring, Spike, Sand, Diamond
+|Diamond, Magma
+|-
+!
+!10/25/23
+!10/26/23
+!10/27/23
+!10/28/23
+|-
+|12:00 AM
+|Chop, Flame, Sand
+|Chop, Spring, Bomb, Falcon, Revive
+|Chop, Ice, Light, Magma
+|Spring, Bomb, Smoke
+|-
+|4:00 AM
+|Bomb, Smoke, Falcon, Barrier, '''[[Rumble]]'''
+|Spike, light
+|Flame
+|Flame,  '''[[Portal]]'''
+|-
+|8:00 AM
+|Chop, Spike, Flame, Ice, Light
+|Flame, Barrier, '''[[Buddha]]'''
+|Spring, Smoke, Sand, Diamond
+|Chop, Sand, Barrier
+|-
+|12:00 PM
+|Light
+|Chop, Spring, Smoke, Rubber
+|Flame, '''[[Phoenix]]'''
+|Revive
+|-
+|4:00 PM
+|Rubber, '''[[Rumble]]'''
+|'''[[Gravity]]'''
+|'''[[Rumble]]'''
+|Chop, Spike, Light
+|-
+|8:00 PM
+|Dark, '''[[Shadow]]'''
+|Chop, Bomb, Smoke, Flame
+|Smoke, Spike, Light, Rubber
+|Spring, Rubber, '''[[Buddha]]'''
+|-
+!
+!10/29/23
+!10/30/23
+!10/31/23
+|-
+|12:00 AM
+|Chop, Smoke, Flame, '''[[Spirit]]'''
+|Ice
+|Flame, Ice
+|-
+|4:00 AM
+|Spring, Bomb, Smoke, Flame, Diamond
+|Chop, Falcon, Dark
+|Spike, Flame
+|-
+|8:00 AM
+|Falcon, Diamond
+|Chop, Bomb, Smoke, Spike, Flame, Sand, Revive, Light
+|Flame, Falcon, Rubber, Magma, '''[[Sound]]'''
+|-
+|12:00 PM
+|Chop, Spike, '''[[Shadow]]'''
+|Ice, Light, Rubber
+|Chop, Spring, Ice, Light
+|-
+|4:00 PM
+|Chop, Rubber, '''[[Rumble]]'''
+|Chop, Spring, Bomb, Flame
+|Chop, Smoke, Sand
+|-
+|8:00 PM
+|Chop, Light, Magma
+|Smoke, Flame, Dark, Revive, Barrier
+|Chop, Light, Magma, '''[[Quake]]'''
+|}
+|-|
+November=
+{| class="article-table"
+|+November 2023 Stock History
+!
+!11/1/23
+!11/2/23
+!11/3/23
+!11/4/23
+|-
+|12:00 AM
+|Flame, Sand, Barrier
+|Bomb, Flame, Dark, Revive, Light, Rubber, '''[[Love]]'''
+|Chop, Dark, Diamond, '''[[Pain]]'''
+|Flame
+|-
+|4:00 AM
+|Chop, Rubber
+|Light, Barrier
+|Light, Rubber, '''[[Gravity]]'''
+|Sand, Barrier, '''[[Rumble]]'''
+|-
+|8:00 AM
+|Spike, Flame
+|Chop, Spring, Smoke, Ice
+|Ice
+|Chop, Smoke, Flame, Light
+|-
+|12:00 PM
+|Spring, Bomb, Smoke, Ice, Sand
+|Bomb, Spike, Flame, Falcon, Magma, '''[[Sound]]'''
+|Chop, Spring, Dark, Magma, '''[[Love]]''', '''[[Pain]]'''
+|Chop, Spike, Flame, Dark, '''[[Dough]]'''
+|-
+|4:00 PM
+|Smoke, Magma
+|Smoke, Light
+|Bomb, Flame, Falcon, Rubber, Barrier
+|Spike, Dark
+|-
+|8:00 PM
+|Chop, Diamond
+|Flame, '''[[Buddha]]'''
+|Chop, Bomb, Smoke, Flame, Dark
+|Spring, '''[[Sound]]'''
+|-
+!
+!11/5/23
+!11/6/23
+!11/7/23
+!11/8/23
+|-
+|12:00 AM
+|Chop, Falcon, Rubber
+|Bomb, Flame, Sand, Light
+|Chop, Spring, Spike, Dark, Rubber, '''[[Sound]]'''
+|Flame, Ice, Magma
+|-
+|4:00 AM
+|Chop, Spring, Smoke, Barrier
+|Chop, Smoke, Dark, Ghost
+|Flame, Magma
+|Bomb, Spike, Flame, Sand
+|-
+|8:00 AM
+|Spike, Sand, '''[[Gravity]]'''
+|Flame, Ice, Magma, '''[[Portal]]'''
+|Light
+|Chop, Spring, Light, '''[[Control]]'''
+|-
+|12:00 PM
+|Falcon, Diamond, Light, '''[[Spider]]'''
+|Chop, Sand, Rubber
+|Smoke, Ice, Light, '''[[Portal]]'''
+|Sand, Light, Ghost
+|-
+|4:00 PM
+|Chop, Spring, Bomb, Smoke
+|Smoke
+|Ice, Diamond, Ghost, '''[[Rumble]]'''
+|Chop, Smoke, Flame, Rubber, '''[[Quake]]'''
+|-
+|8:00 PM
+|Chop, Spike, Flame, '''[[Venom]]'''
+|Chop, Diamond, '''[[Phoenix]]'''
+|Chop, Spring, Flame, Ice, Dark
+|Chop, Smoke, Falcon, Barrier
+|-
+!
+!11/9/23
+!11/10/23
+!11/11/23
+!11/12/23
+|-
+|12:00 AM
+|Flame, Dark
+|Spike, '''[[Shadow]]'''
+|Chop, Spring, Bomb, '''[[Quake]]'''
+|Chop, Bomb, Flame, Ice
+|-
+|4:00 AM
+|'''[[Pain]]'''
+|'''[[Dragon]]'''
+|Spike, Flame, '''[[Portal]]'''
+|Chop, Smoke, Dark, Diamond
+|-
+|8:00 AM
+|Bomb, Flame, Falcon, '''[[Spider]]'''
+|Chop, Falcon, Dark, Ghost, Magma
+|Diamond, '''[[Dragon]]'''
+|Chop, Spring, Smoke, '''[[Gravity]]'''
+|-
+|12:00 PM
+|Chop, Spring, Smoke, Flame, Light
+|Bomb, Diamond, '''[[Venom]]'''
+|Chop, Smoke, Flame, Ice, Dark, '''[[Quake]]'''
+|Bomb, Light, '''[[Quake]]'''
+|-
+|4:00 PM
+|Spring, Ice
+|Chop, Spring, Flame, Ice, Barrier
+|Rubber, '''[[Buddha]]''', '''[[Rumble]]'''
+|Spring, Falcon, Dark
+|-
+|8:00 PM
+|Chop, Flame, Sand, Rubber, '''[[Quake]]'''
+|Barrier
+|Spring, '''[[Spider]]'''
+|Flame, Ice
+|-
+!
+!11/13/23
+!11/14/23
+!11/15/23
+!11/16/23
+|-
+|12:00 AM
+|Light
+|Spring, Falcon
+|Falcon
+|Chop, Smoke, Light, '''[[Quake]]''', '''[[Love]]'''
+|-
+|4:00 AM
+|Flame, Falcon, Barrier, '''[[Spider]]'''
+|Falcon, Dark, Diamond, Magma, '''[[Love]]'''
+|Sand
+|Spring, Spike, Sand
+|-
+|8:00 AM
+|Chop, Bomb, Rubber
+|Chop, Smoke, Flame, Dark, '''[[Gravity]]'''
+|Chop, Spring, Flame
+|Ice, Sand
+|-
+|12:00 PM
+|Chop, Spike, Light, '''[[Portal]]'''
+|Smoke, Diamond, Rubber, Ghost, Magma
+|Flame, Falcon, Ice, Dark, Barrier, '''[[Love]]''', '''[[Spider]]'''
+|Chop, Flame
+|-
+|4:00 PM
+|Chop, Flame, Ice, '''[[Love]]'''
+|Spike, Light, Barrier
+|Chop, Spike, Light
+|Smoke, '''[[Venom]]'''
+|-
+|8:00 PM
+|Light, Barrier
+|Chop, Smoke
+|Sand, Rubber, '''[[Quake]]''', '''[[Phoenix]]'''
+|Spike
+|-
+!
+!11/17/23
+!11/18/23
+!11/19/23
+!11/20/23
+|-
+|12:00 AM
+|Chop, Light
+|Smoke, Ice, Sand
+|Bomb, Dark
+|Chop, Spring, Smoke, Flame, Dark
+|-
+|4:00 AM
+|Chop, Bomb, Smoke, Flame, Ice, Light, Rubber, '''[[Spider]]'''
+|Chop, Rubber
+|Bomb, Falcon, Rubber
+|Chop, Flame, Ghost, '''[[Love]]'''
+|-
+|8:00 AM
+|Falcon, Barrier, '''[[Dough]]'''
+|Flame, Sand
+|Chop, Spring
+|Spring, Light, '''[[Blizzard]]'''
+|-
+|12:00 PM
+|Falcon Dark, '''[[Shadow]]'''
+|Chop, Light
+|Flame, Falcon, '''[[Phoenix]]'''
+|Chop, Spring, Falcon, Sand, Light
+|-
+|4:00 PM
+|Flame, Sand, Rubber, Magma
+|Sand, Diamond
+|Ice, Light, Ghost, Magma
+|Chop, Spike
+|-
+|8:00 PM
+|Bomb, Spike, Flame, Light, Ghost
+|Smoke, Spike, Flame, '''[[Mammoth]]'''
+|Chop
+|Smoke, Dark, Magma, '''[[Quake]]''', '''[[Buddha]]'''
+|-
+!
+!11/21/23
+!11/22/23
+!11/23/23
+!11/24/23
+|-
+|12:00 AM
+|Spike, Flame, Ice, Rubber
+|Dark, Magma
+|Bomb, Smoke, Spike, Sand
+|Bomb
+|-
+|4:00 AM
+|Rubber, '''[[Quake]]'''
+|Spring, Bomb, Smoke, Flame, Ice, Sand, '''[[Love]]''', '''[[Rumble]]''', '''[[Mammoth]]'''
+|Chop, Barrier
+|Chop, Rubber
+|-
+|8:00 AM
+|Light, '''[[Buddha]]'''
+|Falcon, Dark
+|'''[[Buddha]]'''
+|Ice, Sand, Dark, Barrier, Ghost, '''[[Quake]]'''
+|-
+|12:00 PM
+|Chop, Bomb, Flame, Sand, Dark, Light, Rubber
+|Spring
+|Spike, Ice
+|Chop, Smoke, '''[[Love]]'''
+|-
+|4:00 PM
+|Chop, Spike, Sand, Light, '''[[Shadow]]'''
+|Flame
+|Flame
+|Chop, Spring
+|-
+|8:00 PM
+|Chop, Spring, Sand, Diamond, Light, '''[[Dragon]]'''
+|Chop, Spring, Spike, Sand
+|Bomb, Smoke, Dark, Diamond
+|Bomb, Flame
+|-
+!
+!11/25/23
+!11/26/23
+!11/27/23
+!11/28/23
+|-
+|12:00 AM
+|Smoke, Falcon, Diamond
+|Chop, Spring, '''[[Pain]]'''
+|Spring, Flame, '''[[Mammoth]]'''
+|Sand
+|-
+|4:00 AM
+|Smoke
+|Chop, Diamond
+|Spring, Smoke, Sand, '''[[Portal]]'''
+|Light, Rubber, '''[[Love]]'''
+|-
+|8:00 AM
+|Spike, Ice, Dark, Ghost
+|Spring, Smoke, Flame, Dark, Light, Ghost
+|Chop, Barrier
+|Smoke
+|-
+|12:00 PM
+|Chop, Light, Rubber, Barrier, Magma
+|Chop, Flame
+|Chop, Light, '''[[Quake]]'''
+|Spring, Flame, Falcon
+|-
+|4:00 PM
+|Spring, Bomb, Sand, Light, Rubber
+|'''[[Buddha]]'''
+|Chop, Flame, Falcon
+|Spike, Ice, Ghost
+|-
+|8:00 PM
+|Spring, Flame, Falcon, '''[[Phoenix]]'''
+|Chop
+|Spring, Smoke, Spike, Flame
+|Sand
+|-
+!
+!11/29/23
+!11/30/23
+|-
+|12:00 AM
+|Spring, Light, Rubber, Magma
+|Smoke, Flame, Dark, '''[[Shadow]]'''
+|-
+|4:00 AM
+|Ghost, '''[[Venom]]'''
+|Chop, '''[[Love]]'''
+|-
+|8:00 AM
+|Chop, Dark
+|Bomb
+|-
+|12:00 PM
+|Chop, Spike, Light, Rubber
+|Flame, Ice, Love
+|-
+|4:00 PM
+|Chop, Ice, Sand, Diamond, Magma
+|Chop, Sand
+|-
+|8:00 PM
+|Chop, Spring
+|Falcon
+|}
+|-|
+December=
+{| class="article-table"
+|+December 2023 Stock History
+!
+!12/1/23
+!12/2/23
+!12/3/23
+!12/4/23
+|-
+|12:00 AM
+|Chop, '''[[Sound]]'''
+|Chop, Spring, Smoke, Magma, '''[[Phoenix]]'''
+|Spring
+|Chop, Sand, '''[[Shadow]]'''
+|-
+|4:00 AM
+|Spring, Ice
+|Spring, '''[[Sound]]''', '''[[Mammoth]]'''
+|Spike, Diamond, Ghost, Magma, '''[[Quake]]'''
+|Smoke, Dark, Light
+|-
+|8:00 AM
+|Spring, Smoke, Flame, Rubber, '''[[Buddha]]'''
+|Flame, Dark, Ghost, Magma, '''[[Portal]]'''
+|Smoke, Flame, Dark, Rubber, '''[[Spider]]'''
+|Smoke, Ghost
+|-
+|12:00 PM
+|Bomb, Spike, Flame, Sand, '''[[Portal]]'''
+|Chop, Falcon, Rubber
+|Flame, '''[[Rumble]]'''
+|Smoke, Flame, Ice, Light
+|-
+|4:00 PM
+|Falcon, Light
+|Chop, Bomb, Sand, Dark, Barrier
+|Flame, Falcon
+|Bomb, Spike, Flame, Dark, Ghost
+|-
+|8:00 PM
+|Chop, Rubber
+|Light
+|Chop, Spring, Bomb, Smoke, Flame, Light, Rubber, Barrier
+|Spring, Magma
+|-
+!
+!12/5/23
+!12/6/23
+!12/7/23
+!12/8/23
+|-
+|12:00 AM
+|Chop, Ice, Light
+|Spike, Flame
+|Bomb, Flame, Dark, Magma, '''[[Spider]]'''
+|Chop
+|-
+|4:00 AM
+|Bomb, Flame, Sand
+|Falcon, Diamond, Magma
+|Smoke, Spike, Flame
+|Spring, '''[[Quake]]'''
+|-
+|8:00 AM
+|Ghost
+|Chop, Light, '''[[Portal]]'''
+|Chop, Falcon, Sand, Light
+|Bomb, Ice, Rubber
+|-
+|12:00 PM
+|Chop, Smoke, Dark, Barrier, '''[[Portal]]'''
+|Chop, Dark, Diamond, Rubber
+|Flame, Light, '''[[Buddha]]'''
+|Sand, Light
+|-
+|4:00 PM
+|Spring, Bomb, Flame
+|Dark
+|Smoke, Dark, '''[[Rumble]]'''
+|Flame, Falcon, Dark
+|-
+|8:00 PM
+|Chop, Spike, Flame
+|Spring, Light
+|Chop, Dark, Magma, '''[[Phoenix]]'''
+|Bomb
+|-
+!
+!12/9/23
+!12/10/23
+!12/11/23
+!12/12/23
+|-
+|12:00 AM
+|Spike, Ice, Diamond
+|Chop, '''[[Phoenix]]'''
+|Bomb, Smoke, Ice
+|Smoke, Falcon, Diamond
+|-
+|4:00 AM
+|Chop
+|Chop, Flame, Rubber
+|Smoke, Diamond, '''[[Portal]]'''
+|Chop, Bomb, Smoke, Flame, Light, Ghost, '''[[Sound]]''', '''[[Mammoth]]'''
+|-
+|8:00 AM
+|Chop, Spring, Flame
+|Diamond, Barrier
+|Chop
+|Sand, Dark, Light, '''[[Phoenix]]'''
+|-
+|12:00 PM
+|Spike, Sand, Rubber
+|Barrier, '''[[Dough]]'''
+|Spring, Flame
+|Flame, Falcon, Magma, '''[[Spider]]'''
+|-
+|4:00 PM
+|Chop, Smoke, Ice
+|Flame, Light, Rubber
+|Chop, '''[[Buddha]]''', '''[[Gravity]]'''
+|Spring, Bomb, '''[[Sound]]'''
+|-
+|8:00 PM
+|Flame, Light
+|Chop, '''[[Pain]]'''
+|Bomb
+|Flame, Ice, Rubber, '''[[Gravity]]'''
+|-
+!
+!12/13/23
+!12/14/23
+!12/15/23
+!12/16/23
+|-
+|12:00 AM
+|Flame, Falcon
+|Falcon, Light, Barrier
+|'''[[Pain]]'''
+|Rubber, Magma
+|-
+|4:00 AM
+|Chop, Sand
+|Spring, Bomb, Smoke, Flame, Rubber
+|Rubber
+|Flame
+|-
+|8:00 AM
+|Bomb, Smoke
+|Chop, '''[[Portal]]''', '''[[Blizzard]]'''
+|Flame, Sand
+|Ice, Dark
+|-
+|12:00 PM
+|Ice, Sand, Light
+|Spring, Smoke, Dark
+|Chop, Smoke, Flame, Ice, Rubber, Magma
+|Spring, Flame
+|-
+|4:00 PM
+|Spring, Flame, Dark
+|Spring, Smoke, Dark
+|Chop, Spring, Spike
+|Chop, Diamond, Light, Barrier
+|-
+|8:00 PM
+|Chop, Bomb, Smoke
+|Chop, Smoke, Magma
+|Sand, Dark, '''[[Buddha]]''', '''[[Sound]]'''
+|Spike, Dark, '''[[Phoenix]]'''
+|-
+!
+!12/17/23
+!12/18/23
+!12/19/23
+!12/20/23
+|-
+|12:00 AM
+|Bomb, Flame, Rubber
+|Chop, Smoke, Spike, Ice
+|Chop, Flame, Falcon, Diamond, Barrier
+|Spring, Falcon, Sand, '''[[Buddha]]'''
+|-
+|4:00 AM
+|Bomb, Ice
+|Light, Rubber, '''[[Pain]]'''
+|Chop, Light, Barrier, '''[[Love]]'''
+|Chop, Smoke, Flame, Diamond
+|-
+|8:00 AM
+|Chop, Spring, '''[[Love]]'''
+|'''[[Phoenix]]''', '''[[Portal]]'''
+|Spike, '''[[Spider]]''', '''[[Mammoth]]'''
+|Chop, Spike, Ghost
+|-
+|12:00 PM
+|Spring, Dark
+|Chop, Falcon
+|Spring, Bomb, Smoke, Sand
+|Ice
+|-
+|4:00 PM
+|Spring, Smoke, Flame, Light
+|Bomb, Smoke, Flame
+|Chop, Ice, Sand
+|Smoke
+|-
+|8:00 PM
+|Chop, Flame, Diamond, Ghost, '''[[Dough]]'''
+|Bomb, Ice, Flame, '''[[Blizzard]]'''
+|Spike, Flame, Dark
+|Flame
+|-
+!
+!12/21/23
+!12/22/23
+!12/23/23
+!12/24/23
+|-
+|12:00 AM
+|Flame
+|Flame, '''[[Buddha]]''', '''[[Rumble]]'''
+|Chop, Ice
+|'''[[Quake]]'''
+|-
+|4:00 AM
+|Chop, Spring, Dark
+|Chop, Spike
+|Chop, Smoke, Flame, Ice
+|Spring, Flame
+|-
+|8:00 AM
+|Spike, Ice, Magma
+|Bomb, Smoke, Spike, Light, '''[[Spider]]'''
+|Chop, Spring, Ghost, Magma
+|Chop, Falcon, '''[[Quake]]'''
+|-
+|12:00 PM
+|Smoke, Flame, Ghost, '''[[Portal]]'''
+|Chop, Spike, Flame, Sand
+|Chop, Bomb, '''[[Love]]'''
+|Chop
+|-
+|4:00 PM
+|Spring, Dark, '''[[Quake]]'''
+|Bomb, Spike, Rubber
+|Spring, Light, Magma
+|Chop, Smoke, Ice
+|-
+|8:00 PM
+|Spring, Sand, Light
+|Dark
+|Chop, Spring, Smoke, '''[[Love]]'''
+|Dark, Light, Magma, '''[[Shadow]]'''
+|-
+!
+!12/25/23
+!12/26/23
+!12/27/23
+!12/28/23
+|-
+|12:00 AM
+|Chop, Sand, Light
+|Chop, Spring, Light
+|Flame
+|Chop, Ghost, Magma
+|-
+|4:00 AM
+|'''[[Gravity]]'''
+|Chop, Spring, Spike, Light Rubber, '''[[Buddha]]'''
+|Smoke
+|Light, '''[[Buddha]]'''
+|-
+|8:00 AM
+|Chop, Ice, Sand, Barrier
+|Smoke, Flame, '''[[Dough]]'''
+|Bomb, Light
+|Bomb, Smoke, '''[[Buddha]]'''
+|-
+|12:00 PM
+|Smoke, Spike, Falcon, Diamond
+|Chop, Bomb, Flame, Sand, Barrier, '''[[Quake]]'''
+|Chop, Bomb, Flame, Ice, Diamond, Rubber
+|Smoke, Spike, Falcon, Ice
+|-
+|4:00 PM
+|Chop, '''[[Spider]]'''
+|Spring, Smoke
+|Chop, Rubber, Ghost
+|Chop, Bomb, Ice, Dark, Rubber
+|-
+|8:00 PM
+|Smoke, Flame, Falcon, Ice, Dark
+|Light, '''[[Spider]]'''
+|Chop, Smoke
+|Bomb, Rubber, '''[[Spirit]]''', '''[[Leopard]]'''
+|-
+!
+!12/29/23
+!12/30/23
+!12/31/23
+|-
+|12:00 AM
+|Chop, Light, Magma, '''[[T-Rex]]'''
+|Spike, '''[[Dough]]'''
+|Chop, Bomb, Smoke, Flame, Dark, Rubber, Magma, '''[[Sound]]'''
+|-
+|4:00 AM
+|Chop, Spring, Spike, Barrier, Magma
+|'''[[Sound]]'''
+|Chop, Spring, Light
+|-
+|8:00 AM
+|Flame, Falcon, '''[[Phoenix]]'''
+|Chop, Smoke
+|Spike, '''[[Quake]]'''
+|-
+|12:00 PM
+|Spring
+|Barrier, '''[[Quake]]'''
+|Chop, Smoke, Flame, Light
+|-
+|4:00 PM
+|Smoke, Flame, '''[[Quake]]''', '''[[Love]]''', '''[[Pain]]'''
+|Chop, Spring, Flame, Ice, Light
+|Dark, Rubber
+|-
+|8:00 PM
+|Flame, Light
+|Chop, Smoke, Magma
+|Sand, '''[[Buddha]]'''
+|}
+|-|
+</tabber>

@@ -1,0 +1,2937 @@
+<noinclude>{{Stock History}}</noinclude>
+<tabber>
+January=
+{| class="article-table"
+|+January 2026 Stock History
+!
+!1/1/26
+!1/2/26
+!1/3/26
+!1/4/26
+|-
+|4:00 AM
+|Spring, Smoke, Diamond
+|
+|Blade, Spike, Flame, Ice, Sand, Light, Rubber, '''[[Blizzard]]'''
+|Blade, Spring, Diamond
+|-
+|8:00 AM
+|Spike, '''[[Phoenix]]'''
+|
+|Spring, Light, '''[[Spider]]'''
+|Blade, Bomb, Flame Sand
+|-
+|12:00 PM
+|Smoke, Light, '''[[Love]]'''
+|
+|'''[[Phoenix]]'''
+|Magma, '''[[Buddha]]'''
+|-
+|4:00 PM
+|Blade, Rubber, '''[[Spider]]'''
+|Flame, Dark, Eagle
+|Bomb, Smoke, Flame, Dark, '''[[Sound]]'''
+|Blade, '''[[T-Rex]]'''
+|-
+|8:00 PM
+|Ice, Ghost
+|Blade, Spring, Smoke, Flame, '''[[Love]]''', '''[[Spider]]'''
+|Blade, Spring, Flame, Eagle, '''[[Portal]]'''
+|Bomb, Light
+|-
+!
+!1/5/26
+!1/6/26
+!1/7/26
+!1/8/26
+|-
+|12:00 AM
+|Spring, '''[[Creation]]'''
+|Bomb, Flame, Dark, Light, '''[[Creation]]'''
+|Ghost, '''[[Phoenix]]'''
+|Smoke
+|-
+|4:00 AM
+|Smoke, Spike, Dark, '''[[Love]]'''
+|Blade, Spring, Sand
+|Bomb, Flame
+|Blade,Spike
+|-
+|8:00 AM
+|Bomb, Smoke, Ice, '''[[Creation]]'''
+|Spike, Flame
+|
+|Blade
+|-
+|12:00 PM
+|Flame, Eagle, Light
+|Eagle, Ice, Light, '''[[Spider]]'''
+|Blade, Spike, Flame, Sand, Rubber
+|Blade, Spring, Dark, '''[[Spider]]'''
+|-
+|4:00 PM
+|Ghost
+|Blade
+|Dark, Light, Magma
+|Spike, Sand, Diamond, Light, Rubber
+|-
+|8:00 PM
+|Rubber, Magma, '''[[Phoenix]]'''
+|Smoke
+|Flame, '''[[Yeti]]'''
+|Smoke, '''[[Venom]]'''
+|-
+!
+!1/9/26
+!1/10/26
+!1/11/26
+!1/12/26
+|-
+|12:00 AM
+|Flame, '''[[Creation]]'''
+|Blade, Flame, Ice, Sand, Eagle, Diamond, Magma
+|Flame
+|Flame, Light, Rubber, '''[[Buddha]]'''
+|-
+|4:00 AM
+|Blade, Spring, Bomb, Eagle
+|Smoke, '''[[Shadow]]'''
+|Blade, Spring, Flame, Eagle
+|Sand, '''[[Quake]]'''
+|-
+|8:00 AM
+|Ghost, '''[[Creation]]'''
+|Spring, Spike, Flame, '''[[Portal]]'''
+|Flame, Ice
+|Blade, Bomb
+|-
+|12:00 PM
+|'''[[Quake]]'''
+|'''[[Tiger]]'''
+|Blade, Smoke, Spike
+|Blade
+|-
+|4:00 PM
+|Bomb, Smoke, Flame
+|Blade, Spring, Bomb, Smoke, Eagle
+|Spring, Bomb, Smoke, Dark
+|Spring, Dark
+|-
+|8:00 PM
+|Spring, Dark, Light, Rubber
+|Blade, Dark, Light, Ghost
+|Diamond, Magma
+|Spring, Bomb, Flame, Dark, '''[[Spider]]'''
+|-
+!
+!1/13/26
+!1/14/26
+!1/15/26
+!1/16/26
+|-
+|12:00 AM
+|Rubber, Magma
+|Spike, Dark
+|Ghost, '''[[Buddha]]'''
+|Blade, Ice, Diamond
+|-
+|4:00 AM
+|'''[[Buddha]]'''
+|Blade, Spring, Smoke, Sand, Diamond, Light, Rubber, '''[[Creation]]'''
+|Spring, Bomb, Smoke, Ice, Eagle, Magma
+|Blade, Light, '''[[T-Rex]]'''
+|-
+|8:00 AM
+|Blade, Light,  '''[[Quake]], [[Creation]]'''
+|Flame, Ice
+|Sand, Light, '''[[Sound]]''', '''[[Pain]]'''
+|Spring, Sand, Ghost, '''[[Spider]], [[Phoenix]]'''
+|-
+|12:00 PM
+|Spike
+|Spike
+|Dark
+|Blade, Bomb, '''[[Love]]''', '''[[Creation]]'''
+|-
+|4:00 PM
+|Blade, Flame, Sand
+|Bomb, Ice, Light
+|Flame
+|Flame, Ice, Eagle, Light
+|-
+|8:00 PM
+|Ice, '''[[Quake]]'''
+|Blade, Light
+|Blade, Smoke, Sand, '''[[Dough]]'''
+|Rubber
+|-
+!
+!1/17/26
+!1/18/26
+!1/19/26
+!1/20/26
+|-
+|12:00 AM
+|Blade, Flame, Ice, Eagle, '''[[Portal]]''', '''[[Dough]]'''
+|Smoke, Spike, Sand
+|Blade, Spring, Smoke, Sand, Eagle, Light
+|Spring, Ice, Rubber
+|-
+|4:00 AM
+|Blade, Spring, Diamond, Ghost, '''[[Spider]]''', '''[[Venom]]'''
+|Blade, Flame, Sand, '''[[Buddha]]'''
+|Sand, '''[[Blizzard]]''', '''[[Gravity]]'''
+|Bomb, dark 
+|-
+|8:00 AM
+|Eagle, '''[[Creation]]'''
+|Spring, Smoke, Flame, Eagle, Ghost
+|Blade, Flame, Diamond, '''[[Sound]]'''
+|Blade, Smoke, Spike, Light
+|-
+|12:00 PM
+|Spike, Flame 
+|Blade, Light
+|Spring,  Bomb,  Ghost, '''[[Spirit]]'''
+|Blade, Spring, Flame, Sand, Light
+|-
+|4:00 PM
+|Blade, Dark, Light
+|Ice, Dark
+|Flame, Dark
+|Sand, Light, Ghost
+|-
+|8:00 PM
+|Spring, Ice, Magma, '''[[Pain]]'''
+|Light, Rubber, '''[[Quake]]''', '''[[Love]]'''
+|Blade, Smoke, Spike, Magma
+|Spike, '''[[Spider]], [[T-Rex]]'''
+|-
+!
+!1/21/26
+!1/22/26
+!1/23/26
+!1/24/26
+|-
+|12:00 AM
+|Sand, Dark, '''[[Creation]]'''
+|Diamond
+|Bomb, Smoke, Sand, Eagle, Rubber, Ghost
+|Blade, Spike, Diamond, Light, Rubber
+|-
+|4:00 AM
+|Smoke, Flame, Magma,  '''[[Mammoth]]''' 
+|Spring, Smoke, Eagle, Light, Magma, '''[[Creation]]'''
+|Spring, Magma
+|Rubber
+|-
+|8:00 AM
+|Blade
+|Spring, Sand
+|Spring, Flame
+|Spike, Flame, Rubber, Magma, '''[[Quake]]'''
+|-
+|12:00 PM
+|Bomb, Dark, Eagle
+|Blade, Ice, Ghost
+|Spike, Flame, Ice
+|Smoke
+|-
+|4:00 PM
+|Spike, Flame, Magma, '''[[Spider]]'''
+|Bomb, Smoke
+|Spike
+|Spring, Flame, '''[[Quake]]'''
+|-
+|8:00 PM
+|Blade, Spike, Ice
+|Flame, Light
+|Smoke
+|Blade, Spring
+|-
+!
+!1/25/26
+!1/26/26
+!1/27/26
+!1/28/26
+|-
+|12:00 AM
+|Smoke, Ice, Light
+|
+|Blade, Eagle
+|Flame, Sand, Rubber
+|-
+|4:00 AM
+|Blade, Spring 
+|Bomb
+|Blade, Spring, Smoke, Light, Rubber
+|Spring, Flame
+|-
+|8:00 AM
+|Bomb, Flame, Sand, Diamond, Light
+|Blade, Diamond, Light, '''[[Portal]]'''
+|
+|Blade, Flame, Dark, '''[[Quake]]''', '''[[Gravity]]''' 
+|-
+|12:00 PM
+|Smoke, Light, Rubber
+|Blade, Spring, Spike, Light, Rubber
+|Dark, Diamond
+|Diamond
+|-
+|4:00 PM
+|Blade, Flame, Sand, '''[[Love]]'''
+|Blade, Flame
+|Smoke, Ice
+|Blade, Bomb, Ice, Eagle, Light
+|-
+|8:00 PM
+|Blade, Smoke
+|Smoke, Spike, Sand, '''[[Love]]'''
+|Dark, Eagle, Light, Rubber
+|Smoke, Spike, Flame, Sand, Light, '''[[Pain]]'''
+|-
+!
+!1/29/26
+!1/30/26
+!1/31/26
+|-
+|12:00 AM
+|Blade, Smoke, Flame, Dark
+|Blade, Smoke, Ice
+|Spring, Spike, Flame, Ice, Ghost, '''[[Creation]]'''
+|-
+|4:00 AM
+|Spring, Smoke, Dark, Rubber, '''[[Love]]''', '''[[Gravity]]'''
+|Light, '''[[Love]]''', '''[[Spider]]'''
+|Blade, Bomb, Smoke, '''[[Love]]'''
+|-
+|8:00 AM
+|Flame, Light
+|Bomb, Flame, '''[[Buddha]]''', '''[[Creation]]'''
+|Blade, Light, Rubber
+|-
+|12:00 PM
+|Spring, Bomb, Spike, Dark, '''[[Creation]]'''
+|Flame, Eagle, Light
+|Blade, Flame, '''[[Creation]]'''
+|-
+|4:00 PM
+|Sand, Light, '''[[Buddha]]''', '''[[Love]]'''
+|Smoke 
+|
+|-
+|8:00 PM
+|Spring, Ghost
+|Smoke, Flame
+|
+|}
+|-|
+February=
+{| class="article-table"
+|+February 2026 Stock History
+!
+!2/1/26
+!2/2/26
+!2/3/26
+!2/4/26
+|-
+|12:00 AM
+|Blade, Smoke, Spike, '''[[Pain]]'''
+|Blade, Spring, Bomb, Dark, Light
+|Ice, Light
+|Blade, Flame, '''[[Sound]]'''
+|-
+|4:00 AM
+|Blade, Spring, Bomb, Flame, Eagle, Light, Rubber, '''[[Buddha]]'''
+|Ice, '''[[Love]]''', '''[[Mammoth]]'''
+|Blade, Bomb, Sand
+|Smoke
+|-
+|8:00 AM
+|Blade, '''[[Buddha]]'''
+|Blade, Smoke, Flame, Sand, Eagle, Ghost, Magma, '''[[Quake]]''', '''[[Spider]]'''
+|Blade, Rubber, Ghost
+|Ice
+|-
+|12:00 PM
+|Blade, Flame, Sand
+|Rubber
+|Smoke, Flame, Eagle, '''[[Buddha]]''', '''[[Spider]]'''
+|Blade, Bomb, Light
+|-
+|4:00 PM
+|Blade, Rubber, Magma, '''[[Venom]]'''
+|Spike, Flame, Dark
+|Smoke
+|Smoke, Light, Magma, '''[[Creation]]'''
+|-
+|8:00 PM
+|Smoke, Spike, Flame, Ghost, '''[[Love]]'''
+|Spring, Ghost, '''[[Portal]]'''
+|Blade, Flame, Light
+|Spring, Dark, Eagle, Magma
+|-
+!
+!2/5/26
+!2/6/26
+!2/7/26
+!2/8/26
+|-
+|12:00 AM
+|Smoke, '''[[Love]]'''
+|Ghost, '''[[Dough]]'''
+|Bomb, Smoke, Flame, Sand, Magma, '''[[Buddha]]'''
+|Blade, Bomb, Smoke,'''[[Spider]]'''
+|-
+|4:00 AM
+|Blade, Dark
+|Flame
+|Flame 
+|Light, Rubber
+|-
+|8:00 AM
+|Blade, Eagle, '''[[Blizzard]]'''
+|Blade, Smoke, Spike, Ice, Dark, Ghost
+|Spring, Flame, Rubber
+|Magma
+|-
+|12:00 PM
+|Spike, Sand, Dark, Light, Magma, '''[[Creation]]'''
+|Blade, Spring, Eagle, Diamond, '''[[Spider]]'''
+|Bomb, Spike
+|Spring, Smoke, Flame, Dark
+|-
+|4:00 PM
+|Spring, Bomb, Ice, Light, '''[[Quake]]'''
+|Ice, Dark, Light, '''[[Sound]]'''
+|Smoke, Dark, Eagle, '''[[Love]]''', '''[[Pain]]'''
+|Blade, Smoke, Spike, Light
+|-
+|8:00 PM
+|Diamond, '''[[Sound]]'''
+|
+|Ice
+|Ice, '''[[Creation]]'''
+|-
+!
+!2/9/26
+!2/10/26
+!2/11/26
+!2/12/26
+|-
+|12:00 AM
+|Bomb, Dark, Light, Rubber, '''[[Buddha]]'''
+|Blade, Flame
+|'''[[Buddha]]'''
+|Flame, Rubber
+|-
+|4:00 AM
+|Blade, Smoke, Light, Ghost
+|Spike, '''[[Buddha]], [[Gas]]'''
+|Spring, Diamond
+|Sand, Dark
+|-
+|8:00 AM
+|Bomb, Dark, '''[[Venom]]'''
+|Smoke, Ice, '''[[Yeti]]'''
+|Bomb, Spike, Dark, Rubber
+|Bomb, Magma, '''[[Blizzard]]'''
+|-
+|12:00 PM
+|Blade, Flame, '''[[Quake]]'''
+|Dark
+|Flame, Magma
+|Flame, Diamond, Light, Rubber
+|-
+|4:00 PM
+|Spring, Flame, Sand, Diamond, '''[[Phoenix]]'''
+|Blade, Ice, Eagle, Magma
+|Blade, Smoke, Sand
+|Blade, '''[[Creation]]''', '''[[Spider]]'''
+|-
+|8:00 PM
+|Light, Rubber, Magma, '''[[Shadow]]'''
+|Blade, Smoke, Light
+|Blade, Eagle, Ghost
+|Blade, Flame, '''[[Pain]]'''
+|-
+!
+!2/13/26
+!2/14/26
+!2/15/26
+!2/16/26
+|-
+|12:00 AM
+|Smoke, Eagle, Light
+|Blade, Smoke, Dark, Eagle, Diamond, '''[[Creation]]'''
+|Spring, Flame, Dark, '''[[Portal]]'''
+|Blade, Sand, '''[[T-Rex]]'''
+|-
+|4:00 AM
+|Dark
+|Rubber, Ghost, Magma, '''[[Gravity]]'''
+|Blade, Spring, Smoke, Dark, Rubber, '''[[T-Rex]]'''
+|Smoke, Spike, '''[[Venom]]'''
+|-
+|8:00 AM
+|Sand, Magma
+|Flame, Dark, '''[[Love]]'''
+|Magma, '''[[Love]]'''
+|Spring, Flame, Ice, Dark, '''[[Mammoth]]'''
+|-
+|12:00 PM
+|Blade, Bomb, Flame, Ice, Eagle
+|Flame, '''[[Love]]'''
+|Smoke, '''[[Creation]]'''
+|Blade, Smoke, Sand, Diamond, Light
+|-
+|4:00 PM
+|Flame, Ice, '''[[Venom]]'''
+|Bomb, Light
+|Blade, Smoke, Spike, Flame, Sand, Diamond, Light
+|Eagle
+|-
+|8:00 PM
+|Spring, Smoke, Flame, Sand
+|Blade, Sand, Diamond, '''[[Dough]]'''
+|Spring, '''[[Buddha]]''', '''[[Sound]]''', '''[[Spirit]]'''
+|Smoke, '''[[T-Rex]]'''
+|-
+!
+!2/17/26
+!2/18/26
+!2/19/26
+!2/20/26
+|-
+|12:00 AM
+|'''[[Phoenix]]'''
+|Spring, Smoke, Flame, Sand
+|Spring, Flame, Sand
+|Ice
+|-
+|4:00 AM
+|Blade, Flame, Ice, Light, '''[[Buddha]]''', '''[[Creation]]'''
+|Spike, Flame, Dark, '''[[Phoenix]]''', '''[[Yeti]]'''
+|Light, '''[[Shadow]]'''
+|Spring, Smoke
+|-
+|8:00 AM
+|Spring, Spike
+|Bomb, Smoke, Diamond, '''[[Shadow]]'''
+|Spike, Flame, '''[[Quake]]''', '''[[Buddha]]'''
+|Blade, '''[[Pain]]'''
+|-
+|12:00 PM
+|Dark, '''[[Spider]]''', '''[[Shadow]]'''
+|Blade, Smoke, Spike, Sand, Rubber, '''[[T-Rex]]'''
+|Sand, Diamond, Rubber, Ghost
+|Bomb, Smoke, Flame, Sand, '''[[Spider]]'''
+|-
+|4:00 PM
+|Ice, Sand, Eagle, Light
+|Dark, Ghost
+|
+|
+|-
+|8:00 PM
+|
+|Bomb, Spike, '''[[Spider]]'''
+|
+|Blade, Spike, '''[[Creation]]'''
+|-
+!
+!2/21/26
+!2/22/26
+!2/23/26
+!2/24/26
+|-
+|12:00 AM
+|Bomb, Dark, Light
+|Blade, Flame, Diamond, Magma
+|Bomb, '''[[Quake]]'''
+|Eagle, Light
+|-
+|4:00 AM
+|Bomb, Light, Rubber
+|Spring
+|Spring, Flame, Dark
+|Ice, Dark
+|-
+|8:00 AM
+|Bomb, Sand, Rubber
+|Smoke, Ice, Dark, Rubber
+|Spike, Flame, Ice, Magma 
+|Smoke, Spike, Flame, '''[[Quake]]'''
+|-
+|12:00 PM
+|Blade, Smoke, Ice, '''[[Love]]'''
+|Blade, Bomb, Ice, '''[[Buddha]]'''
+|Blade
+|Spring, Spike, Rubber
+|-
+|4:00 PM
+|Smoke, Flame
+|Blade, Spring, Flame
+|Spring, Bomb, Smoke, Dark, Eagle, '''[[Quake]]''', '''[[Love]]'''
+|Spring, Smoke
+|-
+|8:00 PM
+|Spring, Dark, Rubber, Ghost, '''[[Mammoth]]'''
+|Smoke, Rubber, '''[[Sound]]'''
+|Bomb, Flame, '''[[Blizzard]]'''
+|
+|-
+!
+!2/25/26
+!2/26/26
+!2/27/26
+!2/28/26
+|-
+|12:00 AM
+|Bomb, Light
+|Smoke
+|Ice, Flame, '''[[Creation]]''', '''[[Spirit]]'''
+|Dark, '''[[Creation]]'''
+|-
+|4:00 AM
+|Bomb, Smoke, Sand, Ghost
+|Blade, Dark, Diamond, Light, Magma
+|Light, '''[[Quake]]'''
+|Ice
+|-
+|8:00 AM
+|Dark, Sand, '''[[Creation]]'''
+|Blade, Eagle, Rubber
+|Smoke
+|Blade, Flame
+|-
+|12:00 PM
+|Spring, Flame, Eagle
+|Smoke
+|Diamond, Light, '''[[Spider]]'''
+|Flame, Sand, Dark, Rubber, Magma
+|-
+|4:00 PM
+|Blade, Ghost, '''[[Portal]]'''
+|Flame, '''[[Phoenix]]''', '''[[Portal]]'''
+|Ice
+|Bomb, '''[[Spider]]'''
+|-
+|8:00 PM
+|Blade, Smoke, Ice, '''[[Sound]]'''
+|Blade, Smoke, '''[[Quake]]'''
+|Blade, Bomb, Flame, Sand, Light, Ghost
+|Bomb, Spike, Rubber
+|}
+|-|
+March=
+{| class="article-table"
+|+March 2026 Stock History
+!
+!3/1/26
+!3/2/26
+!3/3/26
+!3/4/26
+|-
+|12:00 AM
+|Blade, Spike, Dark, Light, Magma
+|Smoke, Flame, Sand, Rubber, Magma, '''[[Quake]]'''
+|Ice, Magma
+|Spring, Spike, Eagle
+|-
+|4:00 AM
+|'''[[Quake]]'''
+|Blade, Rubber, '''[[Buddha]]'''
+|Blade, Smoke, Flame, Light
+|Spike, Flame, Sand, Light, '''[[Creation]]''' 
+|-
+|8:00 AM
+|Spring, Flame, '''[[Phoenix]]'''
+|
+|Spike, Sand, Light, Rubber
+|Bomb, '''[[Spider]]'''
+|-
+|12:00 PM
+|Blade, Spring, Smoke, Light, Rubber, Magma 
+|Blade, '''[[Portal]]'''
+|Smoke, Dark, '''[[Phoenix]]''', '''[[Spirit]]'''
+|Light
+|-
+|4:00 PM
+|Blade, Bomb, Flame
+|Blade
+|Blade, dark, Rubber, '''[[Quake]]''' 
+|Spring, Smoke, Diamond, Light, Magma
+|-
+|8:00 PM
+|Blade, Flame, Ice
+|Flame, Dark, '''[[Quake]]'''
+|Dark, Light
+|Blade, Flame, Eagle, Ghost, Magma
+|-
+!
+!3/5/26
+!3/6/26
+!3/7/26
+!3/8/26
+|-
+|12:00 AM
+|Sand
+|Dark, '''[[Quake]]'''
+|'''[[Spider]]'''
+|Flame, Eagle, Rubber, '''[[Spider]]'''
+|-
+|4:00 AM
+|Diamond, Magma, '''[[Buddha]]''', '''[[Phoenix]]'''
+|Spring, Spike, Flame, Diamond, Light, '''[[Blizzard]]'''
+|Diamond, Rubber, '''[[Gravity]]'''
+|Blade
+|-
+|8:00 AM
+|Smoke, Dark, Light, '''[[Creation]]'''
+|Blade
+|Bomb, Flame, '''[[Blizzard]]'''
+|Spring, Ice, Light
+|-
+|12:00 PM
+|Spike
+|Blade, Bomb, Spike, Eagle, '''[[Buddha]]'''
+|Spring, Smoke, Light
+|Bomb
+|-
+|4:00 PM
+|Blade, Bomb, Flame, Dark, Diamond
+|Blade, Spring, Light, Rubber
+|Blade, '''[[Quake]]'''
+|Flame, Light
+|-
+|8:00 PM
+|Smoke, Rubber
+|Ice, '''[[Quake]]'''
+|Blade, Spike, Flame, Ice
+|Blade, Smoke, Flame, Diamond, Rubber, Ghost, '''[[Quake]]'''
+|-
+!
+!3/9/26
+!3/10/26
+!3/11/26
+!3/12/26
+|-
+|12:00 AM
+|Ice, Diamond, '''[[Buddha]]''', '''[[Love]]''', '''[[Creation]]'''
+|Spike, Magma
+|Smoke, Dark, Light, Rubber, '''[[Portal]]'''
+|Bomb, Ice, Dark, Rubber, '''[[Portal]]''', '''[[Venom]]'''
+|-
+|4:00 AM
+|Blade, Spring, Flame, Eagle, Light
+|Bomb, Smoke
+|Spring, Flame
+|Blade, Sand, '''[[Sound]]'''
+|-
+|8:00 AM
+|Diamond
+|Blade, Flame, Dark, '''[[Love]]''', '''[[Gas]]'''
+|Bomb, Ice
+|Spring, Bomb, '''[[T-Rex]]'''
+|-
+|12:00 PM
+|Blade, Ice, Sand
+|Blade, Eagle, Rubber, '''[[Spider]]'''
+|Blade, Smoke, Flame
+|Flame, Ice
+|-
+|4:00 PM
+|Blade, Smoke, Sand, Rubber
+|Bomb, Flame
+|Blade, Smoke, Spike, Eagle
+|Flame, Light, Magma, '''[[Quake]]'''
+|-
+|8:00 PM
+|Blade, Spring, Bomb, Light, '''[[Mammoth]]'''
+|Spike, Flame, Ice, Sand, '''[[Venom]]'''
+|Blade, Smoke, Flame
+|Blade, Bomb, Sand, Rubber
+|-
+!
+!3/13/26
+!3/14/26
+!3/15/26
+!3/16/26
+|-
+|12:00 AM
+|Rubber
+|Blade, Spring, Smoke, Spike, Dark, '''[[Blizzard]]'''
+|Blade, Spring, Light, '''[[Mammoth]]'''
+|Blade, Smoke,  '''[[Sound]]'''
+|-
+|4:00 AM
+|Bomb, Sand, Dark, Ghost
+|Blade, Bomb, Ice, Diamond, Rubber, '''[[Creation]]'''
+|Spike, Flame, Rubber
+|Spring, Light
+|-
+|8:00 AM
+|Spring, '''[[Mammoth]]'''
+|Ice, Light
+|Spring, Ice, '''[[Phoenix]]''', '''[[Pain]]'''
+|Blade, Flame, Ice, Rubber, '''[[Spider]]''', '''[[Pain]]'''
+|-
+|12:00 PM
+|Blade, Rubber, '''[[Phoenix]]'''
+|Smoke, Ice, Ghost
+|Blade, Eagle, '''[[Love]]'''
+|Bomb, Smoke, Spike, Magma
+|-
+|4:00 PM
+|Flame
+|Smoke, Flame, Ice
+|Magma
+|Eagle, Diamond, '''[[Creation]]'''
+|-
+|8:00 PM
+|Spring, Light
+|Flame, Sand, Dark, Light, '''[[Gravity]]'''
+|Sand, '''[[Quake]]''', '''[[Mammoth]]'''
+|Spring, Ice, Sand 
+|-
+!
+!3/17/26
+!3/18/26
+!3/19/26
+!3/20/26
+|-
+|12:00 AM
+|Bomb, Spike, Flame
+|Blade, Sand
+|Spring, Ice
+|Spring, Bomb, Smoke, Flame
+|-
+|4:00 AM
+|Blade, Sand, Light
+|Rubber, '''[[Creation]]'''
+|Bomb, Flame, '''[[Portal]]'''
+|Blade, Light
+|-
+|8:00 AM
+|Spring, '''[[Creation]]''', '''[[Spirit]]'''
+|Flame, Eagle, Light
+|Blade, Smoke, Ice, Dark, Light
+|'''[[Pain]]'''
+|-
+|12:00 PM
+|Smoke, Spike, Flame, Ice, Light, '''[[Buddha]]'''
+|Blade, Smoke, Dark
+|Blade, Smoke, Sand, Magma, '''[[Creation]]''', '''[[Phoenix]]'''
+|Blade, Sand, Dark, '''[[Creation]]''', '''[[Spider]]'''
+|-
+|4:00 PM
+|Dark
+|Smoke, Ice, Rubber, Magma, '''[[Creation]]'''
+|Eagle, Ghost
+|Eagle, Diamond, Magma
+|-
+|8:00 PM
+|Blade, Flame, Eagle, Magma
+|Blade, Ice, Dark, '''[[Sound]]'''
+|Smoke, Diamond
+|Flame
+|-
+!
+!3/21/26
+!3/22/26
+!3/23/26
+!3/24/26
+|-
+|12:00 AM
+|Blade, Spring
+|Blade, Smoke, Sand, Dark, Diamond
+|Spike, Sand, Light, '''[[Love]]'''
+|Sand, Magma
+|-
+|4:00 AM
+|Ice, Eagle
+|Spring, Smoke, Flame, '''[[Creation]]'''
+|Ice, Rubber
+|Spike, Light, Rubber, '''[[Love]]'''
+|-
+|8:00 AM
+|Blade, Spring, Bomb, Flame, Light, '''[[Creation]]'''
+|Bomb
+|Bomb, Smoke, '''[[Quake]]''', '''[[Buddha]]'''
+|Bomb, Dark, '''[[Spider]]'''
+|-
+|12:00 PM
+|Rubber
+|Blade, Flame, Light, '''[[Mammoth]]'''
+|Blade, Smoke, Flame, Magma
+|Sand, '''[[Buddha]]'''
+|-
+|4:00 PM
+|Flame, Dark, '''[[Venom]]'''
+|Blade, Flame
+|Spring, Diamond
+|Blade, Spring, Flame
+|-
+|8:00 PM
+|Blade, Bomb, Light, '''[[Love]]'''
+|Bomb, Diamond, Magma, '''[[Quake]]''', '''[[Portal]]'''
+|Blade, Dark
+|Blade, Diamond
+|-
+!
+!3/25/26
+!3/26/26
+!3/27/26
+!3/28/26
+|-
+|12:00 AM
+|Spring, '''[[T-Rex]]'''
+|Blade, Spike, Flame, Ghost, '''[[Venom]]'''
+|Blade, Flame, Sand, Diamond, '''[[Quake]]'''
+|Light, Rubber
+|-
+|4:00 AM
+|Spike, Flame, Eagle, Rubber
+|Spring, Magma, '''[[Creation]]''' 
+|Blade, Spring, Ghost, Magma, '''[[Buddha]]'''
+|Spring, Flame, Diamond, '''[[Buddha]]''', '''[[Sound]]'''
+|-
+|8:00 AM
+|Blade, Smoke, '''[[Love]]'''
+|Spike, Light
+|
+|Bomb, Smoke, Dark, Light, Ghost
+|-
+|12:00 PM
+|Blade, Spring, Light, Rubber, '''[[Buddha]]'''
+|Blade, Spike, Eagle
+|Dark
+|Sand, Magma
+|-
+|4:00 PM
+|Smoke, Ice
+|Light, Rubber, '''[[Love]]'''
+|Blade, Bomb, Flame, Diamond, '''[[Love]]''', '''[[Portal]]'''
+|Spring, Light, '''[[Creation]]'''
+|-
+|8:00 PM
+|Flame, '''[[Pain]]''', '''[[Dough]]'''
+|Sand, Light, '''[[Quake]]''', '''[[Sound]]'''
+|Blade, Smoke, Ice
+|Blade, Sand, Dark, Eagle, '''[[Love]]'''
+|-
+!
+!3/29/26
+!3/30/26
+!3/31/26
+|-
+|12:00 AM
+|Bomb, Flame, Ice, Light, Rubber, '''[[Spirit]]'''
+|Flame, Dark, Rubber
+|Blade, Spring, Smoke, Eagle, '''[[Creation]]'''
+|-
+|4:00 AM
+|Blade, Sand, '''[[Shadow]]'''
+|Blade, Spring, Bomb, Smoke, Ice
+|Spring, Ice
+|-
+|8:00 AM
+|'''[[Buddha]]'''
+|Bomb, Diamond
+|Diamond, Light, '''[[Dough]]'''
+|-
+|12:00 PM
+|Flame, Ice, Eagle, Rubber, Ghost, Magma
+|Flame, '''[[Creation]]''', '''[[Spider]]'''
+|Blade, Spike
+|-
+|4:00 PM
+|Blade, Spike
+|Flame, Magma, '''[[Phoenix]]'''
+|Flame, Rubber, '''[[Buddha]]'''
+|-
+|8:00 PM
+|
+|Blade, Ghost
+|Smoke, Spike, Flame, Eagle, Ghost
+|}
+|-|
+April=
+{| class="article-table"
+|+April 2026 Stock History
+!
+!4/1/26
+!4/2/26
+!4/3/26
+!4/4/26
+|-
+|12:00 AM
+|Rubber
+|Blade, Spring, Flame, Sand, Light, Ghost
+|Flame, '''[[Love]]''', '''[[Mammoth]]'''
+|Blade, Bomb, Ice, Light
+|-
+|4:00 AM
+|Spike, Rubber
+|Bomb, '''[[Mammoth]]'''
+|Bomb, Spike, Sand, Dark, '''[[Quake]]''', '''[[Portal]]'''
+|Blade, Eagle
+|-
+|8:00 AM
+|Spring, Light
+|Spring, Ice
+|
+|
+|-
+|12:00 PM
+|Blade
+|
+|Blade, Light, '''[[Portal]]'''
+|Smoke, Flame, Rubber, '''[[Quake]]'''
+|-
+|4:00 PM
+|Spring, Bomb, Smoke, Flame, Ice, Diamond, Light, '''[[Buddha]]'''
+|
+|Spring, Flame, Dark, Rubber
+|Flame, '''[[Sound]]'''
+|-
+|8:00 PM
+|Smoke, '''[[Gravity]]'''
+|Spring, Ice
+|Smoke, Diamond, '''[[Sound]]'''
+|Blade, Light, '''[[Creation]]'''
+|-
+!
+!4/5/26
+!4/6/26
+!4/7/26
+!4/8/26
+|-
+|12:00 AM
+|Ice
+|
+|Flame, '''[[Gravity]]''', '''[[Tiger]]'''
+|Bomb, Smoke, Spike, '''[[Love]]'''
+|-
+|4:00 AM
+|Ice, Dark, '''[[Blizzard]]'''
+|Spring, Dark, '''[[Gravity]]'''
+|Bomb, Flame, Eagle, Ghost, '''[[Creation]]''', '''[[Mammoth]]'''
+|Light, '''[[Sound]]'''
+|-
+|8:00 AM
+|
+|Blade, Bomb, Ice, Dark, Eagle, Light
+|Blade, Spring, Smoke, '''[[Portal]]'''
+|Ice, Dark, Rubber
+|-
+|12:00 PM
+|Smoke, Flame, Eagle, Rubber, Magma, '''[[Sound]]'''
+|Blade, Smoke, Light
+|Blade, Smoke, Light, '''[[Buddha]]'''
+|Smoke, Ice, Sand
+|-
+|4:00 PM
+|Blade, Bomb, Rubber
+|Smoke, Spike, Flame, Dark, Light
+|
+|'''[[Spider]]'''
+|-
+|8:00 PM
+|
+|Blade, Rubber
+|Eagle, '''[[Gravity]]'''
+|
+|-
+!
+!4/9/26
+!4/10/26
+!4/11/26
+!4/12/26
+|-
+|12:00 AM
+|Blade, Smoke, Spike, Light, '''[[Creation]]'''
+|Spring, Eagle, '''[[Love]]''', '''[[Creation]]''', '''[[Yeti]]'''
+|Blade, Smoke, Light
+|Blade, Flame, Sand
+|-
+|4:00 AM
+|Blade, Bomb, Magma
+|Blade, Flame, Ice, Dark
+|Flame, '''[[Quake]]'''
+|Bomb, Light, Ghost, Magma
+|-
+|8:00 AM
+|Blade, Flame, Sand
+|Flame, '''[[Tiger]]'''
+|Flame, Ice
+|Smoke, Spike, Flame
+|-
+|12:00 PM
+|Blade, '''[[Creation]]''', '''[[Gravity]]'''
+|Blade, Dark, Rubber, '''[[Creation]]'''
+|Spike, Flame, Light, '''[[Buddha]]'''
+|Blade, Rubber, '''[[Phoenix]]'''
+|-
+|4:00 PM
+|Blade, Smoke, Diamond, '''[[Love]]'''
+|Blade, Spike, '''[[Spider]]'''
+|Flame
+|Blade, Spring, Smoke, Eagle
+|-
+|8:00 PM
+|
+|Bomb, Ice, '''[[Buddha]]'''
+|'''[[Spider]]'''
+|Blade, Dark, Magma
+|-
+!
+!4/13/26
+!4/14/26
+!4/15/26
+!4/16/26
+|-
+|12:00 AM
+|Ice, Sand, Rubber, '''[[Creation]]'''
+|Blade, Bomb, Spike, Diamond, Light
+|Eagle, Rubber, '''[[Love]]'''
+|Blade, Flame, Light
+|-
+|4:00 AM
+|Smoke, Spike, Sand, '''[[T-Rex]]'''
+|Blade, Rubber, Ghost, '''[[Buddha]]''', '''[[Sound]]'''
+|Blade, Smoke, Spike, Light, '''[[Quake]]'''
+|Spring
+|-
+|8:00 AM
+|Diamond, Light, Rubber, '''[[Creation]]'''
+|
+|Blade, Bomb, Sand, Rubber
+|Blade, Spring, Bomb, Smoke, Spike, Diamond, '''[[Sound]]'''
+|-
+|12:00 PM
+|Spring, Spike, '''[[Creation]]'''
+|
+|Smoke
+|Dark, Light, Rubber
+|-
+|4:00 PM
+|Blade
+|Flame, Sand
+|Dark, Light, '''[[Quake]]'''
+|Blade, Spike
+|-
+|8:00 PM
+|Blade, Ghost
+|Blade, Dark
+|Smoke, Flame, Sand, Rubber, '''[[Buddha]]'''
+|Flame, '''[[Spider]]''', '''[[Portal]]'''
+|-
+!
+!4/17/26
+!4/18/26
+!4/19/26
+!4/20/26
+|-
+|12:00 AM
+|Smoke, Flame, Sand, Diamond, Light
+|Blade, Smoke, '''[[Dough]]'''
+|Spring, Eagle, Rubber, '''[[Blizzard]]'''
+|Blade, Spring, Smoke, Dark
+|-
+|4:00 AM
+|Blade, Eagle, '''[[Love]]'''
+|Sand, Eagle
+|Spike, Ice, Dark, Ghost, '''[[Creation]]'''
+|Eagle, Magma
+|-
+|8:00 AM
+|Spring, Flame, '''[[Sound]]'''
+|
+|Magma
+|Rubber
+|-
+|12:00 PM
+|Smoke, Rubber
+|Smoke, Ice, Magma, '''[[Phoenix]]'''
+|Spring, Smoke, Flame
+|Blade
+|-
+|4:00 PM
+|Spring, Bomb
+|Bomb
+|Bomb, Spike, Light, '''[[Dough]]'''
+|Spike, Eagle, '''[[Creation]]''', '''[[Phoenix]]''', '''[[Pain]]'''
+|-
+|8:00 PM
+|Spike, Ice, Magma
+|Blade, Spring, Flame, '''[[Dough]]'''
+|Blade, '''[[Buddha]]'''
+|Blade, Smoke, Flame, Ice, Rubber
+|-
+!
+!4/21/26
+!4/22/26
+!4/23/26
+!4/24/26
+|-
+|12:00 AM
+|Sand, Light
+|Spike, Diamond, Light
+|Spike, Magma
+|Smoke, Dark
+|-
+|4:00 AM
+|Spring, Ice, Sand, Dark, '''[[Quake]]''', '''[[Creation]]''', '''[[Venom]]'''
+|Eagle, Ghost
+|
+|Blade, Flame, '''[[Love]]''', '''[[Creation]]''', '''[[Blizzard]]'''
+|-
+|8:00 AM
+|Blade, Rubber, Ghost
+|Spring, Sand, '''[[Buddha]]'''
+|Blade, Smoke, Flame
+|Blade, Smoke, Sand, Diamond, Light, Magma
+|-
+|12:00 PM
+|Ice
+|Blade, '''[[Kitsune]]'''
+|Diamond, Rubber, '''[[Creation]]'''
+|Smoke, Magma, '''[[Gravity]]'''
+|-
+|4:00 PM
+|Blade, Smoke, Flame, Dark
+|Flame, '''[[Spider]]'''
+|Blade, Smoke, Flame, Eagle, '''[[Gravity]]'''
+|Spike
+|-
+|8:00 PM
+|Blade, Bomb, Smoke, Magma, '''[[Portal]]'''
+|Blade, Flame, Dark, Light
+|Bomb
+|
+|-
+!
+!4/25/26
+!4/26/26
+!4/27/26
+!4/28/26
+|-
+|12:00 AM
+|Blade, Flame, '''[[Creation]]''', '''[[Portal]]'''
+|Dark, Diamond, '''[[Portal]]'''
+|Flame, Dark, Light, Rubber
+|Spring, Ice, Light
+|-
+|4:00 AM
+|Spring, Dark
+|Blade, Smoke, Flame, Sand, Magma
+|Ice, Diamond, '''[[Quake]]''', '''[[Phoenix]]''', '''[[Kitsune]]'''
+|Blade, Smoke, Flame, Dark, Light
+|-
+|8:00 AM
+|Spring, Eagle, Light, Rubber, '''[[Love]]''', '''[[Phoenix]]''', '''[[Spirit]]'''
+|Blade, Bomb, Flame, Light, Ghost, '''[[Quake]]''', '''[[Pain]]'''
+|Blade, Spring
+|
+|-
+|12:00 PM
+|Smoke, '''[[Buddha]]'''
+|Blade, Spring, Flame, Dark
+|Smoke, '''[[Sound]]'''
+|Spring, Bomb, Flame, Diamond, '''[[Creation]]''', '''[[Spider]]'''
+|-
+|4:00 PM
+|Smoke, Spike, Eagle
+|Bomb, Magma
+|Blade, '''[[Spider]]''', '''[[Phoenix]]''', '''[[Gravity]]'''
+|
+|-
+|8:00 PM
+|Blade, Bomb, Flame, Light, Rubber, '''[[Creation]]'''
+|Blade
+|Spring, Smoke, Rubber
+|Smoke, '''[[Buddha]]'''
+|-
+!
+!4/29/26
+!4/30/26
+|-
+|12:00 AM
+|Spring, Bomb, Smoke, Light, Rubber
+|Blade, Rubber, '''[[Pain]]'''
+|-
+|4:00 AM
+|Blade, Sand, Dark, '''[[Phoenix]]''', '''[[Pain]]'''
+|Spike, Ice, '''[[Spider]]'''
+|-
+|8:00 AM
+|Bomb, Flame, Ice, Sand, Magma, '''[[Spider]]'''
+|Spring, Flame, Diamond
+|-
+|12:00 PM
+|Smoke, Dark, Ghost
+|Bomb, Sand, Dark, Rubber, '''[[Yeti]]'''
+|-
+|4:00 PM
+|Blade, Spike, Flame
+|Spring, Bomb, Magma
+|-
+|8:00 PM
+|Blade, '''[[Love]]'''
+|Smoke, Flame, Diamond, '''[[Love]]''', '''[[Pain]]'''
+|}
+|-|
+May=
+{| class="article-table"
+|+May 2026 Stock History
+!
+!5/1/26
+!5/2/26
+!5/3/26
+!5/4/26
+|-
+|12:00 AM
+|Eagle, Rubber
+|Blade, Eagle
+|Bomb, Smoke. Ghost
+|
+|-
+|4:00 AM
+|Blade, Bomb
+|Spike, Flame
+|Smoke, '''[[Creation]]'''
+|Blade, Spring, Flame, '''[[Quake]]''', '''[[Creation]],''' '''[[Pain]]''',
+|-
+|8:00 AM
+|Bomb, Ice, Eagle, '''[[Creation]]'''
+|Blade, Bomb, Smoke, Spike
+|Spring, Magma
+|Eagle
+|-
+|12:00 PM
+|Smoke, '''[[Gas]]'''
+|Bomb, Ice, Diamond, '''[[Pain]]'''
+|Blade, Spring, Ice, Diamond
+|'''[[Quake]]''', '''[[Portal]]'''
+|-
+|4:00 PM
+|Flame, Dark
+|Flame, Light
+|Blade, '''[[Love]]'''
+|Spring, Ice
+|-
+|8:00 PM
+|Blade, Light, '''[[Creation]]'''
+|Flame, '''[[Spider]]'''
+|Smoke, '''[[Sound]]'''
+|Diamond, '''[[Spirit]]'''
+|-
+!
+!5/5/26
+!5/6/26
+!5/7/26
+!5/8/26
+|-
+|12:00 AM
+|Blade, Spike, Ghost
+|Smoke, Ice
+|Blade, Ice, Light, '''[[Tiger]]'''
+|Eagle, '''[[Quake]]'''
+|-
+|4:00 AM
+|Smoke, Spike, Flame, Sand, Light, '''[[Spider]]'''
+|Blade, Spring
+|Smoke, Flame, Eagle, '''[[Dough]]'''
+|'''[[Buddha]]'''
+|-
+|8:00 AM
+|Blade''', [[Gravity]]'''
+|Spike, Flame, Light, Rubber
+|Blade, Flame
+|Blade, Flame, Ice, Light
+|-
+|12:00 PM
+|Flame
+|Ice
+|Bomb, Flame, Diamond, Light, '''[[Creation]]''', '''[[Spider]]'''
+|Blade, '''[[Creation]]''', '''[[Mammoth]]'''
+|-
+|4:00 PM
+|Dark, Magma, '''[[Venom]]'''
+|Blade, Bomb, Smoke, Sand, Dark
+|Smoke, Dark, Rubber
+|Spike
+|-
+|8:00 PM
+|Blade, Flame, Sand
+|Blade, 
+|Smoke, Ghost, Magma, '''[[Shadow]]'''
+|Blade, Smoke, Eagle, Rubber, Ghost, '''[[Quake]]'''
+|-
+!
+!5/9/26
+!5/10/26
+!5/11/26
+!5/12/26
+|-
+|12:00 AM
+|Flame, Light, Rubber
+|Spring, Flame, Eagle
+|Sand
+|Diamond, '''[[Buddha]]'''
+|-
+|4:00 AM
+|Smoke
+|Spike, Sand
+|Flame, Ice, Eagle, Magma, '''[[Phoenix]]'''
+|Smoke, Ice, Dark, Eagle
+|-
+|8:00 AM
+|Blade, Spring, Bomb, Spike, Sand, '''[[Kitsune]]'''
+|Smoke, Flame, '''[[Phoenix]]''', '''[[Pain]]'''
+|Spring, Flame, '''[[Love]]'''
+|Flame
+|-
+|12:00 PM
+|'''[[Phoenix]]'''
+|Flame, Eagle, Light, Ghost, '''[[Quake]]'''
+|Dark, Light, '''[[Love]]''', '''[[Sound]]''', '''[[Yeti]]'''
+|Bomb, Ice, '''[[Creation]]'''
+|-
+|4:00 PM
+|Blade, '''[[Quake]]'''
+|Blade, Spike, Light, '''[[Buddha]]'''
+|Blade, Spring, Smoke, Rubber, '''[[Gravity]]'''
+|Smoke, Sand
+|-
+|8:00 PM
+|Blade, Smoke, Diamond, Light
+|
+|Flame, Sand, Magma
+|
+|-
+!
+!5/13/26
+!5/14/26
+!5/15/26
+!5/16/26
+|-
+|12:00 AM
+|
+|Blade, Smoke, Rubber
+|Smoke, Spike, Flame, Diamond
+|Blade, Spring, Diamond
+|-
+|4:00 AM
+|Rubber
+|Blade, Bomb
+|
+|Spring
+|-
+|8:00 AM
+|
+|Spring, Bomb, Flame, Light
+|Sand, Dark, Magma
+|Smoke, Flame, Dark, Magma
+|-
+|12:00 PM
+|Spring, Light
+|Blade, Flame, '''[[Quake]]''', '''[[Love]]''', '''[[Pain]]'''
+|Ice, Light, Ghost
+|Sand
+|-
+|4:00 PM
+|Spike, Sand, Eagle, Ghost
+|Blade, Flame
+|Blade, Ghost, Magma
+|Flame, Light
+|-
+|8:00 PM
+|Smoke, Flame
+|Blade, Flame, '''[[Creation]]'''
+|Bomb, Smoke, Eagle, '''[[Quake]]''', '''[[Phoenix]]'''
+|Spring, Smoke, Spike
+|-
+!
+!5/17/26
+!5/18/26
+!5/19/26
+!5/20/26
+|-
+|12:00 AM
+|Blade, Spring, Flame, Light, '''[[Quake]]'''
+|Smoke, Flame, Eagle
+|Sand
+|
+|-
+|4:00 AM
+|Blade, Magma
+|Flame, Ice
+|Smoke, Flame, Dark
+|Blade, Flame Light, '''[[Portal]]'''
+|-
+|8:00 AM
+|Blade, Flame
+|'''[[Creation]]''', '''[[Spider]]''', '''[[Yeti]]'''
+|Blade, Flame
+|Smoke, Ice
+|-
+|12:00 PM
+|'''[[Gravity]]'''
+|Bomb, Spike, '''[[Love]]'''
+|Spring, Sand, Diamond
+|Flame, Ice, Diamond
+|-
+|4:00 PM
+|Sand
+|Rubber, Ghost
+|Spring, Bomb, Smoke, Spike, Light, '''[[Buddha]]'''
+|Blade, Spring, '''[[Love]]'''
+|-
+|8:00 PM
+|Spring
+|Blade, Smoke, Light, '''[[Quake]]'''
+|Blade, Smoke, Diamond, Rubber, Ghost, '''[[Love]]''', '''[[Creation]]'''
+|Bomb, Smoke, Dark
+|-
+!
+!5/21/26
+!5/22/26
+!5/23/26
+!5/24/26
+|-
+|12:00 AM
+|Spring, Smoke, Eagle
+|Rubber
+|
+|Spike, Rubber, Ghost, '''[[Love]]'''
+|-
+|4:00 AM
+|Ice, Sand
+|'''[[Spider]]''', '''[[Pain]]'''
+|Blade, Spring, Rubber, '''[[Buddha]]''', '''[[Love]]'''
+|Spring, Light, '''[[Spirit]]'''
+|-
+|8:00 AM
+|Spring, Sand
+|
+|Dark
+|Spring, Flame, Ice
+|-
+|12:00 PM
+|
+|Sand, Dark, '''[[Portal]]'''
+|Bomb, Smoke, Flame, Eagle
+|Dark, Rubber
+|-
+|4:00 PM
+|Smoke, Flame, Dark, '''[[Phoenix]]'''
+|Rubber, Ghost, '''[[Creation]]''', '''[[Yeti]]'''
+|Spring, Light, '''[[Portal]]'''
+|Bomb, Ice, Light, '''[[Blizzard]]'''
+|-
+|8:00 PM
+|Blade, Spring
+|Spike, '''[[Spider]]'''
+|Blade, '''[[Quake]]'''
+|Eagle, Light, Ghost
+|-
+!
+!5/25/26
+!5/26/26
+!5/27/26
+!5/28/26
+|-
+|12:00 AM
+|Dark
+|Blade, Dark, '''[[Spider]]'''
+|Blade, Bomb, Ice, '''[[Phoenix]]'''
+|Rubber, '''[[Quake]]'''
+|-
+|4:00 AM
+|Blade, Smoke. Flame
+|Bomb, Smoke, Spike, Flame
+|Eagle, Diamond, '''[[Blizzard]]'''
+|Blade, Bomb, Smoke, Ghost, '''[[Portal]]'''
+|-
+|8:00 AM
+|Spring, Smoke, Rubber
+|Ice, Sand, Ghost, Magma,  '''[[Buddha]]'''
+|Spike, Ice, Ghost
+|Blade, Flame, Dark, '''[[Pain]]'''
+|-
+|12:00 PM
+|Bomb, Smoke, Light, Ghost, '''[[Blizzard]]'''
+|Spring, Smoke, Flame, Rubber
+|Bomb, Flame, '''[[Quake]]''', '''[[Love]]'''
+|Flame
+|-
+|4:00 PM
+|Bomb, Smoke
+|Flame, Ice, '''[[Love]]''', '''[[T-Rex]]'''
+|Smoke, Flame, Dark, Light
+|Blade, Spring, Spike, Flame, Magma, '''[[Love]]'''
+|-
+|8:00 PM
+|Smoke, Flame, Sand, Light
+|Blade, Bomb, Ice, [[T-Rex|'''Trex''']]
+|Blade, Ghost, '''[[Dough]]'''
+|Smoke, Dark
+|-
+!
+!5/29/26
+!5/30/26
+!5/31/26
+|-
+|12:00 AM
+|Light
+|Light, Ghost
+|Blade, Smoke, Ice
+|-
+|4:00 AM
+|Spring, Flame, '''[[Sound]]'''
+|Spring, Bomb, Dark, '''[[Creation]]'''
+|Dark
+|-
+|8:00 AM
+|Smoke, Spike, Sand
+|Blade, Bomb, Flame, Magma
+|Dark, Light, '''[[Shadow]]'''
+|-
+|12:00 PM
+|Blade, Flame, Light
+|Blade, Light
+|Blade, Flame, Ice, Rubber, '''[[Creation]]''', '''[[T-Rex]]'''
+|-
+|4:00 PM
+|Dark, '''[[Blizzard]]'''
+|Spring, Smoke, Eagle, Rubber, '''[[Quake]]''', '''[[T-Rex]]'''
+|Bomb, Rubber, Magma
+|-
+|8:00 PM
+|
+|Sand
+|Spike
+|}
+|-|
+June=
+{| class="article-table"
+|+June 2026 Stock History
+!
+!6/1/26
+!6/2/26
+!6/3/26
+!6/4/26
+|-
+|12:00 AM
+|Bomb, Rubber, Magma
+|
+|'''[[Portal]]'''
+|Blade, Spring, Smoke
+|-
+|4:00 AM
+|Spike
+|'''[[Creation]]'''
+|Eagle, Light
+|Light
+|-
+|8:00 AM
+|Blade, Spring
+|Flame
+|Blade, Bomb, Smoke, Sand
+|Flame, Sand, Dark
+|-
+|12:00 PM
+|Smoke, Light
+|Spring, Smoke, Ice
+|Bomb, Flame, Diamond, Light, '''[[Buddha]]''', '''[[Spider]]'''
+|Bomb
+|-
+|4:00 PM
+|Spike, Flame, Ice, Dark
+|Spike, Rubber
+|Bomb, Ice, Sand
+|Bomb, Eagle
+|-
+|8:00 PM
+|
+|
+|
+|
+|-
+!
+!6/5/26
+!6/6/26
+!6/7/26
+!6/8/26
+|-
+|12:00 AM
+|Flame, Ice, Rubber, '''[[Gravity]]'''
+|Spike, Eagle 
+|Bomb, Light, Rubber
+|Flame, Light, Rubber
+|-
+|4:00 AM
+|Bomb, Smoke, Dark, '''[[Spider]]''', '''[[Phoenix]]'''
+|Flame, Ice
+|Blade, Flame
+|
+|-
+|8:00 AM
+|Blade, '''[[Love]]''', '''[[Creation]]'''
+|Dark, '''[[Spider]]'''
+|Spike, Ice, Sand, Light, Rubber
+|Bomb, Smoke, Sand
+|-
+|12:00 PM
+|Blade, Smoke, Flame, Ice
+|Dark, Rubber, '''[[Love]]'''
+|Spring, Bomb, Smoke, Magma
+|Blade, Spring, Spike, Eagle, '''[[Buddha]]'''
+|-
+|4:00 PM
+|
+|Blade, Smoke, Spike
+|Flame, Sand, Eagle
+|
+|-
+|8:00 PM
+|
+|
+|
+|Magma
+|-
+!
+!6/9/26
+!6/10/26
+!6/11/26
+!6/12/26
+|-
+|12:00 AM
+|Spring, Smoke, Flame, diamond, '''[[Portal]]'''
+|Bomb, Smoke, Sand, Light, '''[[Love]]'''
+|Blade, Sand, Rubber, '''[[Love]]'''
+|Dark
+|-
+|4:00 AM
+|Blade, Bomb, Flame, Ice, Sand
+|Smoke, Flame, Sand, Dark
+|Blade, Smoke, Spike, Rubber
+|Flame, Dark, Rubber, '''[[Sound]]'''
+|-
+|8:00 AM
+|Blade, Sand, Light, Magma
+|Magma
+|Blade, Flame, Magma, '''[[Dough]]'''
+|Blade, Smoke, Flame, Ice, Eagle, '''[[Creation]]''', '''[[Dough]]'''
+|-
+|12:00 PM
+|Smoke, Light, Ghost
+|Blade, '''[[Quake]]''', '''[[Love]]'''
+|Spring, Smoke, Ice, Rubber, Magma
+|Spring
+|-
+|4:00 PM
+|Blade, Sand, '''[[Spider]]'''
+|
+|Bomb, Dark, Diamond
+|Spring, Flame, Light, '''[[Mammoth]]'''
+|-
+|8:00 PM
+|
+|Bomb, Light, Rubber
+|Blade, Spring, Smoke
+|Flame, Ice, '''[[Creation]]'''
+|-
+!
+!6/13/26
+!6/14/26
+!6/15/26
+!6/16/26
+|-
+|12:00 AM
+|Bomb, Smoke, Sand, Diamond, '''[[Buddha]]'''
+|Bomb, Light
+|Smoke, Light, '''[[Spider]]''', '''[[Sound]]'''
+|'''[[Lightning]]'''
+|-
+|4:00 AM
+|Blade, Spike
+|Spring, Flame, Ghost, '''[[Spirit]]'''
+|Blade, Spring, Flame, Sand, Ghost, '''[[Quake]]'''
+|Smoke, Light, '''[[Sound]]'''
+|-
+|8:00 AM
+|Blade, Spring, Flame, '''[[Quake]]'''
+|Blade, Spring, Smoke, Flame, Sand, Dark, '''[[Buddha]]'''
+|Blade, Magma
+|Blade, Spring, Eagle, '''[[Gravity]]'''
+|-
+|12:00 PM
+|Smoke, Eagle, Light, '''[[Pain]]'''
+|Diamond
+|Bomb, Diamond, '''[[Love]]'''
+|Ice, '''[[Phoenix]]''', '''[[Dough]]'''
+|-
+|4:00 PM
+|Blade
+|Blade, Flame, Ghost
+|Blade, Dark, Eagle, Rubber
+|Bomb, Light
+|-
+|8:00 PM
+|Blade, Spring, Smoke, Ice, Sand, '''[[Sound]]'''
+|
+|Dark, Light
+|
+|-
+!
+!6/17/26
+!6/18/26
+!6/19/26
+!6/20/26
+|-
+|12:00 AM
+|Flame, '''[[Spider]]'''
+|
+|
+|
+|-
+|4:00 AM
+|Spring, Smoke, '''[[Pain]]'''
+|
+|
+|Blade
+|-
+|8:00 AM
+|Blade, Spike, Flame, '''[[Creation]]''', '''[[Sound]]'''
+|
+|
+|'''[[Portal]]''', '''[[T-Rex]]'''
+|-
+|12:00 PM
+|
+|
+|
+|Spring, Flame, Eagle, Light, '''[[Buddha]]''', '''[[Gravity]]''', '''[[Venom]]'''
+|-
+|4:00 PM
+|
+|
+|
+|
+|-
+|8:00 PM
+|
+|
+|
+|
+|-
+!
+!6/21/26
+!6/22/26
+!6/23/26
+!6/24/26
+|-
+|12:00 AM
+|
+|
+|
+|
+|-
+|4:00 AM
+|
+|
+|
+|
+|-
+|8:00 AM
+|
+|
+|
+|
+|-
+|12:00 PM
+|
+|
+|
+|
+|-
+|4:00 PM
+|
+|
+|
+|
+|-
+|8:00 PM
+|
+|
+|
+|
+|-
+!
+!6/25/26
+!6/26/26
+!6/27/26
+!6/28/26
+|-
+|12:00 AM
+|
+|
+|
+|
+|-
+|4:00 AM
+|
+|
+|
+|
+|-
+|8:00 AM
+|
+|
+|
+|
+|-
+|12:00 PM
+|
+|
+|
+|
+|-
+|4:00 PM
+|
+|
+|
+|
+|-
+|8:00 PM
+|
+|
+|
+|
+|-
+!
+!6/29/26
+!6/30/26
+|-
+|12:00 AM
+|
+|
+|-
+|4:00 AM
+|Blade, '''[[Kitsune]]'''
+|
+|-
+|8:00 AM
+|
+|'''[[Portal]]'''
+|-
+|12:00 PM
+|
+|Blade, Spring
+|-
+|4:00 PM
+|
+|
+|-
+|8:00 PM
+|
+|
+|}
+|-|
+July=
+{| class="article-table"
+|+July 2026 Stock History
+!
+!7/1/26
+!7/2/26
+!7/3/26
+!7/4/26
+|-
+|12:00 AM
+|
+|Spring, Eagle
+|Ice, Light, Rubber
+|Blade, Ghost
+|-
+|4:00 AM
+|
+|Flame, '''[[Quake]]'''
+|Blade, Spring, Smoke, '''[[Quake]]'''
+|
+|-
+|8:00 AM
+|Spring, Ice, '''[[Creation]]''', '''[[Gravity]]'''
+|Ice, Sand, Dark, Ghost
+|Sand, '''[[Sound]]'''
+|Dark, '''[[Pain]]'''
+|-
+|12:00 PM
+|
+|Blade, Spring, Bomb, Light, Rubber, Magma, '''[[Creation]]''', '''[[Gas]]''', '''[[Kitsune]]'''
+|Smoke, '''[[Portal]]''', '''[[Gravity]]'''
+|Blade, Bomb
+|-
+|4:00 PM
+|
+|Bomb, Flame, '''[[Yeti]]'''
+|Blade, Spring, Rubber, Magma, '''[[Shadow]]''', '''[[Gas]]'''
+|
+|-
+|8:00 PM
+|
+|Smoke, Flame
+|Flame, Ice
+|Bomb, Flame, Dark, Light
+|-
+!
+!7/5/26
+!7/6/26
+!7/7/26
+!7/8/26
+|-
+|12:00 AM
+|Blade, Spring, Ice, Sand, Dark
+|
+|Blade, Smoke, Flame, Diamond, Ghost
+|Blade, Bomb, Spike, Flame, Dark, Light
+|-
+|4:00 AM
+|Blade, Sand, '''[[Pain]]'''
+|
+|Dark, [[Portal]]
+|
+|-
+|8:00 AM
+|Flame, Diamond, Light
+|
+|Blade, [[Phoenix]]
+|
+|-
+|12:00 PM
+|Bomb, Smoke, Sand
+|
+|Spring, Eagle, [[Quake]]
+|
+|-
+|4:00 PM
+|Sand
+|[[Buddha]]
+|Blade, Magma
+|
+|-
+|8:00 PM
+|Light, '''[[Sound]]'''
+|Spring
+|
+|
+|-
+!
+!7/9/26
+!7/10/26
+!7/11/26
+!7/12/26
+|-
+|12:00 AM
+|
+|Smoke, Flame
+|Blade, Ice, '''[[Buddha]]''', '''[[Love]]''', '''[[Pain]]''', '''[[Gas]]'''
+|
+|-
+|4:00 AM
+|
+|Blade, Spring, Smoke, Sand
+|Sand
+|Smoke, Sand, Light, '''[[Buddha]]''', '''[[Blizzard]]'''
+|-
+|8:00 AM
+|
+|Flame, Eagle, Ghost
+|Blade, Dark
+|Spring, Smoke, Ice
+|-
+|12:00 PM
+|Blade, Flame, Eagle
+|Blade, Bomb, Ice, Sand, Light, '''[[Creation]]'''
+|Smoke, Flame, Magma, '''[[Love]]'''
+|Blade
+|-
+|4:00 PM
+|
+|Flame
+|
+|Bomb, Flame, Sand
+|-
+|8:00 PM
+|
+|Blade, Smoke, Flame, Dark, Magma
+|
+|
+|-
+!
+!7/13/26
+!7/14/26
+!7/15/26
+!7/16/26
+|-
+|12:00 AM
+|
+|
+|
+|
+|-
+|4:00 AM
+|
+|
+|
+|
+|-
+|8:00 AM
+|
+|Blade, Spring, Rubber, '''[[Buddha]]'''
+|
+|
+|-
+|12:00 PM
+|
+|Smoke, Sand, '''[[T-Rex]]'''
+|
+|
+|-
+|4:00 PM
+|
+|
+|
+|
+|-
+|8:00 PM
+|
+|
+|
+|
+|-
+!
+!7/17/26
+!7/18/26
+!7/19/26
+!7/20/26
+|-
+|12:00 AM
+|
+|
+|
+|
+|-
+|4:00 AM
+|
+|
+|
+|
+|-
+|8:00 AM
+|
+|
+|
+|
+|-
+|12:00 PM
+|
+|
+|
+|
+|-
+|4:00 PM
+|
+|
+|
+|
+|-
+|8:00 PM
+|
+|
+|
+|
+|-
+!
+!7/21/26
+!7/22/26
+!7/23/26
+!7/24/26
+|-
+|12:00 AM
+|
+|
+|
+|
+|-
+|4:00 AM
+|
+|
+|
+|
+|-
+|8:00 AM
+|
+|
+|
+|
+|-
+|12:00 PM
+|
+|
+|
+|
+|-
+|4:00 PM
+|
+|
+|
+|
+|-
+|8:00 PM
+|
+|
+|
+|
+|-
+!
+!7/25/26
+!7/26/26
+!7/27/26
+!7/28/26
+|-
+|12:00 AM
+|
+|
+|
+|
+|-
+|4:00 AM
+|
+|
+|
+|
+|-
+|8:00 AM
+|
+|
+|
+|
+|-
+|12:00 PM
+|
+|
+|
+|
+|-
+|4:00 PM
+|
+|
+|
+|
+|-
+|8:00 PM
+|
+|
+|
+|
+|-
+!
+!7/29/26
+!7/30/26
+!7/31/26
+|-
+|12:00 AM
+|
+|
+|
+|-
+|4:00 AM
+|
+|
+|
+|-
+|8:00 AM
+|
+|
+|
+|-
+|12:00 PM
+|
+|
+|
+|-
+|4:00 PM
+|
+|
+|
+|-
+|8:00 PM
+|
+|
+|}
+|-|
+August=
+{| class="article-table"
+|+August 2026 Stock History
+!
+!8/1/26
+!8/2/26
+!8/3/26
+!8/4/26
+|-
+|12:00 AM
+|Flame, Rubber
+|Blade, Eagle, '''[[T-Rex]]'''
+|Blade, '''[[Gravity]]'''
+|Flame, Rubber, '''[[Buddha]]''', '''[[Creation]]''', '''[[Gravity]]'''
+|-
+|4:00 AM
+|Blade, Spike, Magma
+|Bomb, '''[[Love]]'''
+|Bomb, '''[[Creation]]'''
+|<p style="color: red;">'''N/D'''</p>
+|-
+|8:00 AM
+|Sand, Rubber
+|Spring, Flame, Ice, Dark, Light, Rubber, '''[[Creation]]''', '''[[Phoenix]]'''
+|Blade, Spring, Smoke, Flame, Sand, '''[[Love]]'''
+|'''[[Shadow]]'''
+|-
+|12:00 PM
+|Smoke, Flame. Ice, '''[[Gas]]'''
+|Eagle, Magma
+|Spring, Smoke, Diamond
+|Blade, Flame, Dark
+|-
+|4:00 PM
+|Blade, Bomb, Spike, '''[[Quake]]'''
+|Spike
+|Smoke, Light, '''[[Quake]]'''
+|<p style="color: red;">'''N/D'''</p>
+|-
+|8:00 PM
+|Spring, Eagle, Light, '''[[Buddha]]'''
+|Blade
+|'''[[Quake]]'''
+|Sand, '''[[Creation]]'''
+|-
+!
+!8/5/26
+!8/6/26
+!8/7/26
+!8/8/26
+|-
+|12:00 AM
+|<p style="color: red;">'''N/D'''</p>
+|Blade, Spike, Ice, Sand
+|<p style="color: red;">'''N/D'''</p>
+|Flame, '''[[Gravity]]'''
+|-
+|4:00 AM
+|Bomb, Flame, '''[[Love]]''', '''[[Mammoth]]'''
+|Blade, Bomb, Flame, '''[[Venom]]'''
+|Blade, Spike, Ice, Sand
+|<b>[[Sound]]</b>
+|-
+|8:00 AM
+|Blade, Smoke, Diamond, Light, '''[[Buddha]]''', '''[[T-Rex]]'''
+|Ghost
+|Blade, Flame, Rubber
+|Blade, Smoke, Light, Rubber, '''[[Love]]'''
+|-
+|12:00 PM
+|Spring, Bomb
+|<p style="color: red;">'''N/D'''</p>
+|Spring, Smoke, Spike, Ghost, '''[[Phoenix]]'''
+|Smoke, Spike, Flame, Eagle
+|-
+|4:00 PM
+|Dark, '''[[Love]]'''
+|<p style="color: red;">'''N/D'''</p>
+|Bomb, Smoke, Ice, '''[[Quake]],''' '''[[T-Rex]]'''
+|Blade, Dark, Light, '''[[Venom]]'''
+|-
+|8:00 PM
+|<p style="color: red;">'''N/D'''</p>
+|<p style="color: red;">'''N/D'''</p>
+|'''[[Creation]], [[Spirit]], [[Venom]]'''
+|Diamond, Rubber
+|-
+!
+!8/9/26
+!8/10/26
+!8/11/26
+!8/12/26
+|-
+|12:00 AM
+|Spring, Bomb, Rubber, '''[[Creation]]'''
+|Spring
+|'''[[Gas]]'''
+|Eagle, '''[[Buddha]]''', '''[[Phoenix]]'''
+|-
+|4:00 AM
+|Smoke, Flame, Eagle
+|Blade, Spring, Bomb, Flame, Light
+|Smoke, Flame, Eagle
+|Spike
+|-
+|8:00 AM
+|Blade, Ice, Ghost, Magma
+|Smoke, Flame, Light
+|Blade, Flame
+|Blade, Bomb, Sand, <b>[[Quake]]</b>
+|-
+|12:00 PM
+|Blade, Spring, Flame, '''[[Buddha]]''', '''[[Dough]]'''
+|Bomb, Sand
+|Blade, Spike, Dark, Ghost, Magma
+|Smoke, Flame, Rubber, Ghost
+|-
+|4:00 PM
+|Blade, Flame, Light, '''[[Quake]]''', '''[[Love]]'''
+|Blade, Ice, Eagle, '''[[Love]]'''
+|Bomb, Dark, Creation
+|Blade, Spring, Sand, Dark, Light, Magma, '''[[Creation]]'''
+|-
+|8:00 PM
+|Rubber, Ghost
+|Rubber, '''[[T-Rex]]'''
+|Ice, '''[[Mammoth]]''', '''[[T-Rex]]'''
+|Blade, Eagle, Rubber, '''[[Love]]''', '''[[Mammoth]]'''
+|-
+!
+!8/13/26
+!8/14/26
+!8/15/26
+!8/16/26
+|-
+|12:00 AM
+|Bomb, Flame, Sand
+|Spike, '''[[Creation]]''', '''[[T-Rex]]'''
+|Dark, '''[[Sound]]'''
+|Bomb, Smoke, Sand, Dark, '''[[Shadow]]'''
+|-
+|4:00 AM
+|Flame
+|Blade, Spike, Light, Rubber
+|Bomb, Sand, '''[[Love]]''', '''[[Venom]]'''
+|Blade, Sand
+|-
+|8:00 AM
+|Flame, Light, '''[[Pain]]'''
+|Blade, Bomb, Flame
+|Flame, Eagle
+|Eagle
+|-
+|12:00 PM
+|Smoke, Dark, Rubber
+|Ice, Dark, Eagle, '''[[Buddha]]''', '''[[Phoenix]]''', '''[[Pain]]'''
+|Ice
+|Blade, Spring, Spike, Flame
+|-
+|4:00 PM
+|Blade, Sand, Eagle
+|Spring, Smoke, Spike, Light
+|Blade, Flame, Ice, Diamond, '''[[Pain]]'''
+|Blade, '''[[Creation]]'''
+|-
+|8:00 PM
+|Flame, Ghost
+|Ghost
+|Smoke, Flame, '''[[Portal]]'''
+|Spring, Smoke, Ice, Diamond, Rubber
+|-
+!
+!8/17/26
+!8/18/26
+!8/19/26
+!8/20/26
+|-
+|12:00 AM
+|Sand, Ghost
+|Spring, Smoke, Dark, Eagle
+|Blade, Flame, Rubber
+|Ice, Dark, '''[[Quake]]''', '''[[Buddha]]'''
+|-
+|4:00 AM
+|Blade, Spring, '''[[Control]]'''
+|Blade, Ice, '''[[Mammoth]]'''
+|Blade, '''[[Quake]]''', '''[[T-Rex]]'''
+|Spring, Smoke, Flame
+|-
+|8:00 AM
+|Spike, Sand, Magma
+|Blade, Dark, '''[[Spider]]'''
+|Spring, Ghost, <b>[[Creation]]</b>
+|Blade, Spring, '''[[Creation]]'''
+|-
+|12:00 PM
+|Blade, Smoke, Sand, Dark, Rubber, '''[[Creation]]'''
+|Spring, Flame, Light
+|Spring
+|Bomb 
+|-
+|4:00 PM
+|Ice
+|Ice, Rubber, <b>[[Love]]</b>
+|Smoke, Flame, '''[[Buddha]]'''
+|Ice, Light, '''[[Sound]]''', '''[[Shadow]]'''
+|-
+|8:00 PM
+|Spring, Dark, '''[[Love]]'''
+|Bomb, Smoke, '''[[Creation]]''', '''[[Pain]]'''
+|Light, Rubber, '''[[Creation]]'''
+|Blade, Spring, Rubber, Magma, '''[[Quake]]''', '''[[Creation]]''', '''[[Mammoth]]'''
+|-
+!
+!8/21/26
+!8/22/26
+!8/23/26
+!8/24/26
+|-
+|12:00 AM
+|Spike, Flame
+|Ghost, '''[[Gravity]]''', '''[[Dough]]'''
+|Blade, Spring, Smoke
+|Spring, Sand, Light
+|-
+|4:00 AM
+|Blade, Spring, Bomb, Smoke, Flame, Ice, Dark
+|'''[[Buddha]]'''
+|Spike, Flame, Eagle, Magma, <b>[[Blizzard]]</b>
+|Flame, Ice, Dark
+|-
+|8:00 AM
+|Eagle
+|Blade, Bomb, Smoke, Sand, Light
+|Blade, Smoke, Flame
+|Spike
+|-
+|12:00 PM
+|Blade, Spring, Smoke, Dark, Diamond
+|Blade, Light
+|Blade, Bomb, Dark, Light, Magma, '''[[Buddha]]''', '''[[Love]]'''
+|Blade, Spring
+|-
+|4:00 PM
+|Spring, Ice, Love, '''[[Shadow]]'''
+|Blade, Flame, Eagle
+|Sand, '''[[Sound]]'''
+|Blade, Light, '''[[Pain]]'''
+|-
+|8:00 PM
+|Blade, Spike, Light, '''[[Sound]]'''
+|Smoke, Flame, Rubber
+|Flame, Light, '''[[Love]]'''
+|Blade, Bomb, Smoke, Spike, Sand
+|-
+!
+!8/25/26
+!8/26/26
+!8/27/26
+!8/28/26
+|-
+|12:00 AM
+|Smoke, Flame, Dark, Diamond, Rubber
+|Dark, Light, '''[[Lightning]]'''
+|Blade, Ice, Light, '''[[Buddha]]'''
+|Blade, Spike, Flame, Eagle, Rubber, Ghost
+|-
+|4:00 AM
+|Blade, Smoke, Flame, Ghost
+|'''[[Buddha]]'''
+|Bomb
+|Blade, Bomb, Magma, '''[[T-Rex]]'''
+|-
+|8:00 AM
+|Spring, Bomb, Light, '''[[Buddha]]''', '''[[Blizzard]]'''
+|Eagle
+|Blade, Smoke, Diamond, Magma, '''[[Creation]]'''
+|Blade, Smoke, Flame
+|-
+|12:00 PM
+|Spike, Eagle, '''[[Creation]]'''
+|Spring, Spike, Ice, Light, Magma, '''[[Gravity]]'''
+|Sand, '''[[Phoenix]]'''
+|'''[[Quake]]''', '''[[Lightning]]'''
+|-
+|4:00 PM
+|Blade, Spring
+|Blade, Smoke, Ice, Rubber, '''[[Spider]]'''
+|Flame, Diamond, Light, Ghost
+|Spike, '''[[Buddha]]''', '''[[Spider]]'''
+|-
+|8:00 PM
+|Blade, Bomb, Flame, Ghost
+|Dark, Eagle
+|Spring, '''[[Buddha]]'''
+|Blade, Light, Magma, '''[[Gas]]'''
+|-
+!
+!8/29/26
+!8/30/26
+!8/31/26
+|-
+|12:00 AM
+|Spring, Bomb
+|Eagle
+|Flame, Magma
+|-
+|4:00 AM
+|Blade, Spike, Rubber
+|Flame, Light
+|Blade, Flame, Light
+|-
+|8:00 AM
+|Smoke
+|Blade, Spring, Rubber
+|Bomb
+|-
+|12:00 PM
+|Blade, Flame, Ice, '''[[Buddha]]'''
+|Bomb
+|Diamond
+|-
+|4:00 PM
+|Blade
+|Smoke, Flame, Diamond, '''[[Lightning]]''', '''[[Mammoth]]'''
+|Blade, Spring, Bomb, Smoke, Light, '''[[Dough]]'''
+|-
+|8:00 PM
+|Light, Rubber, Ghost, '''[[Creation]]'''
+|Smoke, Flame, Ice, Sand, Dark, '''[[Quake]]'''
+|Smoke, Sand, Light
+|}
+|-|
+September=
+{| class="article-table"
+|+September 2026 Stock History
+!
+!9/1/26
+!9/2/26
+!9/3/26
+!9/4/26
+|-
+|12:00 AM
+|Flame, Ice, Sand, Dark, Rubber
+|Eagle, Diamond, Light
+|Blade, Bomb, Flame, '''[[Phoenix]]'''
+|Blade, Spring, Flame, Rubber, '''[[Buddha]]'''
+|-
+|4:00 AM
+|Bomb, Ice, '''[[Creation]]'''
+|Flame, Dark, Rubber
+|Sand, Dark, Light, '''[[Mammoth]]'''
+|Blade, Sand, Light
+|-
+|8:00 AM
+|Flame
+|Blade, Spike, '''[[Dough]]'''
+|Spike
+|Blade, Smoke, Spike, Dark
+|-
+|12:00 PM
+|Blade, Smoke, Spike, Flame
+|Bomb
+|Blade, Flame, Magma
+|Eagle, Rubber
+|-
+|4:00 PM
+|Blade, Smoke, Ice, '''[[Phoenix]]'''
+|Blade, '''[[Buddha]]'''
+|Smoke, Sand, Light
+|Flame, Light, Magma
+|-
+|8:00 PM
+|Bomb
+|Spike
+|Smoke, Flame
+|Flame, Ice
+|-
+!
+!9/5/26
+!9/6/26
+!9/7/26
+!9/8/26
+|-
+|12:00 AM
+|Spring, Dark, '''[[Buddha]]'''
+|Smoke
+|'''[[Phoenix]]''', '''[[Lightning]]'''
+|Blade, Light, '''[[Quake]]''', '''[[Phoenix]]'''
+|-
+|4:00 AM
+|Spring, '''[[Spider]]''', '''[[Pain]]'''
+|Eagle, '''[[Buddha]]'''
+|Blade
+|Ice, Sand, '''[[Quake]]'''
+|-
+|8:00 AM
+|Blade, Spike
+|Flame
+|Spring, Flame, Ice
+|Blade, Spring, Rubber, '''[[Love]]'''
+|-
+|12:00 PM
+|Smoke, Sand, Dark
+|Blade, Spring, Ice, Eagle
+|Smoke, Flame
+|Smoke, Flame
+|-
+|4:00 PM
+|Blade, Bomb, Smoke, Flame, Ice, Light, Rubber
+|Sand, Dark
+|Blade, Dark, Diamond
+|Bomb, Dark, Eagle, '''[[Spider]]'''
+|-
+|8:00 PM
+|Spring, Smoke, '''[[Portal]]'''
+|Flame, Eagle, Light, Magma, '''[[Portal]]'''
+|Spring, Smoke, Light, Rubber, Magma, '''[[Spider]]'''
+|Blade, Flame, Eagle, Diamond, Magma, '''[[Portal]]'''
+|-
+!
+!9/9/26
+!9/10/26
+!9/11/26
+!9/12/26
+|-
+|12:00 AM
+|Ice, Dark, '''[[Creation]]'''
+|Bomb, Smoke, Spike, Flame, Ice, Light
+|Spike, Magma
+|Diamond, Ghost
+|-
+|4:00 AM
+|Smoke, Magma, '''[[Sound]]'''
+|Smoke, Flame, Sand, '''[[Pain]]'''
+|Spike, Flame
+|Bomb, Magma
+|-
+|8:00 AM
+|Blade, Rubber
+|Blade, Eagle, '''[[Love]]'''
+|Blade, Spring, Dark, Rubber
+|Blade, Spring, Bomb, Flame
+|-
+|12:00 PM
+|Blade, Spike, Flame, '''[[Gas]]'''
+|Blade, Sand, Magma, '''[[Buddha]]'''
+|'''[[Blizzard]]'''
+|Spring, Smoke, Dark, Light, Ghost
+|-
+|4:00 PM
+|Spring, Sand, Dark, Light, '''[[Buddha]]'''
+|Blade, Flame, Light, '''[[Dough]]'''
+|Smoke, Ice, Eagle, '''[[Creation]]''', '''[[Phoenix]]'''
+|Bomb, Sand, Light
+|-
+|8:00 PM
+|Sand, Light, Rubber
+|Spring, Smoke
+|Blade, '''[[Quake]]''', '''[[Love]]'''
+|Blade, Spike, '''[[Gravity]]'''
+|-
+!
+!9/13/26
+!9/14/26
+!9/15/26
+!9/16/26
+|-
+|12:00 AM
+|Blade, Ice, Sand, Diamond, Rubber, '''[[T-Rex]]'''
+|Blade, Spring, Smoke, Dark
+|Blade, Smoke, Flame, Ice, Dark
+|Blade, Flame, Dark, Light, Ghost
+|-
+|4:00 AM
+|Smoke, Rubber
+|Blade
+|Diamond, Light
+|Blade, Spike
+|-
+|8:00 AM
+|Blade, Flame, Diamond
+|Spring, '''[[Spider]]'''
+|Blade, Flame
+|Spike, Sand, Diamond
+|-
+|12:00 PM
+|Spike, Rubber
+|Blade, Ice, Dark, Eagle, Light
+|Flame, Sand, Magma, '''[[Spider]]'''
+|Spike, Dark
+|-
+|4:00 PM
+|Flame
+|Blade, Spring, Flame, Diamond
+|'''[[Pain]]'''
+|Blade, Ice, Light
+|-
+|8:00 PM
+|Spring, Spike
+|Smoke, Sand, Light
+|Smoke, Light
+|Spring, Bomb, Spike
+|-
+!
+!9/17/26
+!9/18/26
+!9/19/26
+!9/20/26
+|-
+|12:00 AM
+|Blade, Smoke, Flame, '''[[Phoenix]]'''
+|Flame
+|Spring, Spike, Flame, Ice, Rubber, '''[[Quake]]'''
+|Light
+|-
+|4:00 AM
+|Spring, Smoke, Light
+|Blade, '''[[Quake]]''', '''[[Creation]]''', '''[[Spider]]'''
+|Sand
+|Smoke
+|-
+|8:00 AM
+|Dark
+|Smoke, Sand
+|'''[[Love]]''', '''[[Creation]]'''
+|Blade, Bomb, Ice, Sand, Eagle, '''[[Yeti]]'''
+|-
+|12:00 PM
+|Flame, Light
+|Dark
+|Blade, Bomb, Smoke, Sand, '''[[Buddha]]'''
+|Blade, Spring, '''[[Portal]]'''
+|-
+|4:00 PM
+|Blade, Flame, Sand, Light
+|Spring, Sand, Eagle, '''[[T-Rex]]'''
+|Blade, Spring
+|Smoke, Flame, '''[[Quake]]''', '''[[Shadow]]'''
+|-
+|8:00 PM
+|Ice
+|Flame, '''[[Buddha]]'''
+|Spike, Ice, Light, '''[[Quake]]'''
+|Light
+|-
+!
+!9/21/26
+!9/22/26
+!9/23/26
+!9/24/26
+|-
+|12:00 AM
+|Spring
+|'''[[Love]]'''
+|Ice, Light
+|Flame, Eagle
+|-
+|4:00 AM
+|Bomb, Flame, Sand
+|Blade, Flame, Dark, Light, '''[[Buddha]]''', '''[[Phoenix]]'''
+|Magma, '''[[Quake]]''', '''[[Spider]]'''
+|Light, Rubber
+|-
+|8:00 AM
+|Blade, '''[[Phoenix]]'''
+|Blade, Bomb, Smoke, Spike, Rubber, '''[[Love]]'''
+|Spring, Smoke, Dark, Rubber
+|'''[[Gravity]]'''
+|-
+|12:00 PM
+|Blade, Dark, Rubber, '''[[Quake]]'''
+|Spring, '''[[Venom]]'''
+|Blade, Bomb, Sand, Dark, Eagle, Ghost
+|Spring, Smoke
+|-
+|4:00 PM
+|Blade, Flame, Sand, Eagle
+|Flame
+|Blade, Spring, Flame, Dark
+|Blade, Bomb, Spike, Flame, Sand, Light
+|-
+|8:00 PM
+|Blade, Spring, Ice, Magma
+|Blade, Spring, Eagle
+|Spike
+|Blade, Ice, Light
+|-
+!
+!9/25/26
+!9/26/26
+!9/27/26
+!9/28/26
+|-
+|12:00 AM
+|Blade, Bomb, Smoke
+|Sand, Dark, Diamond, '''[[Love]]''', '''[[Creation]]''', '''[[Tiger]]'''
+|Blade, Bomb
+|Bomb, Flame, Sand
+|-
+|4:00 AM
+|Spike, '''[[Creation]]''', '''[[Gravity]]'''
+|Bomb, Light, Ghost, '''[[Quake]]''', '''[[Shadow]]''', '''[[Control]]'''
+|Flame
+|Magma, '''[[Spider]]'''
+|-
+|8:00 AM
+|Spring, Ice, Eagle, Magma
+|Blade, Spring, Sand
+|Blade, Flame, Diamond, Light, Rubber,  '''[[Quake]]'''
+|'''[[Creation]]'''
+|-
+|12:00 PM
+|Spike, '''[[Creation]]''', '''[[Gravity]]'''
+|Smoke, Eagle, Rubber, Ghost
+|Bomb, Sand, Dark, Eagle
+|Blade, Smoke, Dark, Eagle, Rubber
+|-
+|4:00 PM
+|Blade, '''[[Creation]]'''
+|Smoke, Spike, Flame
+|Spring, Smoke
+|Light, Ghost
+|-
+|8:00 PM
+|Spring, Ice, Light, '''[[Love]]'''
+|Spring, Smoke, Sand, Magma, '''[[Sound]]''', '''[[Dough]]'''
+|Spike
+|Spring, Spike, Ice
+|-
+!
+!9/29/26
+!9/30/26
+|-
+|12:00 AM
+|Blade, Bomb, Smoke, Rubber, Magma, '''[[Dough]]'''
+|Spike, Ghost
+|-
+|4:00 AM
+|Bomb, Smoke, Light, '''[[Spider]]'''
+|Spring, Flame, Dark, Ghost, '''[[Phoenix]]'''
+|-
+|8:00 AM
+|Dark
+|Bomb, Rubber
+|-
+|12:00 PM
+|Blade, Diamond, '''[[Quake]]''', '''[[Tiger]]'''
+|Blade, Smoke, Flame
+|-
+|4:00 PM
+|Smoke, Sand, Light, '''[[Creation]]'''
+|Blade, Sand, Eagle, '''[[T-Rex]]'''
+|-
+|8:00 PM
+|Blade, Light
+|Blade, Ice, Sand, Light
+|}
+|-|
+</tabber>
