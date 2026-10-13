@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blox Fruits Stock</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #e0e0e0; min-height: 100vh; padding: 40px 20px;
+    }
+    .container { max-width: 1100px; margin: 0 auto; }
+    header { text-align: center; margin-bottom: 30px; }
+    header h1 {
+      font-size: 2.2rem;
+      background: linear-gradient(90deg, #f39c12, #e74c3c);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; margin-bottom: 8px;
+    }
+    header p { color: #8a8a9e; font-size: 0.95rem; }
+
+    #debug {
+      background: #0d0d18; border: 1px solid #2d2d44; border-radius: 8px;
+      padding: 12px; margin-bottom: 20px;
+      font-family: monospace; font-size: 0.75rem;
+      color: #8a8a9e; max-height: 160px; overflow-y: auto;
+      white-space: pre-wrap; word-break: break-all;
+    }
+    #debug .ok   { color: #2ecc71; }
+    #debug .err  { color: #ff6b6b; }
+    #debug .info { color: #f1c40f; }
+
+    .status {
+      text-align: center; padding: 12px; margin-bottom: 24px;
+      border-radius: 8px; font-size: 0.9rem;
+    }
+    .status.loading { background: #2c3e50; color: #f1c40f; }
+    .status.error   { background: #5c1a1a; color: #ff6b6b; }
+    .status.success { background: #1a3a2a; color: #2ecc71; }
+
+    .dealers { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    @media (max-width: 768px) { .dealers { grid-template-columns: 1fr; } }
+
+    .dealer-card {
+      background: #1e1e2e; border-radius: 14px; padding: 24px;
+      border: 1px solid #2d2d44; box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+    .dealer-card h2 {
+      font-size: 1.3rem; margin-bottom: 16px;
+      padding-bottom: 12px; border-bottom: 2px solid #2d2d44;
+    }
+    .dealer-card.normal h2 { color: #3498db; }
+    .dealer-card.mirage h2 { color: #9b59b6; }
+
+    .reset-timer {
+      font-size: 0.8rem; color: #8a8a9e; margin-bottom: 16px;
+      padding: 8px 12px; background: #252538; border-radius: 8px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .reset-timer .countdown {
+      color: #f1c40f; font-weight: 600; font-family: monospace;
+    }
+
+    .fruit {
+      display: flex; align-items: center; gap: 14px;
+      padding: 12px; border-radius: 10px; margin-bottom: 10px;
+      background: #252538; transition: transform 0.15s ease, background 0.15s ease;
+    }
+    .fruit:hover { transform: translateX(4px); background: #2d2d44; }
+    .fruit img {
+      width: 48px; height: 48px; object-fit: contain;
+      flex-shrink: 0; border-radius: 8px; background: #1a1a2e;
+    }
+    .fruit-info { flex: 1; min-width: 0; }
+    .fruit-name { font-weight: 600; font-size: 1rem; margin-bottom: 4px; color: #fff; }
+    .fruit-type { font-size: 0.75rem; color: #8a8a9e; margin-bottom: 4px; }
+    .fruit-prices { display: flex; gap: 14px; font-size: 0.85rem; color: #8a8a9e; }
+    .fruit-prices .beli  { color: #f1c40f; }
+    .fruit-prices .robux { color: #2ecc71; }
+
+    .refresh-btn {
+      display: block; margin: 24px auto 0; padding: 12px 28px;
+      background: linear-gradient(90deg, #f39c12, #e74c3c);
+      color: #fff; border: none; border-radius: 8px;
+      font-size: 0.95rem; font-weight: 600; cursor: pointer;
+    }
+    .refresh-btn:hover { opacity: 0.85; }
+    .refresh-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    footer { text-align: center; margin-top: 40px; color: #55556a; font-size: 0.8rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🍇 Blox Fruits Stock</h1>
+      <p>Aktueller Bestand des Normal- und Mirage-Händlers</p>
+    </header>
+
+    <div id="debug">🔧 Debug-Log wird geladen...</div>
+    <div id="status" class="status loading">⏳ Starte...</div>
+
+    <div class="dealers" id="dealers" style="display: none;">
+      <div class="dealer-card normal">
+        <h2>🏪 Normal Dealer</h2>
+        <div class="reset-timer">
+          <span>Reset in:</span>
+          <span class="countdown" id="normal-countdown">--:--:--</span>
+        </div>
+        <div id="normal-list"></div>
+      </div>
+      <div class="dealer-card mirage">
+        <h2>✨ Mirage Dealer</h2>
+        <div class="reset-timer">
+          <span>Reset in:</span>
+          <span class="countdown" id="mirage-countdown">--:--:--</span>
+        </div>
+        <div id="mirage-list"></div>
+      </div>
+    </div>
+
+    <button class="refresh-btn" id="refreshBtn" onclick="loadStock()">🔄 Aktualisieren</button>
+    <footer>Daten von der Blox Fruits Wiki API via Parse</footer>
+  </div>
+
+  <script>
+    const API_KEY = 'pmx_94b418ef686cab2cadca8fecb37c6159';
+    const API_STOCK_URL = 'https://api.parse.bot/scraper/78cf8155-3819-45d0-b799-92f840a94827/get_stock';
+    const API_FRUITS_URL = 'https://api.parse.bot/scraper/78cf8155-3819-45d0-b799-92f840a94827/get_fruits';
+    const RETRY_MS = 5000; // 5 Sekunden bei Fehler
+
+    const debugEl = document.getElementById('debug');
+    const statusEl = document.getElementById('status');
+    const dealersEl = document.getElementById('dealers');
+    const normalList = document.getElementById('normal-list');
+    const mirageList = document.getElementById('mirage-list');
+    const normalCountdown = document.getElementById('normal-countdown');
+    const mirageCountdown = document.getElementById('mirage-countdown');
+    const refreshBtn = document.getElementById('refreshBtn');
+
+    let fruitImages = {};
+    let countdownInterval = null;
+    let normalResetTime = null;
+    let mirageResetTime = null;
+    let retryTimer = null;
+    let lastSuccess = false;
+
+    function log(msg, type = 'info') {
+      const t = new Date().toLocaleTimeString('de-DE');
+      debugEl.innerHTML += `\n[${t}] <span class="${type}">${msg}</span>`;
+      debugEl.scrollTop = debugEl.scrollHeight;
+      console.log(`[${type}] ${msg}`);
+    }
+
+    function setStatus(type, message) {
+      statusEl.className = 'status ' + type;
+      statusEl.textContent = message;
+    }
+
+    function formatNumber(n) {
+      return new Intl.NumberFormat('de-DE').format(n);
+    }
+
+    async function loadFruitImages() {
+      try {
+        log('Lade Fruchtbilder...', 'info');
+        const res = await fetch(API_FRUITS_URL, { headers: { 'X-API-Key': API_KEY } });
+        log(`Bilder-Response: HTTP ${res.status}`, res.ok ? 'ok' : 'err');
+        if (!res.ok) return;
+        const json = await res.json();
+        if (json.status === 'success' && json.data && json.data.fruits) {
+          json.data.fruits.forEach(f => { fruitImages[f.name] = f.image_url; });
+          log(`${Object.keys(fruitImages).length} Bilder geladen`, 'ok');
+        }
+      } catch (err) {
+        log(`Bilder-Fehler: ${err.message}`, 'err');
+      }
+    }
+
+    function updateCountdown(element, resetTime) {
+      if (!resetTime) { element.textContent = '--:--:--'; return; }
+      const diff = resetTime - Date.now();
+      if (diff <= 0) {
+        element.textContent = 'JETZT!';
+        element.style.color = '#2ecc71';
+        return true; // abgelaufen
+      }
+      const h = Math.floor(diff / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      const s = Math.floor((diff % 60000) / 1000);
+      element.textContent =
+        String(h).padStart(2, '0') + ':' +
+        String(m).padStart(2, '0') + ':' +
+        String(s).padStart(2, '0');
+      element.style.color = '#f1c40f';
+      return false;
+    }
+
+    function startCountdowns(normalResetsAt, mirageResetsAt) {
+      normalResetTime = normalResetsAt ? new Date(normalResetsAt).getTime() : null;
+      mirageResetTime = mirageResetsAt ? new Date(mirageResetsAt).getTime() : null;
+
+      if (countdownInterval) clearInterval(countdownInterval);
+
+      const update = () => {
+        const normalDone = updateCountdown(normalCountdown, normalResetTime);
+        const mirageDone = updateCountdown(mirageCountdown, mirageResetTime);
+
+        // Wenn BEIDE abgelaufen sind → neuen Stock anfordern
+        if (normalDone && mirageDone) {
+          log('⏰ Reset abgelaufen – fordere neuen Stock an', 'info');
+          clearInterval(countdownInterval);
+          countdownInterval = null;
+          loadStock();
+        }
+      };
+
+      update();
+      countdownInterval = setInterval(update, 1000);
+    }
+
+    function renderFruit(fruit) {
+      const img = fruitImages[fruit.name] || '';
+      const imgTag = img
+        ? `<img src="${img}" alt="${fruit.name}" loading="lazy" onerror="this.style.display='none'">`
+        : '';
+      return `
+        <div class="fruit">
+          ${imgTag}
+          <div class="fruit-info">
+            <div class="fruit-name">${fruit.name}</div>
+            <div class="fruit-type">${fruit.type || ''}</div>
+            <div class="fruit-prices">
+              <span class="beli">💰 ${formatNumber(fruit.money_price)} Beli</span>
+              <span class="robux">💎 ${formatNumber(fruit.robux_price)} Robux</span>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    async function loadStock() {
+      // Falls ein Retry-Timer läuft, stoppen
+      if (retryTimer) {
+        clearTimeout(retryTimer);
+        retryTimer = null;
+      }
+
+      refreshBtn.disabled = true;
+      setStatus('loading', '⏳ Lade aktuellen Stock...');
+      log('--- Stock-Request startet ---', 'info');
+
+      try {
+        if (Object.keys(fruitImages).length === 0) {
+          await loadFruitImages();
+        }
+
+        const response = await fetch(API_STOCK_URL, {
+          method: 'GET',
+          headers: { 'X-API-Key': API_KEY }
+        });
+
+        log(`Stock-Response: HTTP ${response.status}`, response.ok ? 'ok' : 'err');
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status} – ${response.statusText}`);
+        }
+
+        const json = await response.json();
+        log(`Status-Feld: "${json.status}"`, json.status === 'success' ? 'ok' : 'err');
+
+        if (json.status !== 'success' || !json.data) {
+          throw new Error('Ungültige Antwortstruktur');
+        }
+
+        const normal = json.data.normal || [];
+        const mirage = json.data.mirage || [];
+        log(`Normal: ${normal.length} | Mirage: ${mirage.length}`, 'ok');
+
+        normalList.innerHTML = normal.map(renderFruit).join('') || '<p>Keine Daten</p>';
+        mirageList.innerHTML = mirage.map(renderFruit).join('') || '<p>Keine Daten</p>';
+
+        startCountdowns(json.data.normal_resets_at, json.data.mirage_resets_at);
+
+        dealersEl.style.display = 'grid';
+        setStatus('success', `✅ Stock geladen – ${normal.length} normale, ${mirage.length} Mirage-Früchte`);
+        lastSuccess = true;
+        log('✅ Erfolg – kein weiterer Request bis zum Reset', 'ok');
+      } catch (err) {
+        log(`FEHLER: ${err.message}`, 'err');
+        setStatus('error', `❌ Fehler: ${err.message} – neuer Versuch in 5s`);
+        lastSuccess = false;
+
+        // Retry nach 5 Sekunden
+        retryTimer = setTimeout(() => {
+          log('🔄 Retry...', 'info');
+          loadStock();
+        }, RETRY_MS);
+      } finally {
+        refreshBtn.disabled = false;
+      }
+    }
+
+    // Erster Aufruf
+    loadStock();
+  </script>
+</body>
+</html>
